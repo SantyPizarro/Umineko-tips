@@ -18,61 +18,46 @@
     </header>
 
 
-    <main id="main-layout">
+<main id="main-layout">
 
-      <aside id="sidebar">
+  <aside id="left-panel">
 
-        <section id="character-grid-container">
-          <div id="character-grid">
-          </div>
-        </section>
+    <div id="selector-container">
+    </div>
 
-        <nav id="side-menu">
-          <button id="btn-tips" class="menu-btn">Tips</button>
-          <button id="btn-execute" class="menu-btn">Execute</button>
-          <button id="btn-resurrect" class="menu-btn">Resurrect</button>
-        </nav>
+    <nav id="side-menu">
+      <button id="btn-tips" class="menu-btn">Tips</button>
+      <button id="btn-execute" class="menu-btn">Execute</button>
+      <button id="btn-resurrect" class="menu-btn">Resurrect</button>
+    </nav>
 
-      </aside>
+  </aside>
 
 
-      <section id="center-panel">
+  <section id="center-panel">
 
-        <div id="screen-container">
+    <div id="info-panel">
 
-          <div id="character-screen" class="screen">
-            
-            <div id="info-panel">
-              <h2 id="character-name"></h2>
+      <h2 id="character-name"></h2>
 
-              <div id="character-text-container">
-                <p id="character-text"></p>
-                <button id="text-next-btn" class="text-next hidden">
-                  Next
-                </button>
-              </div>
+      <div id="text-container">
+        <p id="character-text"></p>
 
-            </div>
+        <button id="text-next-btn" class="text-next hidden">
+          Next
+        </button>
+      </div>
 
-          </div>
+    </div>
+
+  </section>
 
 
-          <div id="tips-screen" class="screen hidden">
-            <h2>Tips</h2>
-            <div id="tips-content">
-            </div>
-          </div>
+  <section id="character-visual">
+    <img id="character-image" src="" alt="Character Full Art" />
+  </section>
 
-        </div>
-
-      </section>
-
-
-      <section id="character-visual">
-        <img id="character-image" src="" alt="Character Full Art" />
-      </section>
-
-    </main>
+</main>
 
 
     <footer id="app-footer">

@@ -1,0 +1,165 @@
+body {
+  background: url("../assets/backgrounds/m1f_p1b.png") center/cover no-repeat;
+  font-family: "Georgia", serif;
+  color: #f5f5f5;
+}
+
+#app-header {
+  background: #0b0b0b;
+  border-bottom: 2px solid #3a1f1f;
+}
+
+#game-title {
+  color: #d4c2a5;
+  letter-spacing: 1px;
+}
+
+#sidebar {
+  background: rgba(20, 10, 15, 0.95);
+  border-right: 2px solid #3a1f1f;
+}
+
+#character-grid img {
+  border: 2px solid #3a1f1f;
+  transition: all 0.2s ease;
+  filter: brightness(0.9);
+}
+
+#character-grid img:hover {
+  border-color: #aa0000;
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+#character-grid img.active {
+  border-color: #ff0000;
+  box-shadow: 0 0 10px #aa0000;
+}
+
+#screen-container {
+  background: rgba(60, 15, 20, 0.95);
+  border: 2px solid #3a1f1f;
+  position: relative;
+}
+
+#character-name {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px black;
+}
+
+#character-text {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 2px black;
+}
+
+.text-next {
+  background: #220000;
+  border: 1px solid #550000;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.text-next:hover {
+  background: #550000;
+  box-shadow: 0 0 6px red;
+}
+
+.menu-btn {
+  background: #220000;
+  border: 1px solid #550000;
+  color: #f5f5f5;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.menu-btn:hover {
+  background: #660000;
+  box-shadow: 0 0 8px #aa0000;
+}
+
+#character-image {
+  filter: drop-shadow(0 0 20px black);
+}
+
+#character-visual.executed::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(180, 0, 0, 0.6);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+#tips-screen {
+  background: rgba(40, 0, 0, 0.95);
+}
+
+#tips-screen h2 {
+  margin-bottom: 20px;
+  color: #ffdddd;
+}
+
+.episode-btn {
+  background: #1a0000;
+  border: 1px solid #550000;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.episode-btn:hover {
+  background: #550000;
+}
+
+.episode-btn.active {
+  background: red;
+  box-shadow: 0 0 8px red;
+}
+
+#music-player {
+  background: rgba(0,0,0,0.6);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+#music-toggle {
+  background: #220000;
+  border: 1px solid #550000;
+  color: white;
+}
+
+#music-toggle:hover {
+  background: #550000;
+}
+
+.side-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-btn {
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper,
+header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  background-image: url("../assets/ui/umi_gf.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100vh;
+}

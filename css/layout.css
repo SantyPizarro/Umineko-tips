@@ -1,14 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  overflow: hidden;
-}
-
 #app {
   height: 100vh;
   display: flex;
@@ -79,9 +68,22 @@ body {
 }
 
 #screen-container {
-  width: 80%;
-  height: 80%;
   position: relative;
+  background: rgba(60, 15, 20, 0.95);
+  border: 2px solid #3a1f1f;
+  overflow: hidden;
+}
+
+#screen-container::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 300px;
+  height: 300px;
+  background: url("../assets/ui/umi-gf-black.png") no-repeat center;
+  background-size: contain;
+  pointer-events: none;
 }
 
 .screen {
@@ -128,9 +130,10 @@ body {
 }
 
 #character-image {
+  position: relative;
+  z-index: 1;
   max-height: 95%;
   object-fit: contain;
-  transition: opacity 0.3s ease;
 }
 
 #app-footer {
@@ -160,3 +163,5 @@ body {
 #volume-control {
   width: 100px;
 }
+
+
