@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umineko Character Panel Engine</title>
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/theme-umineko.css" />
+</head>
+<body>
+
+  <div id="app">
+
+    <header id="app-header">
+      <h1 id="game-title">Umineko: When They Cry</h1>
+    </header>
+
+
+    <main id="main-layout">
+
+      <aside id="sidebar">
+
+        <section id="character-grid-container">
+          <div id="character-grid">
+          </div>
+        </section>
+
+        <nav id="side-menu">
+          <button id="btn-tips" class="menu-btn">Tips</button>
+          <button id="btn-execute" class="menu-btn">Execute</button>
+          <button id="btn-resurrect" class="menu-btn">Resurrect</button>
+        </nav>
+
+      </aside>
+
+
+      <section id="center-panel">
+
+        <div id="screen-container">
+
+          <div id="character-screen" class="screen">
+            
+            <div id="info-panel">
+              <h2 id="character-name"></h2>
+
+              <div id="character-text-container">
+                <p id="character-text"></p>
+                <button id="text-next-btn" class="text-next hidden">
+                  Next
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div id="tips-screen" class="screen hidden">
+            <h2>Tips</h2>
+            <div id="tips-content">
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section id="character-visual">
+        <img id="character-image" src="" alt="Character Full Art" />
+      </section>
+
+    </main>
+
+
+    <footer id="app-footer">
+
+      <div id="episode-selector">
+        <button class="episode-btn" data-ep="1">Ep 1</button>
+        <button class="episode-btn" data-ep="2">Ep 2</button>
+        <button class="episode-btn" data-ep="3">Ep 3</button>
+        <button class="episode-btn" data-ep="4">Ep 4</button>
+      </div>
+
+      <div id="music-player">
+        <button id="music-toggle">Play</button>
+        <input 
+          type="range" 
+          id="volume-control" 
+          min="0" 
+          max="1" 
+          step="0.01" 
+          value="0.5" 
+        />
+        <audio id="bgm" loop>
+          <source src="assets/music/ep1-theme.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
