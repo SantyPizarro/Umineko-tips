@@ -52,6 +52,119 @@ body {
   text-shadow: 1px 1px 2px black;
 }
 
+.character-slot {
+  background-size: 100%;
+  background-position: center 20%;
+}
+
+.character-slot.state-missing {
+  filter: grayscale(100%) brightness(1.1);
+}
+
+.character-slot.state-dead {
+  position: relative;
+}
+
+.character-slot.state-dead::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: red;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.character-slot[data-id="kinzo"] {
+  background-position: center 10%;
+  background-size: 170%;
+}
+
+.character-slot[data-id="krauss"] {
+  background-position: center 15%;
+  background-size: 160%;
+}
+
+.character-slot[data-id="eva"] {
+  background-position: center 18%;
+  background-size: 150%;
+}
+
+.character-slot[data-id="rudolf"] {
+  background-position: center 15%;
+  background-size: 160%;
+}
+
+.character-slot[data-id="rosa"] {
+  background-position: center 12%;
+  background-size: 165%;
+}
+
+.character-slot[data-id="natsuhi"] {
+  background-position: center 18%;
+  background-size: 250%;
+}
+
+.character-slot[data-id="hideyoshi"] {
+  background-position: center 15%;
+  background-size: 160%;
+}
+
+.character-slot[data-id="kyrie"] {
+  background-position: center 20%;
+  background-size: 150%;
+}
+
+.character-slot[data-id="battler"] {
+  background-position: center 18%;
+  background-size: 155%;
+}
+
+.character-slot[data-id="jessica"] {
+  background-position: center 15%;
+  background-size: 160%;
+}
+
+.character-slot[data-id="george"] {
+  background-position: center 12%;
+  background-size: 165%;
+}
+
+.character-slot[data-id="maria"] {
+  background-position: center 25%;
+  background-size: 145%;
+}
+
+.character-slot[data-id="genji"] {
+  background-position: center 10%;
+  background-size: 170%;
+}
+
+.character-slot[data-id="shannon"] {
+  background-position: center 20%;
+  background-size: 150%;
+}
+
+.character-slot[data-id="kanon"] {
+  background-position: center 15%;
+  background-size: 160%;
+}
+
+.character-slot[data-id="gohda"] {
+  background-position: center 12%;
+  background-size: 165%;
+}
+
+.character-slot[data-id="kumasawa"] {
+  background-position: center 8%;
+  background-size: 175%;
+}
+
+.character-slot[data-id="nanjo"] {
+  background-position: center 12%;
+  background-size: 165%;
+}
+
+
 .text-next {
   background: #220000;
   border: 1px solid #550000;

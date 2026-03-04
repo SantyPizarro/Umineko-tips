@@ -13,8 +13,9 @@ export function bindEvents() {
 
   document.addEventListener("click", e => {
 
-    if (e.target.dataset.id) {
-      selectCharacter(e.target.dataset.id);
+    const characterSlot = e.target.closest(".character-slot");
+    if (characterSlot && characterSlot.dataset.id) {
+      selectCharacter(characterSlot.dataset.id);
       renderAll();
     }
 

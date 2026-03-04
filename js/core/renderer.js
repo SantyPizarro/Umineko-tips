@@ -22,22 +22,24 @@ export function renderAll() {
 
 function renderLeftPanel() {
   const episode = getCurrentEpisode();
-  // clear the selector container before populating
   dom.selectorContainer.innerHTML = "";
 
   if (appState.view === "character") {
     episode.characters.forEach(character => {
       const state = character.states[character.currentPhase];
+      const slot = document.createElement("div");
+      slot.classList.add("character-slot");
+      slot.dataset.id = character.id;
+      slot.style.backgroundImage = `url('${character.portrait}')`;
 
-      const img = document.createElement("img");
-      img.src = state.image;
-      img.dataset.id = character.id;
+      // Add state class for filtering
+      slot.classList.add(`state-${state.phase}`);
 
       if (character.id === appState.selectedCharacterId) {
-        img.classList.add("active");
+        slot.classList.add("active");
       }
 
-      dom.selectorContainer.appendChild(img);
+      dom.selectorContainer.appendChild(slot);
     });
   }
 

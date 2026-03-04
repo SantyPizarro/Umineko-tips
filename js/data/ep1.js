@@ -4,11 +4,12 @@ export const ep1 = {
     {
       id: "kinzo",
       name: "Ushiromiya Kinzo",
+      portrait: "assets/characters/ep1/kinzo/portrait/kin_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/kinzo/kin copy.png",
+          image: "assets/characters/ep1/kinzo/full/kin copy.png",
           text: [
             "The head of the Ushiromiya family.",
             "Obsessed with the Golden Witch and alchemy."
@@ -38,11 +39,12 @@ export const ep1 = {
     {
       id: "krauss",
       name: "Ushiromiya Krauss",
+      portrait: "assets/characters/ep1/krauss/portrait/kla_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/krauss/kla copy.png",
+          image: "assets/characters/ep1/krauss/full/kla copy.png",
           text: [
             "Kinzo's eldest son.",
             "Struggles with business failures and inheritance pressure."
@@ -61,11 +63,12 @@ export const ep1 = {
     {
       id: "eva",
       name: "Ushiromiya Eva",
+      portrait: "assets/characters/ep1/eva/portrait/eva_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/eva/eva copy.png",
+          image: "assets/characters/ep1/eva/full/eva copy.png",
           text: [
             "Kinzo's eldest daughter.",
             "Highly intelligent and competitive."
@@ -84,11 +87,12 @@ export const ep1 = {
     {
       id: "rudolf",
       name: "Ushiromiya Rudolf",
+      portrait: "assets/characters/ep1/rudo/portrait/rud_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/rudo/rud copy.png",
+          image: "assets/characters/ep1/rudo/full/rud copy.png",
           text: [
             "Kinzo's third child.",
             "Battler's father, charismatic but unreliable."
@@ -107,11 +111,12 @@ export const ep1 = {
     {
       id: "rosa",
       name: "Ushiromiya Rosa",
+      portrait: "assets/characters/ep1/rosa/portrait/ros_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/rosa/ros copy.png",
+          image: "assets/characters/ep1/rosa/full/ros copy.png",
           text: [
             "Kinzo's youngest daughter.",
             "Maria's strict and emotionally unstable mother."
@@ -133,11 +138,12 @@ export const ep1 = {
     {
       id: "natsuhi",
       name: "Ushiromiya Natsuhi",
+      portrait: "assets/characters/ep1/natsu/portrait/nat_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/natsu/nat copy.png",
+          image: "assets/characters/ep1/natsu/full/nat copy.png",
           text: [
             "Krauss's wife.",
             "Serious and devoted to family honor."
@@ -156,11 +162,12 @@ export const ep1 = {
     {
       id: "hideyoshi",
       name: "Ushiromiya Hideyoshi",
+      portrait: "assets/characters/ep1/hide/portrait/hid_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/hide/hid copy.png",
+          image: "assets/characters/ep1/hide/full/hid copy.png",
           text: [
             "Eva's husband.",
             "A self-made businessman with a cheerful personality."
@@ -179,11 +186,12 @@ export const ep1 = {
     {
       id: "kyrie",
       name: "Ushiromiya Kyrie",
+      portrait: "assets/characters/ep1/kyrie/portrait/kyr_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/kyrie/kyr copy.png",
+          image: "assets/characters/ep1/kyrie/full/kyr copy.png",
           text: [
             "Rudolf's wife.",
             "Calm, logical, and sharp-minded."
@@ -205,11 +213,12 @@ export const ep1 = {
     {
       id: "battler",
       name: "Ushiromiya Battler",
+      portrait: "assets/characters/ep1/battler/portrait/but_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/battler/but copy.png",
+          image: "assets/characters/ep1/battler/full/but copy.png",
           text: [
             "Rudolf's son.",
             "Energetic and denies the existence of witches."
@@ -228,11 +237,12 @@ export const ep1 = {
     {
       id: "jessica",
       name: "Ushiromiya Jessica",
+      portrait: "assets/characters/ep1/jessica/portrait/jes_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/jessica/jes copy.png",
+          image: "assets/characters/ep1/jessica/full/jes copy.png",
           text: [
             "Krauss and Natsuhi's daughter.",
             "Strong-willed and fond of rock music."
@@ -251,11 +261,12 @@ export const ep1 = {
     {
       id: "george",
       name: "Ushiromiya George",
+      portrait: "assets/characters/ep1/george/portrait/geo_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/george/geo copy.png",
+          image: "assets/characters/ep1/george/full/geo copy.png",
           text: [
             "Eva and Hideyoshi's son.",
             "Mature and deeply attached to Shannon."
@@ -274,11 +285,12 @@ export const ep1 = {
     {
       id: "maria",
       name: "Ushiromiya Maria",
+      portrait: "assets/characters/ep1/maria/portrait/mar_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/maria/mar.png",
+          image: "assets/characters/ep1/maria/full/mar.png",
           text: [
             "Rosa's daughter.",
             "Firm believer in the Golden Witch."
@@ -300,11 +312,12 @@ export const ep1 = {
     {
       id: "genji",
       name: "Ronoue Genji",
+      portrait: "assets/characters/ep1/genji/portrait/gen_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/genji/gen copy.png",
+          image: "assets/characters/ep1/genji/full/gen copy.png",
           text: [
             "Kinzo's longtime head servant.",
             "Loyal and composed."
@@ -323,11 +336,12 @@ export const ep1 = {
     {
       id: "shannon",
       name: "Shannon",
+      portrait: "assets/characters/ep1/shannon/portrait/sha_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/shannon/sha.png",
+          image: "assets/characters/ep1/shannon/full/sha.png",
           text: [
             "A servant of the Ushiromiya family.",
             "Kind-hearted and loved by George."
@@ -346,11 +360,12 @@ export const ep1 = {
     {
       id: "kanon",
       name: "Kanon",
+      portrait: "assets/characters/ep1/kanon/portrait/kan_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/kanon/kan.png",
+          image: "assets/characters/ep1/kanon/full/kan.png",
           text: [
             "A servant working under Genji.",
             "Reserved and emotionally distant."
@@ -369,11 +384,12 @@ export const ep1 = {
     {
       id: "gohda",
       name: "Gohda",
+      portrait: "assets/characters/ep1/gohda/portrait/goh_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/gohda/goh copy.png",
+          image: "assets/characters/ep1/gohda/full/goh copy.png",
           text: [
             "The family chef.",
             "Proud of his culinary skills."
@@ -392,11 +408,12 @@ export const ep1 = {
     {
       id: "kumasawa",
       name: "Kumasawa",
+      portrait: "assets/characters/ep1/kuma/portrait/kum_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/kuma/kum_defa1.png",
+          image: "assets/characters/ep1/kuma/full/kum_defa1.png",
           text: [
             "An elderly servant.",
             "Enjoys telling mysterious stories."
@@ -415,11 +432,12 @@ export const ep1 = {
     {
       id: "nanjo",
       name: "Nanjo",
+      portrait: "assets/characters/ep1/nanjo/portrait/nan_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/nanjo/nan copy.png",
+          image: "assets/characters/ep1/nanjo/full/nan copy.png",
           text: [
             "The family doctor.",
             "A close associate of Kinzo."
@@ -438,7 +456,7 @@ export const ep1 = {
   ],
 
   tips: [
-    "Rokkenjima is a private island owned by the Ushiromiya family.",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     "There are 18 humans present during the 1986 family conference.",
     "The epitaph describes the path to the hidden gold.",
     "A typhoon isolates the island from the mainland.",
