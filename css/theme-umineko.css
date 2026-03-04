@@ -305,3 +305,27 @@ body::after {
     border-color: red;
     box-shadow: 0 0 10px red;
 }
+
+.tip-container {
+    width: 100%; 
+    padding: 15px;
+    background: #220000;
+    border: 1px solid #550000; 
+    color: #f5f5f5;
+    text-align: center; 
+    cursor: pointer;
+    transition: all 0.2s ease; 
+    font-family: inherit; 
+    flex-shrink: 0; 
+}
+
+.tip-container:hover {
+    background: #660000;
+    border-color: #aa0000;
+    box-shadow: 0 0 8px #aa0000;
+}
+
+.tip-container.active {
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}

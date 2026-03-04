@@ -481,11 +481,68 @@ export const ep1 = {
   ],
 
   tips: [
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-    "There are 18 humans present during the 1986 family conference.",
-    "The epitaph describes the path to the hidden gold.",
-    "A typhoon isolates the island from the mainland.",
-    "The Golden Witch Beatrice is said to grant gold and take lives.",
-    "The murders follow the sequence of the epitaph's twilights."
+    {
+      title: "The Portrait Epitaph",
+      pages: [
+        "Behold the sweetfish river running through my beloved hometown. You who seek the Golden Land, follow its path downstream in search of the key.",
+        "As you travel down it, you will see a village. In that village, look for the shore the two will tell you of. There sleeps the key to the Golden Land.",
+        "The one who obtains the key must then travel to the Golden Land in accordance with these rules.",
+        "On the first twilight, offer the six chosen by the key as sacrifices. On the second twilight, those who remain shall tear apart the two who are close. On the third twilight, those who remain shall praise my noble name.",
+        "On the fourth twilight, gouge the head and kill. On the fifth twilight, gouge the chest and kill. On the sixth twilight, gouge the stomach and kill. On the seventh twilight, gouge the knee and kill. On the eighth twilight, gouge the leg and kill.",
+        "On the ninth twilight, the witch shall revive, and none shall be left alive. On the tenth twilight, at journey's end, you shall attain to the power of the Golden Land's treasures, once and for the last time.",
+        "The witch shall praise the wise and bestow four treasures: all the gold from the Golden Land, the resurrection of all the dead souls, the resurrection of the love that was lost, and to put the witch to sleep for all time. Sleep peacefully, my beloved witch, Beatrice."
+      ]
+    },
+    {
+      title: "The Witch's Letter",
+      pages: [
+        "Welcome to Rokkenjima, members of the Ushiromiya family. I am Beatrice, the alchemist for this family employed by Kinzo-sama himself.",
+        "I lent Kinzo-sama a vast quantity of gold under certain terms. Upon termination of the contract, all gold is to be returned to me, along with everything of the Ushiromiya family as interest.",
+        "However, Kinzo-sama appended a special clause: if someone discovers the hidden gold, I must abandon my rights to it and the accumulated interest for all eternity.",
+        "The collection of the interest will proceed shortly. If anyone fulfills the special clause, I shall return everything, including what has already been collected.",
+        "As the first step, I have taken possession of the Ushiromiya family Head's Ring. Kinzo-sama has publicly displayed the location of the hidden gold within the epitaph under my portrait.",
+        "The rules apply equally to all who can read the epitaph. Tonight, enjoy your battle of wits with Kinzo-sama to the fullest. ――Beatrice the Golden"
+      ]
+    },
+    {
+      title: "The Witch's Letter II",
+      pages: [
+        "Praise my name."
+      ]
+    },
+    {
+      title: "The Witch's Letter III",
+      pages: [
+        "Are you enjoying the riddle of Kinzo-sama's epitaph? You have very little time remaining.",
+        "Abandon any naive hopes of escaping after the storm passes. This game can only end with my victory or yours. When time runs out, I will win by default. There will be no ties.",
+        "Make sure that you do not misunderstand your current situation."
+      ]
+    },
+    {
+      title: "The Witch's Game Record",
+      pages: [
+        "First Twilight: Krauss, Rudolf, Kyrie, Rosa, Shannon, and Gohda were chosen by the key and offered up as sacrifices.",
+        "Second Twilight: Eva and Hideyoshi were pierced through the forehead by stakes.",
+        "Fourth to Eighth Twilights: Kinzo (head), Kanon (chest), Genji (stomach), Nanjo (knee), and Kumasawa (leg) were killed according to the epitaph.",
+        "Ninth Twilight: Beatrice revived. Natsuhi was granted the honor of a duel and died.",
+        "Tenth Twilight: George, Jessica, and Maria were invited to the Golden Land after acknowledging the witch. Battler's fate remained uncertain."
+      ]
+    },
+    {
+      title: "Winchester M1894 Sawed Off",
+      pages: [
+        "A sawed-off custom rifle from the golden age of Winchesters. Its portability compensates for its shorter lethal range.",
+        "It can be fired rapidly by skillfully working the lever action. Its characteristic lever handle allows for a stylish one-handed reload.",
+        "Modified to match Kinzo's preferences, it uses .45 Long Colt bullets and holds 4+1 rounds."
+      ]
+    },
+    {
+      title: "The Seven Stakes of Purgatory",
+      pages: [
+        "Stakes containing the seven magics representing the seven deadly sins.",
+        "They strike their targets with perfect accuracy, moving at ultra-high speeds and changing trajectories freely.",
+        "They cannot target pure individuals who have not committed one of the seven deadly sins or those with strong resistance to magical power."
+      ]
+    }
   ]
 };
