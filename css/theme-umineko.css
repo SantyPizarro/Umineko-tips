@@ -164,6 +164,11 @@ body {
   background-size: 165%;
 }
 
+.character-slot[data-id="beatrice"] {
+  background-position: center 12%;
+  background-size: 165%;
+}
+
 
 .text-next {
   background: #220000;

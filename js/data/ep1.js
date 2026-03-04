@@ -34,6 +34,31 @@ export const ep1 = {
       ]
     },
 
+    {
+      id: "beatrice",
+      name: "Beatrice",
+      portrait: "assets/characters/ep1/bea/portrait/bea_defb1.png",
+      currentPhase: 0,
+      states: [
+        {
+          phase: "alive",
+          image: "assets/characters/ep1/bea/full/bea.png",
+          text: [
+            "The head of the Ushiromiya family.",
+            "Obsessed with the Golden Witch and alchemy."
+          ]
+        },
+        {
+          phase: "dead",
+          image: "assets/characters/Ushiromiya Kinzo copy.png",
+          text: [
+            "Kinzo is confirmed dead.",
+            "His death precedes the family conference."
+          ]
+        }
+      ]
+    },
+
     // --- SIBLINGS ---
 
     {
@@ -186,12 +211,12 @@ export const ep1 = {
     {
       id: "kyrie",
       name: "Ushiromiya Kyrie",
-      portrait: "assets/characters/ep1/kyrie/portrait/kyr_defa1.png",
+      portrait: "assets/characters/ep1/kyrie/portrait/kir_defa1.png",
       currentPhase: 0,
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/kyrie/full/kyr copy.png",
+          image: "assets/characters/ep1/kyrie/full/kir copy.png",
           text: [
             "Rudolf's wife.",
             "Calm, logical, and sharp-minded."

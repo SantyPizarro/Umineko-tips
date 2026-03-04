@@ -19,23 +19,24 @@
 #main-layout {
   flex: 1;
   display: grid;
-  grid-template-columns: 250px 1fr 450px;
+  grid-template-columns: 320px 1fr 450px;
   position: relative;
 }
 
 #left-panel {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  gap: 15px;
-  overflow: hidden;
+    padding: 10px;
+    overflow-y: auto; 
 }
 
-#characters-selector {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
+#selector-container {
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    grid-template-rows: repeat(5, 65px);
+    gap: 10px;
+    position: relative;
+    padding: 10px;
+    background: rgba(0,0,0,0.4); 
+    margin: 0 auto;
 }
 
 #sidebar {
@@ -64,13 +65,45 @@
 }
 
 #selector-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 6px;
-  overflow-y: auto;
-  flex: 1;
-  padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 65px); 
+    grid-template-rows: repeat(5, 65px);
+    gap: 8px;
+    position: relative;
+    padding: 20px;
+    background: black;
 }
+
+.character-slot {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #555;
+    z-index: 2;
+}
+
+.char-kinzo { grid-area: 1 / 1; }
+.char-bea { grid-area: 3 / 1; }
+.char-krauss { grid-area: 1 / 2; }
+.char-natsuhi { grid-area: 2 / 2; }
+.char-jessica { grid-area: 2 / 4; }
+
+.char-eva { grid-area: 1 / 3; } 
+.char-hideyoshi { grid-area: 2 / 3; }
+.char-george { grid-area: 1 / 4; }
+
+.char-rudolf { grid-area: 3 / 2; }
+.char-kyrie { grid-area: 3 / 3; }
+.char-battler { grid-area: 3 / 4; }
+
+.char-rosa { grid-area: 4 / 2; }
+.char-maria { grid-area: 4 / 4; }
+
+.char-genji { grid-area: 4 / 1; }
+.char-nanjo { grid-area: 2 / 1; }
+.char-shannon { grid-area: 5 / 2; }
+.char-kanon { grid-area: 5 / 3; }
+.char-gohda { grid-area: 5 / 4; }
+.char-kumasawa { grid-area: 5 / 1; } 
 
 .character-slot {
   position: relative;
@@ -190,4 +223,14 @@
 
 .hidden {
   display: none;
+}
+
+#relation-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
 }

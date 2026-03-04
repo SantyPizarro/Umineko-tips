@@ -19,20 +19,21 @@ export function renderAll() {
   renderRightPanel();
 }
 
-
 function renderLeftPanel() {
   const episode = getCurrentEpisode();
-  dom.selectorContainer.innerHTML = "";
+  
+  dom.selectorContainer.innerHTML = '<svg id="relation-lines" width="100%" height="100%"></svg>';
 
   if (appState.view === "character") {
     episode.characters.forEach(character => {
       const state = character.states[character.currentPhase];
       const slot = document.createElement("div");
+      
       slot.classList.add("character-slot");
-      slot.dataset.id = character.id;
+      slot.classList.add(`char-${character.id.toLowerCase()}`); 
+      slot.dataset.id = character.id; 
+      
       slot.style.backgroundImage = `url('${character.portrait}')`;
-
-      // Add state class for filtering
       slot.classList.add(`state-${state.phase}`);
 
       if (character.id === appState.selectedCharacterId) {
@@ -42,6 +43,7 @@ function renderLeftPanel() {
       dom.selectorContainer.appendChild(slot);
     });
   }
+
 
   if (appState.view === "tips") {
     episode.tips.forEach((tip, index) => {
