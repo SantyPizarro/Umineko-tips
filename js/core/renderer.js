@@ -19,18 +19,22 @@ export function renderAll() {
   renderRightPanel();
 }
 
+
+
 function renderLeftPanel() {
   const episode = getCurrentEpisode();
-  
+
   dom.selectorContainer.innerHTML = '<svg id="relation-lines" width="100%" height="100%"></svg>';
 
   if (appState.view === "character") {
+    dom.selectorContainer.style.display = "grid";
+
     episode.characters.forEach(character => {
       const state = character.states[character.currentPhase];
       const slot = document.createElement("div");
       
       slot.classList.add("character-slot");
-      slot.classList.add(`char-${character.id.toLowerCase()}`); 
+      slot.classList.add(`char-${character.id.toLowerCase()}`);
       slot.dataset.id = character.id; 
       
       slot.style.backgroundImage = `url('${character.portrait}')`;
@@ -44,10 +48,12 @@ function renderLeftPanel() {
     });
   }
 
-
   if (appState.view === "tips") {
+    dom.selectorContainer.style.display = "block";
+
     episode.tips.forEach((tip, index) => {
-      const btn = document.createElement("button");
+      const btn = document.createElement("div");
+      btn.classList.add("tip-button-container");
       btn.textContent = `Tip ${index + 1}`;
       btn.dataset.tipIndex = index;
 
@@ -59,6 +65,7 @@ function renderLeftPanel() {
     });
   }
 }
+
 
 
 function renderRightPanel() {
