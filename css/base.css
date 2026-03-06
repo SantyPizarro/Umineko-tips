@@ -8,3 +8,18 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
+body, 
+#character-name, 
+#character-text, 
+.tip-container,
+#text-next-btn,
+#text-back-btn {
+  color: white;
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    font-family: 'Crimson Text', serif; 
+}

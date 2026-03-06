@@ -12,12 +12,11 @@ export const ep1 = {
           image: "assets/characters/ep1/kinzo/full/kin copy.png",
           text: [
             "The head of the Ushiromiya family.",
-            "Obsessed with the Golden Witch and alchemy."
           ]
         },
         {
           phase: "missing",
-          image: "assets/characters/Ushiromiya Kinzo copy.png",
+          image: "assets/characters/ep1/kinzo/full/kin missing.png",
           text: [
             "Kinzo's whereabouts are unknown.",
             "Some claim he has not been seen for some time."
@@ -25,7 +24,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Kinzo copy.png",
+          image: "assets/characters/ep1/kinzo/full/kin dead.png",
           text: [
             "Kinzo is confirmed dead.",
             "His death precedes the family conference."
@@ -49,8 +48,8 @@ export const ep1 = {
           ]
         },
         {
-          phase: "dead",
-          image: "assets/characters/Ushiromiya Kinzo copy.png",
+          phase: "missing",
+          image: "assets/characters/ep1/bea/full/bea smug.png",
           text: [
             "Kinzo is confirmed dead.",
             "His death precedes the family conference."
@@ -77,7 +76,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Krauss copy.png",
+          image: "assets/characters/ep1/krauss/full/kla dead.png",
           text: [
             "Killed during the serial murders on Rokkenjima.",
             "His ambitions end on the island."
@@ -101,7 +100,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Eva copy.png",
+          image: "assets/characters/ep1/eva/full/eva dead.png",
           text: [
             "Eva becomes one of the island's victims.",
             "Her sharp tongue falls silent."
@@ -125,7 +124,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Rudolf copy.png",
+          image: "assets/characters/ep1/rudo/full/rud dead.png",
           text: [
             "Rudolf is killed during the tragedy.",
             "His fate is sealed within the closed island."
@@ -149,7 +148,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Rosa copy.png",
+          image: "assets/characters/ep1/rosa/full/ros dead.png",
           text: [
             "Rosa perishes during the murders.",
             "Her conflicts end in tragedy."
@@ -176,7 +175,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Natsuhi copy.png",
+          image: "assets/characters/ep1/natsu/full/nat dead.png",
           text: [
             "Natsuhi dies on the island.",
             "Her sense of duty could not save her."
@@ -200,7 +199,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Hideyoshi copy.png",
+          image: "assets/characters/ep1/hide/full/hid dead.png",
           text: [
             "Hideyoshi becomes one of the victims.",
             "His optimism cannot avert fate."
@@ -251,7 +250,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Battler copy.png",
+          image: "assets/characters/ep1/battler/full/but dead.png",
           text: [
             "Battler's fate becomes part of the island tragedy.",
             "He challenges the witch's claims."
@@ -275,7 +274,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Jessica copy.png",
+          image: "assets/characters/ep1/jessica/full/jes dead.png",
           text: [
             "Jessica is found murdered.",
             "Her death deepens the mystery."
@@ -299,7 +298,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya George copy.png",
+          image: "assets/characters/ep1/george/full/geo dead.png",
           text: [
             "George is among the first twilight victims.",
             "His dreams end on the island."
@@ -323,7 +322,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Maria copy.png",
+          image: "assets/characters/ep1/maria/full/mar dead.png",
           text: [
             "Maria dies in the island incident.",
             "Her devotion to magic remains haunting."
@@ -350,7 +349,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Ronoue Genji copy.png",
+          image: "assets/characters/ep1/genji/full/gen dead.png",
           text: [
             "Genji is killed during the incident.",
             "His loyalty ends in tragedy."
@@ -374,7 +373,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Shannon copy.png",
+          image: "assets/characters/ep1/shannon/full/sha dead.png",
           text: [
             "Shannon is one of the first twilight victims.",
             "Her death is ritualistic."
@@ -398,7 +397,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Kanon copy.png",
+          image: "assets/characters/ep1/kanon/full/kan dead.png",
           text: [
             "Kanon dies on the island.",
             "His fate intertwines with Jessica."
@@ -422,7 +421,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Gohda copy.png",
+          image: "assets/characters/ep1/gohda/full/goh dead.png",
           text: [
             "Gohda becomes one of the victims.",
             "The kitchen falls silent."
@@ -446,7 +445,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Kumasawa copy.png",
+          image: "assets/characters/ep1/kuma/full/kum dead.png",
           text: [
             "Kumasawa dies in the tragedy.",
             "Her tales end abruptly."
@@ -456,7 +455,7 @@ export const ep1 = {
     },
     {
       id: "nanjo",
-      name: "Nanjo",
+      name: "Family Doctor Nanjo",
       portrait: "assets/characters/ep1/nanjo/portrait/nan_defa1.png",
       currentPhase: 0,
       states: [
@@ -470,7 +469,7 @@ export const ep1 = {
         },
         {
           phase: "dead",
-          image: "assets/characters/Nanjo copy.png",
+          image: "assets/characters/ep1/nanjo/full/nan dead.png",
           text: [
             "Nanjo is killed during the later twilights.",
             "Even the doctor cannot escape death."

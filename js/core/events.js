@@ -1,56 +1,43 @@
 import { renderAll } from "./renderer.js";
-import {
-  selectCharacter,
-  nextCharacterPage,
-  nextTipPage,
-  executeCharacter,
-  resurrectCharacter,
-  changeEpisode,
-  toggleTipsView,
-  selectTip
-} from "./engine.js";
+import { appState } from "./state.js";
+import * as Engine from "./engine.js";
+
 export function bindEvents() {
+    document.addEventListener("click", e => {
+        const target = e.target;
 
-  document.addEventListener("click", e => {
+        const charSlot = target.closest(".character-slot");
+        if (charSlot) {
+            Engine.selectCharacter(charSlot.dataset.id);
+            return renderAll();
+        }
 
-    const characterSlot = e.target.closest(".character-slot");
-    if (characterSlot && characterSlot.dataset.id) {
-      selectCharacter(characterSlot.dataset.id);
-      renderAll();
-    }
+        const tipContainer = target.closest(".tip-container");
+        if (tipContainer) {
+            Engine.selectTip(Number(tipContainer.dataset.tipIndex));
+            return renderAll();
+        }
 
-    if (e.target.id === "btn-execute") {
-      executeCharacter();
-      renderAll();
-    }
+        if (target.id === "btn-execute") {
+            Engine.updateCharacterPhase(1);
+            return renderAll();
+        }
+        if (target.id === "btn-resurrect") {
+            Engine.updateCharacterPhase(-1);
+            return renderAll();
+        }
 
-    if (e.target.id === "btn-resurrect") {
-      resurrectCharacter();
-      renderAll();
-    }
-
-    if (e.target.classList.contains("episode-btn")) {
-      changeEpisode(Number(e.target.dataset.ep));
-      renderAll();
-    }
-
-    if (e.target.id === "text-next-btn") {
-      if (appState.view === "character") {
-        nextCharacterPage();
-      } else {
-        nextTipPage();
-      }
-      renderAll();
-    }
-
-    if (e.target.id === "btn-tips") {
-      toggleTipsView();
-      renderAll();
-    }
-
-    if (e.target.dataset.tipIndex) {
-  selectTip(Number(e.target.dataset.tipIndex));
-  renderAll();
-}
-  });
+        if (target.id === "btn-tips") {
+            Engine.toggleTipsView();
+            return renderAll();
+        }
+        if (target.id === "text-next-btn") {
+            Engine.changePage(1);
+            return renderAll();
+        }
+        if (target.id === "text-back-btn") {
+            Engine.changePage(-1);
+            return renderAll();
+        }
+    });
 }

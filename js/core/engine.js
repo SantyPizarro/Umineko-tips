@@ -1,77 +1,54 @@
 import { appState } from "./state.js";
 import { ep1 } from "../data/ep1.js";
 
-const episodes = {
-  1: ep1
+const EPISODES = { 1: ep1 };
+
+export const getCurrentEpisode = () => EPISODES[appState.currentEpisode] || null;
+
+export const getCurrentCharacter = () => {
+    const ep = getCurrentEpisode();
+    return ep?.characters.find(c => c.id === appState.selectedCharacterId) || null;
 };
 
-export function getCurrentEpisode() {
-  return episodes[appState.currentEpisode];
-}
+export const getCurrentTip = () => {
+    const ep = getCurrentEpisode();
+    return ep?.tips?.[appState.selectedTipIndex] || null;
+};
 
-export function getCurrentCharacter() {
-  const episode = getCurrentEpisode();
-  return episode.characters.find(
-    c => c.id === appState.selectedCharacterId
-  );
+export function updateCharacterPhase(direction) {
+    const char = getCurrentCharacter();
+    if (!char) return;
+
+    const nextPhase = char.currentPhase + direction;
+    
+    if (nextPhase >= 0 && nextPhase < char.states.length) {
+        char.currentPhase = nextPhase;
+        appState.characterTextOffset = 0; 
+    }
 }
 
 export function toggleTipsView() {
-  if (appState.view === "character") {
-    appState.view = "tips";
+    appState.view = (appState.view === "character") ? "tips" : "character";
     appState.selectedCharacterId = null;
-  } else {
-    appState.view = "character";
     appState.selectedTipIndex = null;
-  }
+    appState.characterTextOffset = 0;
+    appState.tipTextOffset = 0;
 }
 
 export function selectCharacter(id) {
-  appState.selectedCharacterId = id;
-  appState.characterTextOffset = 0;
-}
-
-export function nextCharacterPage() {
-  appState.characterTextOffset++;
-}
-
-export function executeCharacter() {
-  const character = getCurrentCharacter();
-  if (!character) return;
-
-  if (character.currentPhase < character.states.length - 1) {
-    character.currentPhase++;
+    appState.selectedCharacterId = id;
     appState.characterTextOffset = 0;
-  }
-}
-
-export function resurrectCharacter() {
-  const character = getCurrentCharacter();
-  if (!character) return;
-
-  if (character.currentPhase > 0) {
-    character.currentPhase--;
-    appState.characterTextOffset = 0;
-  }
 }
 
 export function selectTip(index) {
-  appState.selectedTipIndex = index;
-  appState.tipTextOffset = 0;
+    appState.selectedTipIndex = index;
+    appState.tipTextOffset = 0;
 }
 
-export function nextTipPage() {
-  appState.tipTextOffset++;
-}
-
-export function changeEpisode(epNumber) {
-  appState.currentEpisode = epNumber;
-
-  appState.selectedCharacterId = null;
-  appState.selectedTipIndex = null;
-
-  appState.characterTextOffset = 0;
-  appState.tipTextOffset = 0;
-
-  appState.view = "character";
+export function changePage(direction) {
+    if (appState.view === "character") {
+        appState.characterTextOffset += direction;
+    } else {
+        appState.tipTextOffset += direction;
+    }
 }

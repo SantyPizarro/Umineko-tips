@@ -1,45 +1,54 @@
 body {
-  background: url("../assets/backgrounds/m1f_p1b.png") center/cover no-repeat;
+  background: url("../assets/backgrounds/m1f_p1b.png") center / cover no-repeat;
   font-family: "Georgia", serif;
   color: #f5f5f5;
 }
 
-#app-header {
-  background: #0b0b0b;
-  border-bottom: 2px solid #3a1f1f;
+.wrapper,
+header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
 }
 
-#game-title {
-  color: #d4c2a5;
-  letter-spacing: 1px;
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  background-image: url("../assets/ui/umi_gf.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100vh;
+}
+
+#app-header {
+  background: #0b0b0b;
 }
 
 #sidebar {
   background: rgba(20, 10, 15, 0.95);
-  border-right: 2px solid #3a1f1f;
-}
-
-#character-grid img {
-  border: 2px solid #3a1f1f;
-  transition: all 0.2s ease;
-  filter: brightness(0.9);
-}
-
-#character-grid img:hover {
-  border-color: #aa0000;
-  transform: scale(1.05);
-  filter: brightness(1.1);
-}
-
-#character-grid img.active {
-  border-color: #ff0000;
-  box-shadow: 0 0 10px #aa0000;
 }
 
 #screen-container {
   background: rgba(60, 15, 20, 0.95);
-  border: 2px solid #3a1f1f;
   position: relative;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+
+#game-title {
+  color: #d4c2a5;
+  letter-spacing: 1px;
 }
 
 #character-name {
@@ -50,6 +59,16 @@ body {
 #character-text {
   color: #f2f2f2;
   text-shadow: 1px 1px 2px black;
+}
+
+#character-grid img {
+  transition: all 0.2s ease;
+  filter: brightness(0.9);
+}
+
+#character-grid img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
 
 .character-slot {
@@ -74,130 +93,25 @@ body {
   pointer-events: none;
 }
 
-.character-slot[data-id="kinzo"] {
-  background-position: center 10%;
-  background-size: 170%;
-}
-
-.character-slot[data-id="krauss"] {
-  background-position: center 15%;
-  background-size: 160%;
-}
-
-.character-slot[data-id="eva"] {
-  background-position: center 18%;
-  background-size: 150%;
-}
-
-.character-slot[data-id="rudolf"] {
-  background-position: center 15%;
-  background-size: 160%;
-}
-
-.character-slot[data-id="rosa"] {
-  background-position: center 12%;
-  background-size: 165%;
-}
-
-.character-slot[data-id="natsuhi"] {
-  background-position: center 18%;
-  background-size: 250%;
-}
-
-.character-slot[data-id="hideyoshi"] {
-  background-position: center 15%;
-  background-size: 160%;
-}
-
-.character-slot[data-id="kyrie"] {
-  background-position: center 20%;
-  background-size: 150%;
-}
-
-.character-slot[data-id="battler"] {
-  background-position: center 18%;
-  background-size: 155%;
-}
-
-.character-slot[data-id="jessica"] {
-  background-position: center 15%;
-  background-size: 160%;
-}
-
-.character-slot[data-id="george"] {
-  background-position: center 12%;
-  background-size: 165%;
-}
-
-.character-slot[data-id="maria"] {
-  background-position: center 25%;
-  background-size: 145%;
-}
-
-.character-slot[data-id="genji"] {
-  background-position: center 10%;
-  background-size: 170%;
-}
-
-.character-slot[data-id="shannon"] {
-  background-position: center 20%;
-  background-size: 150%;
-}
-
-.character-slot[data-id="kanon"] {
-  background-position: center 15%;
-  background-size: 160%;
-}
-
-.character-slot[data-id="gohda"] {
-  background-position: center 12%;
-  background-size: 165%;
-}
-
-.character-slot[data-id="kumasawa"] {
-  background-position: center 8%;
-  background-size: 175%;
-}
-
-.character-slot[data-id="nanjo"] {
-  background-position: center 12%;
-  background-size: 165%;
-}
-
-.character-slot[data-id="beatrice"] {
-  background-position: center 12%;
-  background-size: 165%;
-}
-
-
-.text-next {
-  background: #220000;
-  border: 1px solid #550000;
-  color: white;
-  transition: all 0.2s ease;
-}
-
-.text-next:hover {
-  background: #550000;
-  box-shadow: 0 0 6px red;
-}
-
-.menu-btn {
-  background: #220000;
-  border: 1px solid #550000;
-  color: #f5f5f5;
-  font-family: inherit;
-  transition: all 0.2s ease;
-}
-
-.menu-btn:hover {
-  background: #660000;
-  box-shadow: 0 0 8px #aa0000;
-}
-
-#character-image {
-  filter: drop-shadow(0 0 20px black);
-}
+.character-slot[data-id="kinzo"] { background-position: center 10%; background-size: 170%; }
+.character-slot[data-id="krauss"] { background-position: center 15%; background-size: 160%; }
+.character-slot[data-id="eva"] { background-position: center 18%; background-size: 150%; }
+.character-slot[data-id="rudolf"] { background-position: center 15%; background-size: 160%; }
+.character-slot[data-id="rosa"] { background-position: center 12%; background-size: 165%; }
+.character-slot[data-id="natsuhi"] { background-position: center 18%; background-size: 250%; }
+.character-slot[data-id="hideyoshi"] { background-position: center 15%; background-size: 160%; }
+.character-slot[data-id="kyrie"] { background-position: center 20%; background-size: 150%; }
+.character-slot[data-id="battler"] { background-position: center 18%; background-size: 155%; }
+.character-slot[data-id="jessica"] { background-position: center 15%; background-size: 160%; }
+.character-slot[data-id="george"] { background-position: center 12%; background-size: 165%; }
+.character-slot[data-id="maria"] { background-position: center 25%; background-size: 145%; }
+.character-slot[data-id="genji"] { background-position: center 10%; background-size: 170%; }
+.character-slot[data-id="shannon"] { background-position: center 20%; background-size: 150%; }
+.character-slot[data-id="kanon"] { background-position: center 15%; background-size: 160%; }
+.character-slot[data-id="gohda"] { background-position: center 12%; background-size: 165%; }
+.character-slot[data-id="kumasawa"] { background-position: center 8%; background-size: 175%; }
+.character-slot[data-id="nanjo"] { background-position: center 12%; background-size: 165%; }
+.character-slot[data-id="beatrice"] { background-position: center 12%; background-size: 165%; }
 
 #character-visual.executed::after {
   content: "";
@@ -208,6 +122,38 @@ body {
   pointer-events: none;
 }
 
+.menu-btn,
+.text-next,
+.episode-btn,
+.tip-button-container,
+.tip-container {
+  background: #220000;
+  color: #f5f5f5;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.menu-btn:hover,
+.text-next:hover,
+.episode-btn:hover,
+.tip-button-container:hover,
+.tip-container:hover {
+  background: #660000;
+}
+
+.text-next:hover {
+  box-shadow: 0 0 6px red;
+}
+
+.episode-btn.active {
+  background: red;
+}
+
+.tip-button-container.active {
+  box-shadow: 0 0 10px red;
+}
+
+
 #tips-screen {
   background: rgba(40, 0, 0, 0.95);
 }
@@ -217,115 +163,34 @@ body {
   color: #ffdddd;
 }
 
-.episode-btn {
-  background: #1a0000;
-  border: 1px solid #550000;
-  color: white;
-  transition: all 0.2s ease;
+.tip-button-container {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+  cursor: pointer;
 }
 
-.episode-btn:hover {
-  background: #550000;
-}
-
-.episode-btn.active {
-  background: red;
-  box-shadow: 0 0 8px red;
+.tip-container {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
 #music-player {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   padding: 8px 12px;
   border-radius: 6px;
 }
 
 #music-toggle {
   background: #220000;
-  border: 1px solid #550000;
   color: white;
 }
 
 #music-toggle:hover {
   background: #550000;
-}
-
-.side-menu {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.menu-btn {
-  position: relative;
-  z-index: 1;
-}
-
-.wrapper,
-header,
-main,
-footer {
-  position: relative;
-  z-index: 1;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-
-  background-image: url("../assets/ui/umi_gf.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: auto 100vh;
-}
-
-.tip-button-container {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 8px;
-    background: #220000;
-    border: 1px solid #550000;
-    color: #f5f5f5;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.tip-button-container:hover {
-    background: #660000;
-    border-color: #aa0000;
-    box-shadow: 0 0 8px #aa0000;
-}
-
-.tip-button-container.active {
-    border-color: red;
-    box-shadow: 0 0 10px red;
-}
-
-.tip-container {
-    width: 100%; 
-    padding: 15px;
-    background: #220000;
-    border: 1px solid #550000; 
-    color: #f5f5f5;
-    text-align: center; 
-    cursor: pointer;
-    transition: all 0.2s ease; 
-    font-family: inherit; 
-    flex-shrink: 0; 
-}
-
-.tip-container:hover {
-    background: #660000;
-    border-color: #aa0000;
-    box-shadow: 0 0 8px #aa0000;
-}
-
-.tip-container.active {
-    border-color: red;
-    box-shadow: 0 0 10px red;
 }
