@@ -30,11 +30,11 @@ body::after {
 }
 
 #sidebar {
-  background: rgba(20, 10, 15, 0.95);
+  background: #371b1b;
 }
 
 #screen-container {
-  background: rgba(60, 15, 20, 0.95);
+  background: #371b1b;
   position: relative;
 }
 
@@ -127,7 +127,7 @@ body::after {
 .episode-btn,
 .tip-button-container,
 .tip-container {
-  background: #220000;
+  background: #371b1b;
   color: #f5f5f5;
   font-family: inherit;
   transition: all 0.2s ease;
@@ -138,19 +138,19 @@ body::after {
 .episode-btn:hover,
 .tip-button-container:hover,
 .tip-container:hover {
-  background: #660000;
+  background: #ff0000;
 }
 
 .text-next:hover {
-  box-shadow: 0 0 6px red;
+  box-shadow: 0 0 6px #ff0000;
 }
 
 .episode-btn.active {
-  background: red;
+  background: #ff0000;
 }
 
 .tip-button-container.active {
-  box-shadow: 0 0 10px red;
+  box-shadow: 0 0 10px #ff0000;
 }
 
 
@@ -192,5 +192,5 @@ body::after {
 }
 
 #music-toggle:hover {
-  background: #550000;
+  background: #371b1b;
 }

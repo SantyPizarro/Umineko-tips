@@ -9,6 +9,13 @@ body {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: 'face0'; 
+  src: url('../assets/fonts/face0.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, 
 #character-name, 
 #character-text, 
@@ -17,9 +24,15 @@ body,
 #text-back-btn {
   color: white;
   text-shadow: 
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black;
-    font-family: 'Crimson Text', serif; 
+  -2px -2px 0 #000,  2px -2px 0 #000, -2px  2px 0 #000,  2px  2px 0 #000, 
+   0px -2px 0 #000,  0px  2px 0 #000, -2px  0px 0 #000,  2px  0px 0 #000; 
+    font-family: 'face0', sans-serif; 
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  appearance: none;
+  -webkit-appearance: none;
 }

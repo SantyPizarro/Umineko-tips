@@ -11,24 +11,31 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/kinzo/full/kin copy.png",
           text: [
-            "The head of the Ushiromiya family.",
-          ]
+              `The aged head of the Ushiromiya family.
+
+          Even though it has already been announced that he has just a few months to live, he is brimming with energy. Though he amassed a vast fortune in the past, he never made any announcements regarding the inheritance, which worries his children.
+
+          He is strongly influenced by the West, and is a rabid fan of the occult.
+          His study is packed with of mysterious grimoires.`
+            ]
         },
         {
           phase: "missing",
           image: "assets/characters/ep1/kinzo/full/kin missing.png",
           text: [
-            "Kinzo's whereabouts are unknown.",
-            "Some claim he has not been seen for some time."
-          ]
+              `Disappeared from his study unnoticed.
+          Kinzo's study has everything from a bed to a toilet to a bathtub, so it is extremely rare for him to go outside.
+
+          However, he does occasionally go out for a walk on a whim without telling anybody, and his disappearance invariability leads to a huge uproar throughout the house. The usually comes back as soon as he gets hungry...usually...`
+            ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/kinzo/full/kin dead.png",
           text: [
-            "Kinzo is confirmed dead.",
-            "His death precedes the family conference."
-          ]
+              `Burned in the incinerator, with a weapon resembling an icepick sticking out of his forehead.
+          The old sorcerer's wish vanished before it could be granted. He always knew that this was one possible result of his risky gamble.`
+            ]
         }
       ]
     },
@@ -60,7 +67,7 @@ export const ep1 = {
 
     // --- SIBLINGS ---
 
-    {
+{
       id: "krauss",
       name: "Ushiromiya Krauss",
       portrait: "assets/characters/ep1/krauss/portrait/kla_defa1.png",
@@ -70,21 +77,22 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/krauss/full/kla copy.png",
           text: [
-            "Kinzo's eldest son.",
-            "Struggles with business failures and inheritance pressure."
+            `Kinzo's first child.
+As the oldest of the four siblings, he leads the family conference. However, the other siblings think he is trying to get all of the inheritance for himself, and this further strains the tensions between them.
+He is a real estate investor and has put a lot of money into the development of a resort. However, his results have been harshly criticized.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/krauss/full/kla dead.png",
           text: [
-            "Killed during the serial murders on Rokkenjima.",
-            "His ambitions end on the island."
+            `His corpse was found inside the rose garden storehouse. The direct cause of death is unknown, but it seems the side of his head was smashed after his death.
+This is the beginning of everything.`
           ]
         }
       ]
     },
-    {
+{
       id: "eva",
       name: "Ushiromiya Eva",
       portrait: "assets/characters/ep1/eva/portrait/eva_defa1.png",
@@ -94,16 +102,16 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/eva/full/eva copy.png",
           text: [
-            "Kinzo's eldest daughter.",
-            "Highly intelligent and competitive."
+            `Kinzo's second child.
+She is hostile towards her brother Krauss and opposes him whenever she can, from issues dealing with the family fortune to the question of who will succeed the family headship.
+Normally, she would have lost her place in the Ushiromiya family register upon her marriage, but she managed to forcibly overcome this by having her husband take her family name.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/eva/full/eva dead.png",
           text: [
-            "Eva becomes one of the island's victims.",
-            "Her sharp tongue falls silent."
+            `Found on the bed of a guest room inside the mansion, with a weapon resembling an icepick sticking out of her forehead.`
           ]
         }
       ]
@@ -159,7 +167,7 @@ export const ep1 = {
 
     // --- SPOUSES ---
 
-    {
+{
       id: "natsuhi",
       name: "Ushiromiya Natsuhi",
       portrait: "assets/characters/ep1/natsu/portrait/nat_defa1.png",
@@ -169,16 +177,20 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/natsu/full/nat copy.png",
           text: [
-            "Krauss's wife.",
-            "Serious and devoted to family honor."
+            `Krauss's wife.
+She manages the household of the Ushiromiya family in place of her husband, who takes little interest in such matters. She was in charge of all preparations and arrangements for this family conference.
+She possesses a strong sense of responsibility, and a great deal of pride.
+However, neither her husband nor her siblings understand her very well, so her position is far from enviable.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/natsu/full/nat dead.png",
           text: [
-            "Natsuhi dies on the island.",
-            "Her sense of duty could not save her."
+            `Found shot to death in front of the witch's portrait.
+How impudent of her to challenge a witch with nothing but a mere gun.
+Of course she'd end up like this.
+Kihihihihihihihihihi.`
           ]
         }
       ]
@@ -258,7 +270,7 @@ export const ep1 = {
         }
       ]
     },
-    {
+{
       id: "jessica",
       name: "Ushiromiya Jessica",
       portrait: "assets/characters/ep1/jessica/portrait/jes_defa1.png",
@@ -268,16 +280,18 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/jessica/full/jes copy.png",
           text: [
-            "Krauss and Natsuhi's daughter.",
-            "Strong-willed and fond of rock music."
+            `Krauss and Natsuhi's daughter.
+In the absence of any irregularities, it is thought that she will eventually inherit the headship of the Ushiromiya family (or technically, her husband will). However, she seems to have no interest in all of this.
+She was born with weak bronchi and is sometimes assailed by sudden asthma attacks.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/jessica/full/jes dead.png",
           text: [
-            "Jessica is found murdered.",
-            "Her death deepens the mystery."
+            `Missing.
+Even though was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+She was then chewed to bits by demons and went to hell.`
           ]
         }
       ]
@@ -333,9 +347,9 @@ export const ep1 = {
 
     // --- SERVANTS & OTHERS ---
 
-    {
+   {
       id: "genji",
-      name: "Ronoue Genji",
+      name: "Ushiromiya Genji",
       portrait: "assets/characters/ep1/genji/portrait/gen_defa1.png",
       currentPhase: 0,
       states: [
@@ -343,16 +357,20 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/genji/full/gen copy.png",
           text: [
-            "Kinzo's longtime head servant.",
-            "Loyal and composed."
+            `The leader of the servants who work for the Ushiromiya family.
+
+He has served Kinzo longer than any other and is the person most trusted by that old man.
+
+Since he serves Kinzo directly, Krauss and Natsuhi think of him as being a spy for Kinzo.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/genji/full/gen dead.png",
           text: [
-            "Genji is killed during the incident.",
-            "His loyalty ends in tragedy."
+            `Found in the parlor. He had a weapon resembling an icepick sticking out of his stomach, and his face had been smashed.
+
+At the sixth twilight, gouge the stomach and kill.`
           ]
         }
       ]
@@ -367,16 +385,20 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/shannon/full/sha.png",
           text: [
-            "A servant of the Ushiromiya family.",
-            "Kind-hearted and loved by George."
+            `A young, but experienced servant.
+
+She's normally calm and performs her job efficiently, but she messes up when she gets nervous.
+
+Furthermore, Shannon is nothing more than a pseudonym that she uses when on duty, not her real name.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/shannon/full/sha dead.png",
           text: [
-            "Shannon is one of the first twilight victims.",
-            "Her death is ritualistic."
+            `Her corpse was found inside the rose garden storehouse. It seems the side of her head was smashed after her death.
+
+Don't worry. Everyone will be revived in the Golden Land.`
           ]
         }
       ]
@@ -391,16 +413,20 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/kanon/full/kan.png",
           text: [
-            "A servant working under Genji.",
-            "Reserved and emotionally distant."
+            `A young servant.
+
+He performs his duties silently and diligently, but is not so highly regarded as a servant due to his unsociable nature.
+
+There are multiple other servants with the "on" (音) character in their pseudonyms. He and Shannon just happened to be the ones on duty that day.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/kanon/full/kan dead.png",
           text: [
-            "Kanon dies on the island.",
-            "His fate intertwines with Jessica."
+            `Found in the boiler room with a weapon resembling an icepick sticking out of his chest.
+
+How presumptuous of lowly furniture like that.`
           ]
         }
       ]
@@ -415,16 +441,20 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/gohda/full/goh copy.png",
           text: [
-            "The family chef.",
-            "Proud of his culinary skills."
+            `A servant hired as a cook.
+
+He hasn't served this family long, but through his earlier jobs and previous experience, he has cultivated a talent for entertaining guests.
+
+Because of this, he is very highly regarded as a servant.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/gohda/full/goh dead.png",
           text: [
-            "Gohda becomes one of the victims.",
-            "The kitchen falls silent."
+            `His corpse was found inside the rose garden storehouse. His face seems to have been smashed after his death.
+
+How unfortunate. Apparently, he was originally supposed to be on duty in the guesthouse.`
           ]
         }
       ]
@@ -437,18 +467,20 @@ export const ep1 = {
       states: [
         {
           phase: "alive",
-          image: "assets/characters/ep1/kuma/full/kum_defa1.png",
+          image: "assets/characters/ep1/kuma/full/kum copy.png",
           text: [
-            "An elderly servant.",
-            "Enjoys telling mysterious stories."
+            `The elderly woman is a part-timer who, though she has quit her job several times along the way, has served the family for a great many years in total.
+
+She is crafty and more than competent when it comes to performing her duties, but because of her chattiness and love of rumors, she is not highly regarded as a servant.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/kuma/full/kum dead.png",
           text: [
-            "Kumasawa dies in the tragedy.",
-            "Her tales end abruptly."
+            `Found in the parlor. Her calf had a weapon resembling an icepick sticking out of it, and her face had been smashed.
+
+At the eight twilight, gouge the leg and kill.`
           ]
         }
       ]
@@ -463,16 +495,20 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/nanjo/full/nan copy.png",
           text: [
-            "The family doctor.",
-            "A close associate of Kinzo."
+            `Kinzo's attending physician and long time friend.
+
+He once ran a hospital on Niijima, but he turned it over to his son and now enjoys his old age in peace.
+
+Now that Kinzo's constant suspicion has reached extraordinary heights, Nanjo is one of the very few people he trusts. Thanks to Nanjo's big-hearted nature, he has been able to continue his friendship with Kinzo despite the latter's tendency to fly into a rage at the slightest provocation.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/nanjo/full/nan dead.png",
           text: [
-            "Nanjo is killed during the later twilights.",
-            "Even the doctor cannot escape death."
+            `Found in the parlor. His thigh had a weapon resembling an icepick sticking out of it, and his face had been smashed.
+
+At the seventh twilight gouge the knee and kill.`
           ]
         }
       ]
