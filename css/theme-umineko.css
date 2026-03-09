@@ -174,10 +174,17 @@ body::after {
 
 .tip-container {
   width: 100%;
+  max-width: 100%;
   padding: 15px;
   text-align: center;
   cursor: pointer;
   flex-shrink: 0;
+}
+
+.menu-btn{
+    width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 #music-player {
