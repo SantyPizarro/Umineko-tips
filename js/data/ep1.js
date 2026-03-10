@@ -11,35 +11,34 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/kinzo/full/kin copy.png",
           text: [
-              `The aged head of the Ushiromiya family.
+            `The aged head of the Ushiromiya family.
 
-          Even though it has already been announced that he has just a few months to live, he is brimming with energy. Though he amassed a vast fortune in the past, he never made any announcements regarding the inheritance, which worries his children.
+Even though it has already been announced that he has just a few months to live, he is brimming with energy. Though he amassed a vast fortune in the past, he never made any announcements regarding the inheritance, which worries his children.
 
-          He is strongly influenced by the West, and is a rabid fan of the occult.
-          His study is packed with of mysterious grimoires.`
-            ]
+He is strongly influenced by the West, and is a rabid fan of the occult.
+His study is packed with of mysterious grimoires.`
+          ]
         },
         {
           phase: "missing",
           image: "assets/characters/ep1/kinzo/full/kin missing.png",
           text: [
-              `Disappeared from his study unnoticed.
-          Kinzo's study has everything from a bed to a toilet to a bathtub, so it is extremely rare for him to go outside.
+            `Disappeared from his study unnoticed.
+Kinzo's study has everything from a bed to a toilet to a bathtub, so it is extremely rare for him to go outside.
 
-          However, he does occasionally go out for a walk on a whim without telling anybody, and his disappearance invariability leads to a huge uproar throughout the house. The usually comes back as soon as he gets hungry...usually...`
-            ]
+However, he does occasionally go out for a walk on a whim without telling anybody, and his disappearance invariably leads to a huge uproar throughout the house. He usually comes back as soon as he gets hungry...usually...`
+          ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/kinzo/full/kin dead.png",
           text: [
-              `Burned in the incinerator, with a weapon resembling an icepick sticking out of his forehead.
-          The old sorcerer's wish vanished before it could be granted. He always knew that this was one possible result of his risky gamble.`
-            ]
+            `Burned in the incinerator, with a weapon resembling an icepick sticking out of his forehead.
+The old sorcerer's wish vanished before it could be granted. He always knew that this was one possible result of his risky gamble.`
+          ]
         }
       ]
     },
-
     {
       id: "beatrice",
       name: "Beatrice",
@@ -50,24 +49,29 @@ export const ep1 = {
           phase: "alive",
           image: "assets/characters/ep1/bea/full/bea.png",
           text: [
-            "The head of the Ushiromiya family.",
-            "Obsessed with the Golden Witch and alchemy."
+            `The Golden Witch, who has lived a thousand years.
+
+She has surpassed the limits of humans and, like demons, will sometimes appear in response to the summons made by humans, to offer her power in exchange for a price.
+
+She likes black tea and ice cream. She hates boredom and people who deny her existence.`
           ]
         },
         {
-          phase: "missing",
+          phase: "dead",
           image: "assets/characters/ep1/bea/full/bea smug.png",
           text: [
-            "Kinzo is confirmed dead.",
-            "His death precedes the family conference."
+            `What a useless dream, to try and kill me despite being a mere human.
+            Fire your bullets, and they will merely reflect back towards you like light off a mirror.
+
+            However, there does exist just one way to kill me. You hold that method in the palm of your hand. Though I doubt one as mediocre as you could ever pull it off.
+
+            Hihihihihihihihihihihihihihi!
+            Heheheheheheheheheheh!`
           ]
         }
       ]
     },
-
-    // --- SIBLINGS ---
-
-{
+    {
       id: "krauss",
       name: "Ushiromiya Krauss",
       portrait: "assets/characters/ep1/krauss/portrait/kla_defa1.png",
@@ -78,7 +82,9 @@ export const ep1 = {
           image: "assets/characters/ep1/krauss/full/kla copy.png",
           text: [
             `Kinzo's first child.
+
 As the oldest of the four siblings, he leads the family conference. However, the other siblings think he is trying to get all of the inheritance for himself, and this further strains the tensions between them.
+
 He is a real estate investor and has put a lot of money into the development of a resort. However, his results have been harshly criticized.`
           ]
         },
@@ -86,13 +92,15 @@ He is a real estate investor and has put a lot of money into the development of 
           phase: "dead",
           image: "assets/characters/ep1/krauss/full/kla dead.png",
           text: [
-            `His corpse was found inside the rose garden storehouse. The direct cause of death is unknown, but it seems the side of his head was smashed after his death.
+            `His corpse was found inside the rose garden storehouse. 
+            The direct cause of death is unknown, but it seems the side of his head was smashed after his death.
+
 This is the beginning of everything.`
           ]
         }
       ]
     },
-{
+    {
       id: "eva",
       name: "Ushiromiya Eva",
       portrait: "assets/characters/ep1/eva/portrait/eva_defa1.png",
@@ -103,7 +111,9 @@ This is the beginning of everything.`
           image: "assets/characters/ep1/eva/full/eva copy.png",
           text: [
             `Kinzo's second child.
+
 She is hostile towards her brother Krauss and opposes him whenever she can, from issues dealing with the family fortune to the question of who will succeed the family headship.
+
 Normally, she would have lost her place in the Ushiromiya family register upon her marriage, but she managed to forcibly overcome this by having her husband take her family name.`
           ]
         },
@@ -111,7 +121,9 @@ Normally, she would have lost her place in the Ushiromiya family register upon h
           phase: "dead",
           image: "assets/characters/ep1/eva/full/eva dead.png",
           text: [
-            `Found on the bed of a guest room inside the mansion, with a weapon resembling an icepick sticking out of her forehead.`
+            `Found on the bed of a guest room inside the mansion, with a weapon resembling an icepick sticking out of her forehead.
+
+This is the end of her endless struggles over the family headship. At the very least, she should be allowed to sleep peacefully with her husband.`
           ]
         }
       ]
@@ -126,16 +138,20 @@ Normally, she would have lost her place in the Ushiromiya family register upon h
           phase: "alive",
           image: "assets/characters/ep1/rudo/full/rud copy.png",
           text: [
-            "Kinzo's third child.",
-            "Battler's father, charismatic but unreliable."
+            `Kinzo's third child.
+
+In his youth, he was quite a womanizer and even now, he is known for his fast talk and showmanship.
+
+He lost his first wife, Asumu, six years ago, and immediately after that, he forced a second marriage with Kyrie. For that reason, his relationship with his son Battler was strained for a long time.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/rudo/full/rud dead.png",
           text: [
-            "Rudolf is killed during the tragedy.",
-            "His fate is sealed within the closed island."
+            `His corpse was found inside the rose garden storehouse. The direct cause of death is unknown, but it seems the side of his head was smashed after his death.
+
+Last night, he told Battler that he might be killed. Did he have some premonition?`
           ]
         }
       ]
@@ -150,24 +166,26 @@ Normally, she would have lost her place in the Ushiromiya family register upon h
           phase: "alive",
           image: "assets/characters/ep1/rosa/full/ros copy.png",
           text: [
-            "Kinzo's youngest daughter.",
-            "Maria's strict and emotionally unstable mother."
+            `Kinzo's fourth child.
+
+She is by far the youngest child of the four siblings. It seems that this gives her a weaker position at the family conference.
+
+She manages a design company, but she has yet to start taking it seriously, and its financial situation is far from favorable.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/rosa/full/ros dead.png",
           text: [
-            "Rosa perishes during the murders.",
-            "Her conflicts end in tragedy."
+
+`Her corpse was found inside the rose garden storehouse. Her face seems to have been smashed after her death.
+
+I'll get to see her again. So I don't feel lonely.`
           ]
         }
       ]
     },
-
-    // --- SPOUSES ---
-
-{
+    {
       id: "natsuhi",
       name: "Ushiromiya Natsuhi",
       portrait: "assets/characters/ep1/natsu/portrait/nat_defa1.png",
@@ -205,16 +223,20 @@ Kihihihihihihihihihi.`
           phase: "alive",
           image: "assets/characters/ep1/hide/full/hid copy.png",
           text: [
-            "Eva's husband.",
-            "A self-made businessman with a cheerful personality."
+            `Eva's husband. He was adopted into the family upon their marriage.
+
+He is the president of a successful mid-sized restaurant chain. Due to his cheerful personality, he is often seen as a peacemaker during the family conference.
+
+Among the siblings' spouses, who are often viewed as outsiders, his successful career and gentle nature earn him a degree of respect.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/hide/full/hid dead.png",
           text: [
-            "Hideyoshi becomes one of the victims.",
-            "His optimism cannot avert fate."
+            `Found on the bed of a guest room inside the mansion, with a weapon resembling an icepick sticking out of his forehead.
+
+He died together with his beloved wife. At the very least, perhaps he didn't have to suffer the sorrow of being the only one left behind.`
           ]
         }
       ]
@@ -229,23 +251,25 @@ Kihihihihihihihihihi.`
           phase: "alive",
           image: "assets/characters/ep1/kyrie/full/kir copy.png",
           text: [
-            "Rudolf's wife.",
-            "Calm, logical, and sharp-minded."
+            `Rudolf's second wife.
+
+She had already worked alongside him for some time before the death of his first wife, at which time she openly took the position of his wife.
+
+She has served as Rudolf's right hand in several shady pieces of business, guiding them to success. She is quick-thinking and well-trusted by her husband.`
           ]
         },
         {
           phase: "dead",
-          image: "assets/characters/Ushiromiya Kyrie copy.png",
+          image: "assets/characters/ep1/kyrie/full/kir dead.png",
           text: [
-            "Kyrie falls victim to the incident.",
-            "Her rationality cannot overcome the mystery."
+            `Her corpse was found inside the rose garden storehouse. Her face seems to have been smashed after her death.
+
+She was chosen by the Demons' Roulette.
+That's all there is to it.`
           ]
         }
       ]
     },
-
-    // --- COUSINS ---
-
     {
       id: "battler",
       name: "Ushiromiya Battler",
@@ -256,21 +280,24 @@ Kihihihihihihihihihi.`
           phase: "alive",
           image: "assets/characters/ep1/battler/full/but copy.png",
           text: [
-            "Rudolf's son.",
-            "Energetic and denies the existence of witches."
+            `Rudolf's son.
+Because his father immediately remarried after his mother Asumu's death, he rebelled and left the Ushiromiya family to live with his maternal grandparents.
+However, following their deaths, he has returned to the Ushiromiya family for the first time in six years.
+He is a bit of a skirt-chaser, but is a hot-blooded youth with a strong sense of justice.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/battler/full/but dead.png",
           text: [
-            "Battler's fate becomes part of the island tragedy.",
-            "He challenges the witch's claims."
+            `Missing.
+Even though he was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+He was then chewed to bits by demons and went to hell.`
           ]
         }
       ]
     },
-{
+    {
       id: "jessica",
       name: "Ushiromiya Jessica",
       portrait: "assets/characters/ep1/jessica/portrait/jes_defa1.png",
@@ -306,16 +333,19 @@ She was then chewed to bits by demons and went to hell.`
           phase: "alive",
           image: "assets/characters/ep1/george/full/geo copy.png",
           text: [
-            "Eva and Hideyoshi's son.",
-            "Mature and deeply attached to Shannon."
+            `Eva and Hideyoshi's son.
+He is the eldest of the four grandchildren and is a hard-working, promising young man who is already helping with his father's company.
+He is well-liked by everyone and is seen as the ideal successor to the family.
+He is deeply in love with Shannon and intends to marry her.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/george/full/geo dead.png",
           text: [
-            "George is among the first twilight victims.",
-            "His dreams end on the island."
+            `Missing.
+Even though he was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+He was then chewed to bits by demons and went to hell.`
           ]
         }
       ]
@@ -330,24 +360,24 @@ She was then chewed to bits by demons and went to hell.`
           phase: "alive",
           image: "assets/characters/ep1/maria/full/mar.png",
           text: [
-            "Rosa's daughter.",
-            "Firm believer in the Golden Witch."
+            `Rosa's daughter.
+She has a very strong interest in the occult and is a firm believer in the existence of the witch Beatrice.
+She often speaks in a way that is unusual for her age, which leads to her being scolded by her mother.
+"Uu-uu" is her characteristic way of speaking.`
           ]
         },
         {
           phase: "dead",
           image: "assets/characters/ep1/maria/full/mar dead.png",
           text: [
-            "Maria dies in the island incident.",
-            "Her devotion to magic remains haunting."
+            `Missing.
+Even though she was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+She was then chewed to bits by demons and went to hell.`
           ]
         }
       ]
     },
-
-    // --- SERVANTS & OTHERS ---
-
-   {
+    {
       id: "genji",
       name: "Ushiromiya Genji",
       portrait: "assets/characters/ep1/genji/portrait/gen_defa1.png",
@@ -358,9 +388,7 @@ She was then chewed to bits by demons and went to hell.`
           image: "assets/characters/ep1/genji/full/gen copy.png",
           text: [
             `The leader of the servants who work for the Ushiromiya family.
-
 He has served Kinzo longer than any other and is the person most trusted by that old man.
-
 Since he serves Kinzo directly, Krauss and Natsuhi think of him as being a spy for Kinzo.`
           ]
         },
@@ -369,7 +397,6 @@ Since he serves Kinzo directly, Krauss and Natsuhi think of him as being a spy f
           image: "assets/characters/ep1/genji/full/gen dead.png",
           text: [
             `Found in the parlor. He had a weapon resembling an icepick sticking out of his stomach, and his face had been smashed.
-
 At the sixth twilight, gouge the stomach and kill.`
           ]
         }
@@ -386,9 +413,7 @@ At the sixth twilight, gouge the stomach and kill.`
           image: "assets/characters/ep1/shannon/full/sha.png",
           text: [
             `A young, but experienced servant.
-
 She's normally calm and performs her job efficiently, but she messes up when she gets nervous.
-
 Furthermore, Shannon is nothing more than a pseudonym that she uses when on duty, not her real name.`
           ]
         },
@@ -397,7 +422,6 @@ Furthermore, Shannon is nothing more than a pseudonym that she uses when on duty
           image: "assets/characters/ep1/shannon/full/sha dead.png",
           text: [
             `Her corpse was found inside the rose garden storehouse. It seems the side of her head was smashed after her death.
-
 Don't worry. Everyone will be revived in the Golden Land.`
           ]
         }
@@ -414,9 +438,7 @@ Don't worry. Everyone will be revived in the Golden Land.`
           image: "assets/characters/ep1/kanon/full/kan.png",
           text: [
             `A young servant.
-
 He performs his duties silently and diligently, but is not so highly regarded as a servant due to his unsociable nature.
-
 There are multiple other servants with the "on" (音) character in their pseudonyms. He and Shannon just happened to be the ones on duty that day.`
           ]
         },
@@ -425,7 +447,6 @@ There are multiple other servants with the "on" (音) character in their pseudon
           image: "assets/characters/ep1/kanon/full/kan dead.png",
           text: [
             `Found in the boiler room with a weapon resembling an icepick sticking out of his chest.
-
 How presumptuous of lowly furniture like that.`
           ]
         }
@@ -442,9 +463,7 @@ How presumptuous of lowly furniture like that.`
           image: "assets/characters/ep1/gohda/full/goh copy.png",
           text: [
             `A servant hired as a cook.
-
 He hasn't served this family long, but through his earlier jobs and previous experience, he has cultivated a talent for entertaining guests.
-
 Because of this, he is very highly regarded as a servant.`
           ]
         },
@@ -453,7 +472,6 @@ Because of this, he is very highly regarded as a servant.`
           image: "assets/characters/ep1/gohda/full/goh dead.png",
           text: [
             `His corpse was found inside the rose garden storehouse. His face seems to have been smashed after his death.
-
 How unfortunate. Apparently, he was originally supposed to be on duty in the guesthouse.`
           ]
         }
@@ -470,7 +488,6 @@ How unfortunate. Apparently, he was originally supposed to be on duty in the gue
           image: "assets/characters/ep1/kuma/full/kum copy.png",
           text: [
             `The elderly woman is a part-timer who, though she has quit her job several times along the way, has served the family for a great many years in total.
-
 She is crafty and more than competent when it comes to performing her duties, but because of her chattiness and love of rumors, she is not highly regarded as a servant.`
           ]
         },
@@ -479,8 +496,7 @@ She is crafty and more than competent when it comes to performing her duties, bu
           image: "assets/characters/ep1/kuma/full/kum dead.png",
           text: [
             `Found in the parlor. Her calf had a weapon resembling an icepick sticking out of it, and her face had been smashed.
-
-At the eight twilight, gouge the leg and kill.`
+At the eighth twilight, gouge the leg and kill.`
           ]
         }
       ]
@@ -496,9 +512,7 @@ At the eight twilight, gouge the leg and kill.`
           image: "assets/characters/ep1/nanjo/full/nan copy.png",
           text: [
             `Kinzo's attending physician and long time friend.
-
 He once ran a hospital on Niijima, but he turned it over to his son and now enjoys his old age in peace.
-
 Now that Kinzo's constant suspicion has reached extraordinary heights, Nanjo is one of the very few people he trusts. Thanks to Nanjo's big-hearted nature, he has been able to continue his friendship with Kinzo despite the latter's tendency to fly into a rage at the slightest provocation.`
           ]
         },
@@ -507,7 +521,6 @@ Now that Kinzo's constant suspicion has reached extraordinary heights, Nanjo is 
           image: "assets/characters/ep1/nanjo/full/nan dead.png",
           text: [
             `Found in the parlor. His thigh had a weapon resembling an icepick sticking out of it, and his face had been smashed.
-
 At the seventh twilight gouge the knee and kill.`
           ]
         }
@@ -542,7 +555,10 @@ At the seventh twilight gouge the knee and kill.`
     {
       title: "The Witch's Letter II",
       pages: [
-        "Praise my name."
+        "Please accept the following as proof that the contract between the Ushiromiya family head and the witch Beatrice has been terminated.",
+        "Kinzo-sama's soul and the Ushiromiya family headship, as well as all of the gold, have already been collected as interest.",
+        "The collection of the remaining interest shall now commence. However, should anyone fulfill the special clause, I shall return all interest collected and never again interfere with the Ushiromiya family.",
+        "I shall continue to hope for a miracle. Praise my name."
       ]
     },
     {
@@ -556,11 +572,12 @@ At the seventh twilight gouge the knee and kill.`
     {
       title: "The Witch's Game Record",
       pages: [
-        "First Twilight: Krauss, Rudolf, Kyrie, Rosa, Shannon, and Gohda were chosen by the key and offered up as sacrifices.",
-        "Second Twilight: Eva and Hideyoshi were pierced through the forehead by stakes.",
-        "Fourth to Eighth Twilights: Kinzo (head), Kanon (chest), Genji (stomach), Nanjo (knee), and Kumasawa (leg) were killed according to the epitaph.",
-        "Ninth Twilight: Beatrice revived. Natsuhi was granted the honor of a duel and died.",
-        "Tenth Twilight: George, Jessica, and Maria were invited to the Golden Land after acknowledging the witch. Battler's fate remained uncertain."
+        "Kinzo, Krauss, Rudolf, Kyrie, Rosa, Shannon, and Gohda have all become sacrifices for the first twilight.",
+        "Eva and Hideyoshi have become sacrifices for the second twilight.",
+        "Kanon has become a sacrifice for the fifth twilight.",
+        "Genji, Nanjo, and Kumasawa have become sacrifices for the sixth, seventh, and eighth twilights.",
+        "Natsuhi has become a sacrifice for the ninth twilight.",
+        "George, Jessica, Maria, and Battler are missing."
       ]
     },
     {
