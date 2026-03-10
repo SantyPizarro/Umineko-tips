@@ -1,5 +1,6 @@
 export const ep1 = {
   id: 1,
+  
   characters: [
     {
       id: "kinzo",
@@ -34,6 +35,7 @@ However, he does occasionally go out for a walk on a whim without telling anybod
           image: "assets/characters/ep1/kinzo/full/kin dead.png",
           text: [
             `Burned in the incinerator, with a weapon resembling an icepick sticking out of his forehead.
+
 The old sorcerer's wish vanished before it could be granted. He always knew that this was one possible result of his risky gamble.`
           ]
         }
@@ -196,8 +198,11 @@ I'll get to see her again. So I don't feel lonely.`
           image: "assets/characters/ep1/natsu/full/nat copy.png",
           text: [
             `Krauss's wife.
+
 She manages the household of the Ushiromiya family in place of her husband, who takes little interest in such matters. She was in charge of all preparations and arrangements for this family conference.
+
 She possesses a strong sense of responsibility, and a great deal of pride.
+
 However, neither her husband nor her siblings understand her very well, so her position is far from enviable.`
           ]
         },
@@ -206,6 +211,7 @@ However, neither her husband nor her siblings understand her very well, so her p
           image: "assets/characters/ep1/natsu/full/nat dead.png",
           text: [
             `Found shot to death in front of the witch's portrait.
+
 How impudent of her to challenge a witch with nothing but a mere gun.
 Of course she'd end up like this.
 Kihihihihihihihihihi.`
@@ -281,8 +287,11 @@ That's all there is to it.`
           image: "assets/characters/ep1/battler/full/but copy.png",
           text: [
             `Rudolf's son.
+
 Because his father immediately remarried after his mother Asumu's death, he rebelled and left the Ushiromiya family to live with his maternal grandparents.
+
 However, following their deaths, he has returned to the Ushiromiya family for the first time in six years.
+
 He is a bit of a skirt-chaser, but is a hot-blooded youth with a strong sense of justice.`
           ]
         },
@@ -291,7 +300,9 @@ He is a bit of a skirt-chaser, but is a hot-blooded youth with a strong sense of
           image: "assets/characters/ep1/battler/full/but dead.png",
           text: [
             `Missing.
+
 Even though he was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+
 He was then chewed to bits by demons and went to hell.`
           ]
         }
@@ -308,7 +319,9 @@ He was then chewed to bits by demons and went to hell.`
           image: "assets/characters/ep1/jessica/full/jes copy.png",
           text: [
             `Krauss and Natsuhi's daughter.
+
 In the absence of any irregularities, it is thought that she will eventually inherit the headship of the Ushiromiya family (or technically, her husband will). However, she seems to have no interest in all of this.
+
 She was born with weak bronchi and is sometimes assailed by sudden asthma attacks.`
           ]
         },
@@ -317,7 +330,9 @@ She was born with weak bronchi and is sometimes assailed by sudden asthma attack
           image: "assets/characters/ep1/jessica/full/jes dead.png",
           text: [
             `Missing.
+
 Even though was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+
 She was then chewed to bits by demons and went to hell.`
           ]
         }
@@ -334,8 +349,11 @@ She was then chewed to bits by demons and went to hell.`
           image: "assets/characters/ep1/george/full/geo copy.png",
           text: [
             `Eva and Hideyoshi's son.
+
 He is the eldest of the four grandchildren and is a hard-working, promising young man who is already helping with his father's company.
+
 He is well-liked by everyone and is seen as the ideal successor to the family.
+
 He is deeply in love with Shannon and intends to marry her.`
           ]
         },
@@ -345,6 +363,7 @@ He is deeply in love with Shannon and intends to marry her.`
           text: [
             `Missing.
 Even though he was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+
 He was then chewed to bits by demons and went to hell.`
           ]
         }
@@ -361,8 +380,11 @@ He was then chewed to bits by demons and went to hell.`
           image: "assets/characters/ep1/maria/full/mar.png",
           text: [
             `Rosa's daughter.
+
 She has a very strong interest in the occult and is a firm believer in the existence of the witch Beatrice.
+
 She often speaks in a way that is unusual for her age, which leads to her being scolded by her mother.
+
 "Uu-uu" is her characteristic way of speaking.`
           ]
         },
@@ -371,7 +393,9 @@ She often speaks in a way that is unusual for her age, which leads to her being 
           image: "assets/characters/ep1/maria/full/mar dead.png",
           text: [
             `Missing.
+
 Even though she was given a precious invitation to the Golden Land, a single fool refused to believe in the witch, and all of the magic disappeared.
+
 She was then chewed to bits by demons and went to hell.`
           ]
         }
@@ -388,7 +412,9 @@ She was then chewed to bits by demons and went to hell.`
           image: "assets/characters/ep1/genji/full/gen copy.png",
           text: [
             `The leader of the servants who work for the Ushiromiya family.
+
 He has served Kinzo longer than any other and is the person most trusted by that old man.
+
 Since he serves Kinzo directly, Krauss and Natsuhi think of him as being a spy for Kinzo.`
           ]
         },
@@ -397,6 +423,7 @@ Since he serves Kinzo directly, Krauss and Natsuhi think of him as being a spy f
           image: "assets/characters/ep1/genji/full/gen dead.png",
           text: [
             `Found in the parlor. He had a weapon resembling an icepick sticking out of his stomach, and his face had been smashed.
+
 At the sixth twilight, gouge the stomach and kill.`
           ]
         }
@@ -413,7 +440,9 @@ At the sixth twilight, gouge the stomach and kill.`
           image: "assets/characters/ep1/shannon/full/sha.png",
           text: [
             `A young, but experienced servant.
+
 She's normally calm and performs her job efficiently, but she messes up when she gets nervous.
+
 Furthermore, Shannon is nothing more than a pseudonym that she uses when on duty, not her real name.`
           ]
         },
@@ -421,7 +450,8 @@ Furthermore, Shannon is nothing more than a pseudonym that she uses when on duty
           phase: "dead",
           image: "assets/characters/ep1/shannon/full/sha dead.png",
           text: [
-            `Her corpse was found inside the rose garden storehouse. It seems the side of her head was smashed after her death.
+            `Her corpse was found inside the rose garden storehouse. 
+            
 Don't worry. Everyone will be revived in the Golden Land.`
           ]
         }
@@ -438,7 +468,9 @@ Don't worry. Everyone will be revived in the Golden Land.`
           image: "assets/characters/ep1/kanon/full/kan.png",
           text: [
             `A young servant.
+
 He performs his duties silently and diligently, but is not so highly regarded as a servant due to his unsociable nature.
+
 There are multiple other servants with the "on" (音) character in their pseudonyms. He and Shannon just happened to be the ones on duty that day.`
           ]
         },
@@ -447,6 +479,7 @@ There are multiple other servants with the "on" (音) character in their pseudon
           image: "assets/characters/ep1/kanon/full/kan dead.png",
           text: [
             `Found in the boiler room with a weapon resembling an icepick sticking out of his chest.
+
 How presumptuous of lowly furniture like that.`
           ]
         }
@@ -463,7 +496,9 @@ How presumptuous of lowly furniture like that.`
           image: "assets/characters/ep1/gohda/full/goh copy.png",
           text: [
             `A servant hired as a cook.
+
 He hasn't served this family long, but through his earlier jobs and previous experience, he has cultivated a talent for entertaining guests.
+
 Because of this, he is very highly regarded as a servant.`
           ]
         },
@@ -472,6 +507,7 @@ Because of this, he is very highly regarded as a servant.`
           image: "assets/characters/ep1/gohda/full/goh dead.png",
           text: [
             `His corpse was found inside the rose garden storehouse. His face seems to have been smashed after his death.
+
 How unfortunate. Apparently, he was originally supposed to be on duty in the guesthouse.`
           ]
         }
@@ -488,6 +524,7 @@ How unfortunate. Apparently, he was originally supposed to be on duty in the gue
           image: "assets/characters/ep1/kuma/full/kum copy.png",
           text: [
             `The elderly woman is a part-timer who, though she has quit her job several times along the way, has served the family for a great many years in total.
+
 She is crafty and more than competent when it comes to performing her duties, but because of her chattiness and love of rumors, she is not highly regarded as a servant.`
           ]
         },
@@ -496,6 +533,7 @@ She is crafty and more than competent when it comes to performing her duties, bu
           image: "assets/characters/ep1/kuma/full/kum dead.png",
           text: [
             `Found in the parlor. Her calf had a weapon resembling an icepick sticking out of it, and her face had been smashed.
+
 At the eighth twilight, gouge the leg and kill.`
           ]
         }
@@ -512,7 +550,9 @@ At the eighth twilight, gouge the leg and kill.`
           image: "assets/characters/ep1/nanjo/full/nan copy.png",
           text: [
             `Kinzo's attending physician and long time friend.
+
 He once ran a hospital on Niijima, but he turned it over to his son and now enjoys his old age in peace.
+
 Now that Kinzo's constant suspicion has reached extraordinary heights, Nanjo is one of the very few people he trusts. Thanks to Nanjo's big-hearted nature, he has been able to continue his friendship with Kinzo despite the latter's tendency to fly into a rage at the slightest provocation.`
           ]
         },
@@ -521,6 +561,7 @@ Now that Kinzo's constant suspicion has reached extraordinary heights, Nanjo is 
           image: "assets/characters/ep1/nanjo/full/nan dead.png",
           text: [
             `Found in the parlor. His thigh had a weapon resembling an icepick sticking out of it, and his face had been smashed.
+
 At the seventh twilight gouge the knee and kill.`
           ]
         }
@@ -531,69 +572,183 @@ At the seventh twilight gouge the knee and kill.`
   tips: [
     {
       title: "The Portrait Epitaph",
+      style: "tip-epitaph",
       pages: [
-        "Behold the sweetfish river running through my beloved hometown. You who seek the Golden Land, follow its path downstream in search of the key.",
-        "As you travel down it, you will see a village. In that village, look for the shore the two will tell you of. There sleeps the key to the Golden Land.",
-        "The one who obtains the key must then travel to the Golden Land in accordance with these rules.",
-        "On the first twilight, offer the six chosen by the key as sacrifices. On the second twilight, those who remain shall tear apart the two who are close. On the third twilight, those who remain shall praise my noble name.",
-        "On the fourth twilight, gouge the head and kill. On the fifth twilight, gouge the chest and kill. On the sixth twilight, gouge the stomach and kill. On the seventh twilight, gouge the knee and kill. On the eighth twilight, gouge the leg and kill.",
-        "On the ninth twilight, the witch shall revive, and none shall be left alive. On the tenth twilight, at journey's end, you shall attain to the power of the Golden Land's treasures, once and for the last time.",
-        "The witch shall praise the wise and bestow four treasures: all the gold from the Golden Land, the resurrection of all the dead souls, the resurrection of the love that was lost, and to put the witch to sleep for all time. Sleep peacefully, my beloved witch, Beatrice."
+        `Behold the sweetfish river running through my beloved hometown. 
+        You who seek the Golden Land, follow its path downstream in search of the key.
+        
+        As you travel down it, you will see a village. In that village,
+         look for the shore the two will tell you of. 
+        There sleeps the key to the Golden Land.`,
+        `The one who obtains the key must then travel to the Golden Land in accordance with these rules.
+        
+        On the first twilight, offer the six chosen by the key as sacrifices. 
+        On the second twilight, those who remain shall tear apart the two who are close. 
+        On the third twilight, those who remain shall praise my noble name.
+        On the fourth twilight, gouge the head and kill.
+        On the fifth twilight, gouge the chest and kill. 
+        On the sixth twilight, gouge the stomach and kill. 
+        On the seventh twilight, gouge the knee and kill. 
+        On the eighth twilight, gouge the leg and kill.
+        On the ninth twilight, the witch shall revive, and none shall be left alive.
+        On the tenth twilight, at journey's end, you shall attain to the power of the 
+        Golden Land's treasures, once and for the last time.`,
+
+        `The witch shall praise the wise and bestow four treasures:
+        One Shall be all the gold from the Golden Land,
+        One Shall be the resurrection of all the dead souls,
+        One Shall be the resurrection of the love that was lost,
+        One Shall be to put the witch to sleep for all time.
+
+        Sleep peacefully, my beloved witch, Beatrice.`
       ]
     },
     {
       title: "The Witch's Letter",
+      style: "tip-witch-letter",
       pages: [
-        "Welcome to Rokkenjima, members of the Ushiromiya family. I am Beatrice, the alchemist for this family employed by Kinzo-sama himself.",
-        "I lent Kinzo-sama a vast quantity of gold under certain terms. Upon termination of the contract, all gold is to be returned to me, along with everything of the Ushiromiya family as interest.",
-        "However, Kinzo-sama appended a special clause: if someone discovers the hidden gold, I must abandon my rights to it and the accumulated interest for all eternity.",
-        "The collection of the interest will proceed shortly. If anyone fulfills the special clause, I shall return everything, including what has already been collected.",
-        "As the first step, I have taken possession of the Ushiromiya family Head's Ring. Kinzo-sama has publicly displayed the location of the hidden gold within the epitaph under my portrait.",
-        "The rules apply equally to all who can read the epitaph. Tonight, enjoy your battle of wits with Kinzo-sama to the fullest. ――Beatrice the Golden"
+      `Welcome to Rokkenjima, members of the Ushiromiya family.
+      I am Beatrice, the alchemist for this family employed by Kinzo-sama himself.
+      I have served him for many years in accordance with our contract, but on this say, Kinzo-sama has announced the suspension of that contract. 
+      Therefore, I ask that you acknowledge my resignation from he position of family alchemist from this day forth.`,
+      `And now, there is one part of the contract that must be explained to all present.
+        I, Beatrice, lent Kinzo-sama a vast quantity of gold under certain terms. 
+        One of these terms specifies that all the gold is to be returned to me upon the termination of the contract. Furthermore, I am to receive everything of the Ushiromiya family as interest.`,
+        `After hearing this, you may feel as though Kinzo-sama has been savagely ruthless.
+        However, Kinzo-sama did append a special clause to the contract so that you would have a chance to preserve your wealth and honor. If and only if that special clause is fulfilled, I will lose my rights to the gold and the interest for all eternity.`,
+        `Special clause:
+        Beatrice retains the right to collect the gold and accumulated interest upon the termination of the contract.
+        However, if someone is able to discover the hidden gold of this contract, Beatrice must abandon these rights for all time.`,
+        `The collection of the interest will proceed shortly, but if any one of you fulfills the terms of this special clause, I shall return everything, including the portion that has already been collected.
+        Furthermore, as the first step in this collection of Kinzo-sama's debt, I have taken possession of the Ushiromiya family 'Head's Ring', which signifies the passage of the Ushiromiya family headship from one individual to another. 
+        I ask that you confirm this for yourselves by examining the imprint on the wax seal.`,
+        `Kinzo-sama has already publicly displayed the location of the hidden gold within the epitaph under my portrait.
+        The rules apply equally to all who can read the epitaph.
+        If you discover the gold, I shall return everything to you.
+        Tonight, I ask that you enjoy your battle of wits with Kinzo-sama to the fullest. I sincerely pray that this night will be both intellectual and elegant.`,
+        `――Beatrice the Golden`
       ]
     },
     {
       title: "The Witch's Letter II",
+      style: "tip-witch-letter-2",
       pages: [
-        "Please accept the following as proof that the contract between the Ushiromiya family head and the witch Beatrice has been terminated.",
-        "Kinzo-sama's soul and the Ushiromiya family headship, as well as all of the gold, have already been collected as interest.",
-        "The collection of the remaining interest shall now commence. However, should anyone fulfill the special clause, I shall return all interest collected and never again interfere with the Ushiromiya family.",
-        "I shall continue to hope for a miracle. Praise my name."
+        `Praise my Name`,
       ]
     },
     {
       title: "The Witch's Letter III",
+      style: "tip-witch-letter-3",
       pages: [
-        "Are you enjoying the riddle of Kinzo-sama's epitaph? You have very little time remaining.",
-        "Abandon any naive hopes of escaping after the storm passes. This game can only end with my victory or yours. When time runs out, I will win by default. There will be no ties.",
-        "Make sure that you do not misunderstand your current situation."
+        `Are you enjoying the riddle of Kinzo-sama's epitaph? You have very little time remaining.`,
+        `Abandon any naive hopes of escaping after the storm passes. 
+        This game can only end with my victory or yours. When time runs out, I will win by default. There will be no ties.`,
+        `Make sure that you do not misunderstand your current situation.`
       ]
     },
     {
       title: "The Witch's Game Record",
+      style: "tip-game-record",
       pages: [
-        "Kinzo, Krauss, Rudolf, Kyrie, Rosa, Shannon, and Gohda have all become sacrifices for the first twilight.",
-        "Eva and Hideyoshi have become sacrifices for the second twilight.",
-        "Kanon has become a sacrifice for the fifth twilight.",
-        "Genji, Nanjo, and Kumasawa have become sacrifices for the sixth, seventh, and eighth twilights.",
-        "Natsuhi has become a sacrifice for the ninth twilight.",
-        "George, Jessica, Maria, and Battler are missing."
+        `Ushiromiya Krauss
+
+Died on the first twilight.
+Chosen by the key of the Golden Land and offered up as a sacrifice.
+Ushiromiya Rudolf
+
+Died on the first twilight.
+Chosen by the key of the Golden Land and offered up as a sacrifice.
+Ushiromiya Kyrie
+
+Died on the first twilight.
+Chosen by the key of the Golden Land and offered up as a sacrifice.
+Ushiromiya Rosa
+
+Died on the first twilight.
+Chosen by the key of the Golden Land and offered up as a sacrifice.
+Servant Shannon
+
+Died on the first twilight.
+Chosen by the key of the Golden Land and offered up as a sacrifice.
+Servant Gohda
+
+Died on the first twilight.
+Chosen by the key of the Golden Land and offered up as a sacrifice.`,
+        `Ushiromiya Eva
+
+Died on the second twilight.
+Pierced through the forehead by the "Stake of Asmodeus".
+Ushiromiya Hideyoshi
+
+Died on the second twilight.
+Pierced through the forehead by the "Stake of Beelzebub".
+Ushiromiya Kinzo
+
+Died on the fourth twilight.
+Forehead gouged by the "Stake of Mammon".
+Servant Kanon
+
+Died on the fifth twilight.
+Chest gouged by the "Stake of Satan".
+Servant Genji
+
+Died on the sixth twilight.
+Stomach gouged by the "Stake of Lucifer".
+Attending Physician Nanjo
+
+Died on the seventh twilight.
+Knee gouged by the "Stake of Belphegor".`,
+        `Servant Kumasawa
+
+Died on the eighth twilight.
+Leg gouged by the "Stake of Leviathan".
+The Witch Beatrice
+
+Revived on the ninth twilight.
+Finally opens the door to the Golden Land.
+Ushiromiya Natsuhi
+
+Died on the ninth twilight.
+The Witch praised her nobility and granted her the honor of a duel.
+Ushiromiya George
+
+Missing on the tenth twilight.
+After he acknowledged the existence of the witch and prostrated himself, the witch invited him to the Golden Land.
+Ushiromiya Jessica
+
+Missing on the tenth twilight.
+After she acknowledged the existence of the witch and prostrated herself, the witch invited her to the Golden Land.
+Ushiromiya Maria
+
+Missing on the tenth twilight.
+After she acknowledged the existence of the witch and prostrated herself, the witch invited her to the Golden Land.`,
+        `Ushiromiya Battler
+
+Missing on the tenth twilight.
+Will the witch invite this man, who denied her existence, to the Golden Land?`,
+
+
       ]
     },
     {
       title: "Winchester M1894 Sawed Off",
+      style: "tip-winchester",
       pages: [
-        "A sawed-off custom rifle from the golden age of Winchesters. Its portability compensates for its shorter lethal range.",
-        "It can be fired rapidly by skillfully working the lever action. Its characteristic lever handle allows for a stylish one-handed reload.",
-        "Modified to match Kinzo's preferences, it uses .45 Long Colt bullets and holds 4+1 rounds."
+        `A sawed-off custom version of a rifle manufactured during the golden age of Winchesters.
+This special model more than makes up for its shorter lethal range by its portability and old-time cool factor. It can even be fired as quickly as a pistol if one works the lever action skillfully enough. Furthermore, any true lover of old western dramas can't help but be attracted to the one-handed reload made possible by its characteristic level handle.
+
+To match with Kinzo's personal preferences, it was made to handle .45 Long Colt bullets.
+It holds 4+1 rounds.`
       ]
     },
     {
       title: "The Seven Stakes of Purgatory",
+      style: "tip-stakes",
       pages: [
-        "Stakes containing the seven magics representing the seven deadly sins.",
-        "They strike their targets with perfect accuracy, moving at ultra-high speeds and changing trajectories freely.",
-        "They cannot target pure individuals who have not committed one of the seven deadly sins or those with strong resistance to magical power."
+        `Stakes containing the seven magics that represent the seven deadly sins.
+In accordance with their user's orders, they bury themselves into the desired location of the desired target with perfect accuracy. Because they flit about at ultra-high speeds and change their trajectories at will by bouncing off walls and the like, they have no blinds spots, and will hit their targets without fail no matter what form of cover they might be hiding before. Furthermore, it is possible to change the force they hit with depending on the part of the body at which they strike.
+
+They are extremely powerful weapons, but they cannot target pure people who have not committed one of the seven deadly sins or people who have a strong resistance to magical power.`
       ]
     }
   ]

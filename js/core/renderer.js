@@ -62,6 +62,8 @@ function renderContent() {
         return;
     }
 
+    
+
     const pages = isCharView ? data.states[data.currentPhase].text : data.pages;
     
     dom.characterName.textContent = data.name || data.title;

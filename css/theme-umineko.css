@@ -181,6 +181,30 @@ body::after {
   flex-shrink: 0;
 }
 
+.info-panel.tip-witch-letter{
+    font-family: "Times New Roman", serif;
+    background-color: #0b0b0b;
+    font-style: italic;
+    line-height: 1.6;
+
+}
+.info-panel.tip-witch-letter-2{
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    line-height: 1.6;
+
+}.info-panel.tip-witch-letter-3 {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+
+.info-panel.tip-epitaph {
+    color: #c9a74d;
+    letter-spacing: 1px;
+}
+
 .menu-btn{
     width: 100%;
   box-sizing: border-box;
