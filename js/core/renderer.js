@@ -13,9 +13,28 @@ const dom = {
 };
 
 export function renderAll() {
-    const isTips = appState.view === "tips";
-    dom.mainLayout.classList.toggle("tips-active", isTips);
-    dom.btnTips.textContent = isTips ? "Characters" : "Tips";
+    const ep = Engine.getCurrentEpisode();
+    const main = document.getElementById("main-layout");
+    const btnFantasy = document.getElementById("btn-fantasy-next");
+    const btnFuture = document.getElementById("btn-future-next");
+
+    main.classList.remove("fantasy-active", "future-active");
+
+    if (appState.selectionMode === "fantasy") {
+        main.classList.add("fantasy-active");
+        document.body.style.backgroundImage = `url('${ep.backgroundFantasy}')`;
+    } else if (appState.selectionMode === "future") {
+        main.classList.add("future-active");
+        document.body.style.backgroundImage = `url('${ep.backgroundFuture}')`;
+    } else {
+        document.body.style.backgroundImage = `url('${ep.background}')`;
+    }
+
+    if ([4, 6].includes(appState.currentEpisode)) {
+        btnFuture.classList.remove("hidden");
+    } else {
+        btnFuture.classList.add("hidden");
+    }
 
     renderLeftPanel();
     renderContent();

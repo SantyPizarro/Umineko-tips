@@ -1,13 +1,9 @@
 export const appState = {
-  currentEpisode: 1,
-
+  currentEpisode: 0,
   view: "character",
-
+  selectionMode: "normal", 
   selectedCharacterId: null,
-  characterTextOffset: 0,
-
-  selectedTipIndex: null,
-  tipTextOffset: 0
+  selectedTipIndex: null
 };
 
 export function resetCharacterState() {

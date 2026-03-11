@@ -18,6 +18,14 @@ export function bindEvents() {
             return renderAll();
         }
 
+        
+        const epBtn = target.closest(".episode-btn");
+            if (epBtn) {
+                appState.currentEpisode = parseInt(epBtn.dataset.ep);
+                appState.isFantasyMode = false;
+                return renderAll();
+            }
+
         if (target.id === "btn-execute") {
             Engine.updateCharacterPhase(1);
             return renderAll();
@@ -37,6 +45,11 @@ export function bindEvents() {
         }
         if (target.id === "text-back-btn") {
             Engine.changePage(-1);
+            return renderAll();
+        }
+
+        if (target.id === "btn-fantasy-next") {
+            Engine.toggleFantasyMode();
             return renderAll();
         }
     });

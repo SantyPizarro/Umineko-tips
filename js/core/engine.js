@@ -1,19 +1,38 @@
 import { appState } from "./state.js";
 import { ep1 } from "../data/ep1.js";
+import { ep2 } from "../data/ep2.js";
+import { ep3 } from "../data/ep3.js";
+import { ep4 } from "../data/ep4.js";
+import { ep5 } from "../data/ep5.js";
+import { ep6 } from "../data/ep6.js";
+import { ep7 } from "../data/ep7.js";
+import { ep8 } from "../data/ep8.js";
 
-const EPISODES = { 1: ep1 };
+const EPISODES = { 1: ep1, 2: ep2, 3: ep3, 4: ep4, 5: ep5, 6: ep6, 7: ep7, 8: ep8 };
 
 export const getCurrentEpisode = () => EPISODES[appState.currentEpisode] || null;
 
-export const getCurrentCharacter = () => {
+export const getAvailableCharacters = () => {
     const ep = getCurrentEpisode();
-    return ep?.characters.find(c => c.id === appState.selectedCharacterId) || null;
+    if (!ep) return [];
+    
+    switch(appState.selectionMode) {
+        case "fantasy": return ep.charactersFantasy || [];
+        case "future": return ep.charactersFuture || [];
+        default: return ep.characters || [];
+    }
 };
 
-export const getCurrentTip = () => {
+export const getAvailableTips = () => {
     const ep = getCurrentEpisode();
-    return ep?.tips?.[appState.selectedTipIndex] || null;
+    return ep ? ep.tips : [];
 };
+
+export function toggleFantasyMode() {
+    appState.isFantasyMode = !appState.isFantasyMode;
+    appState.selectedCharacterId = null;
+    appState.selectedTipIndex = null;
+}
 
 export function updateCharacterPhase(direction) {
     const char = getCurrentCharacter();

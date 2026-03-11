@@ -387,3 +387,10 @@
   pointer-events: none;
   z-index: 1;
 }
+
+#characters-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}

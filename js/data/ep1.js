@@ -1,5 +1,6 @@
 export const ep1 = {
   id: 1,
+  background: "assets/m1f_p1b.png",
   
   characters: [
     {

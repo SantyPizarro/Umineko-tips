@@ -239,3 +239,28 @@ body::after {
 #music-toggle:hover {
   background: #371b1b;
 }
+
+.fantasy-next-btn {
+  background: linear-gradient(to bottom, #4a0000, #2a0000);
+  color: #ffd700;
+  border: 1px solid #ffd700;
+  padding: 8px 25px;
+  font-family: 'face0', sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+.fantasy-next-btn:hover {
+  background: #ff0000;
+  color: white;
+  box-shadow: 0 0 15px #ff0000;
+  transform: scale(1.05);
+}
+
+#main-layout.fantasy-active {
+  filter: sepia(0.3) saturate(1.2) contrast(1.1);
+  transition: filter 1s ease-in-out;
+}
