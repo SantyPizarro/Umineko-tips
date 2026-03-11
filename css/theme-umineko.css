@@ -181,22 +181,36 @@ body::after {
   flex-shrink: 0;
 }
 
-.info-panel.tip-witch-letter{
-    font-family: "Times New Roman", serif;
-    background-color: #0b0b0b;
-    font-style: italic;
-    line-height: 1.6;
+#main-layout[class*="tip-"]:not(.tip-witch-letter-2) #info-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left; 
+    padding-left: 30px;
+}
+
+#main-layout.tip-witch-letter-2 #info-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    min-height: 200px;
+}
+
+#main-layout.tip-witch-letter-2 #character-name,
+#main-layout.tip-game-record #character-name,
+#main-layout.tip-epitaph #character-name,
+#main-layout.tip-witch-letter-3 #character-name,
+#main-layout.tip-witch-letter #character-name{
+  display: none;
 
 }
-.info-panel.tip-witch-letter-2{
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    line-height: 1.6;
 
-}.info-panel.tip-witch-letter-3 {
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    line-height: 1.6;
+#main-layout.tip-game-record #character-text {
+    font-size: 0.80rem; 
+    line-height: 1.4;
+    text-align: left;   
 }
 
 

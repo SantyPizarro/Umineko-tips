@@ -640,10 +640,10 @@ At the seventh twilight gouge the knee and kill.`
       title: "The Witch's Letter III",
       style: "tip-witch-letter-3",
       pages: [
-        `Are you enjoying the riddle of Kinzo-sama's epitaph? You have very little time remaining.`,
-        `Abandon any naive hopes of escaping after the storm passes. 
-        This game can only end with my victory or yours. When time runs out, I will win by default. There will be no ties.`,
-        `Make sure that you do not misunderstand your current situation.`
+        `Are you enjoying the riddle of Kinzo-sama's epitaph? You have very little time remaining.
+        Abandon any naive hopes of escaping after the storm passes. 
+        This game can only end with my victory or yours. When time runs out, I will win by default. There will be no ties.
+        Make sure that you do not misunderstand your current situation.`
       ]
     },
     {
@@ -651,75 +651,74 @@ At the seventh twilight gouge the knee and kill.`
       style: "tip-game-record",
       pages: [
         `Ushiromiya Krauss
+  Died on the first twilight.
+  Chosen by the key of the Golden Land and offered up as a sacrifice.
 
-Died on the first twilight.
-Chosen by the key of the Golden Land and offered up as a sacrifice.
 Ushiromiya Rudolf
-
 Died on the first twilight.
 Chosen by the key of the Golden Land and offered up as a sacrifice.
+
 Ushiromiya Kyrie
-
 Died on the first twilight.
 Chosen by the key of the Golden Land and offered up as a sacrifice.
+
 Ushiromiya Rosa
-
 Died on the first twilight.
 Chosen by the key of the Golden Land and offered up as a sacrifice.
+
 Servant Shannon
-
 Died on the first twilight.
 Chosen by the key of the Golden Land and offered up as a sacrifice.
-Servant Gohda
 
+Servant Gohda
 Died on the first twilight.
 Chosen by the key of the Golden Land and offered up as a sacrifice.`,
-        `Ushiromiya Eva
 
+`Ushiromiya Eva
 Died on the second twilight.
 Pierced through the forehead by the "Stake of Asmodeus".
-Ushiromiya Hideyoshi
 
+Ushiromiya Hideyoshi
 Died on the second twilight.
 Pierced through the forehead by the "Stake of Beelzebub".
-Ushiromiya Kinzo
 
+Ushiromiya Kinzo
 Died on the fourth twilight.
 Forehead gouged by the "Stake of Mammon".
-Servant Kanon
 
+Servant Kanon
 Died on the fifth twilight.
 Chest gouged by the "Stake of Satan".
-Servant Genji
 
+Servant Genji
 Died on the sixth twilight.
 Stomach gouged by the "Stake of Lucifer".
-Attending Physician Nanjo
 
+Attending Physician Nanjo
 Died on the seventh twilight.
 Knee gouged by the "Stake of Belphegor".`,
-        `Servant Kumasawa
 
+`Servant Kumasawa
 Died on the eighth twilight.
 Leg gouged by the "Stake of Leviathan".
-The Witch Beatrice
 
+The Witch Beatrice
 Revived on the ninth twilight.
 Finally opens the door to the Golden Land.
-Ushiromiya Natsuhi
 
+Ushiromiya Natsuhi
 Died on the ninth twilight.
 The Witch praised her nobility and granted her the honor of a duel.
-Ushiromiya George
 
+Ushiromiya George
 Missing on the tenth twilight.
 After he acknowledged the existence of the witch and prostrated himself, the witch invited him to the Golden Land.
-Ushiromiya Jessica
 
+Ushiromiya Jessica
 Missing on the tenth twilight.
 After she acknowledged the existence of the witch and prostrated herself, the witch invited her to the Golden Land.
-Ushiromiya Maria
 
+Ushiromiya Maria
 Missing on the tenth twilight.
 After she acknowledged the existence of the witch and prostrated herself, the witch invited her to the Golden Land.`,
         `Ushiromiya Battler
