@@ -69,14 +69,23 @@ function renderLeftPanel() {
 }
 
 function renderContent() {
+
     const isCharView = appState.view === "character";
-    const data = isCharView ? Engine.getCurrentCharacter() : Engine.getCurrentTip();
+
+    const baseCharacter = Engine.getCurrentCharacter();
+    const data = isCharView
+        ? (baseCharacter?.subCharacters
+            ? baseCharacter.subCharacters[baseCharacter.currentSubIndex]
+            : baseCharacter)
+        : Engine.getCurrentTip();
+
     const offset = isCharView ? appState.characterTextOffset : appState.tipTextOffset;
 
     dom.mainLayout.className = dom.mainLayout.className
         .split(' ')
         .filter(c => !c.startsWith('tip-'))
         .join(' ');
+
     dom.mainLayout.classList.toggle("tips-active", !isCharView);
 
     if (!data) {
@@ -92,6 +101,7 @@ function renderContent() {
     }
 
     const pages = isCharView ? data.states[data.currentPhase].text : data.pages;
+
     dom.characterName.textContent = data.name || data.title;
     dom.characterText.innerText = pages[offset] || "";
 
