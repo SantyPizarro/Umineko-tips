@@ -55,8 +55,23 @@ export function toggleTipsView() {
 }
 
 export function selectCharacter(id) {
-    appState.selectedCharacterId = id;
+    const ep = getCurrentEpisode();
+    const characters = getAvailableCharacters();
+    const char = characters.find(c => c.id === id);
+
+    if (appState.selectedCharacterId === id && char && char.subCharacters) {
+        char.currentSubIndex = (char.currentSubIndex + 1) % char.subCharacters.length;
+    } else {
+        appState.selectedCharacterId = id;
+        if (char && char.subCharacters) char.currentSubIndex = 0;
+    }
+    
     appState.characterTextOffset = 0;
+}
+
+export function getCurrentCharacter() {
+    const chars = getAvailableCharacters();
+    return chars.find(c => c.id === appState.selectedCharacterId);
 }
 
 export function selectTip(index) {
