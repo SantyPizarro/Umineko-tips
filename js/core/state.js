@@ -1,17 +1,22 @@
 export const appState = {
-  currentEpisode: 0,
+  currentEpisode: 1,
   view: "character",
-  selectionMode: "normal", 
+  selectionMode: "normal",
   selectedCharacterId: null,
-  selectedTipIndex: null
+  selectedTipIndex: null,
+  characterTextOffset: 0,
+  tipTextOffset: 0
 };
 
 export function resetCharacterState() {
-  appState.currentCharacterId = null;
-  appState.currentTextPage = 0;
+  appState.selectedCharacterId = null;
+  appState.characterTextOffset = 0;
 }
 
 export function resetEpisodeState() {
   resetCharacterState();
-  appState.screen = "character";
+  appState.selectedTipIndex = null;
+  appState.tipTextOffset = 0;
+  appState.view = "character";
+  appState.selectionMode = "normal";
 }

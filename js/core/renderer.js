@@ -1,7 +1,8 @@
 import { appState } from "./state.js";
-import * as Engine from "./engine.js";
+import * as Engine from "./engine.js?v=ep1-complete-pass11";
 
 const dom = {
+    app: document.getElementById("app"),
     selectorContainer: document.getElementById("selector-container"),
     characterName: document.getElementById("character-name"),
     characterText: document.getElementById("character-text"),
@@ -9,60 +10,119 @@ const dom = {
     textBackBtn: document.getElementById("text-back-btn"),
     characterImage: document.getElementById("character-image"),
     mainLayout: document.getElementById("main-layout"),
+    centerPanel: document.getElementById("center-panel"),
+    infoPanel: document.getElementById("info-panel"),
+    textContainer: document.getElementById("text-container"),
+    characterVisual: document.getElementById("character-visual"),
+    sideMenu: document.getElementById("side-menu"),
+    leftPanel: document.getElementById("left-panel"),
     btnTips: document.getElementById("btn-tips")
 };
 
 export function renderAll() {
-    const ep = Engine.getCurrentEpisode();
     const main = document.getElementById("main-layout");
-    const btnFantasy = document.getElementById("btn-fantasy-next");
-    const btnFuture = document.getElementById("btn-future-next");
+    const modeData = Engine.getCurrentModeData();
+    const availableModes = Engine.getAvailableModes();
+    const isPcCharacterView = appState.currentEpisode === 1 && appState.view === "character";
+    const isEp1TipsView = appState.currentEpisode === 1 && appState.view === "tips";
 
     main.classList.remove("fantasy-active", "future-active");
 
     if (appState.selectionMode === "fantasy") {
         main.classList.add("fantasy-active");
-        document.body.style.backgroundImage = `url('${ep.backgroundFantasy}')`;
     } else if (appState.selectionMode === "future") {
         main.classList.add("future-active");
-        document.body.style.backgroundImage = `url('${ep.backgroundFuture}')`;
-    } else {
-        document.body.style.backgroundImage = `url('${ep.background}')`;
     }
 
-    if ([4, 6].includes(appState.currentEpisode)) {
-        btnFuture.classList.remove("hidden");
-    } else {
-        btnFuture.classList.add("hidden");
-    }
+    document.documentElement.style.setProperty("--scene-background", `url('${modeData.background}')`);
+    dom.app.classList.toggle("pc-ui-active", isPcCharacterView || isEp1TipsView);
+    main.classList.toggle("pc-characters-active", isPcCharacterView);
+    applyPcCharacterLayout(isPcCharacterView);
+
+    document.querySelectorAll(".episode-btn").forEach(btn => {
+        btn.classList.toggle("active", Number(btn.dataset.ep) === appState.currentEpisode);
+    });
+
+    document.querySelectorAll(".mode-btn").forEach(btn => {
+        const isAvailable = availableModes.includes(btn.dataset.mode);
+        btn.classList.toggle("hidden", !isAvailable);
+        btn.classList.toggle("active", btn.dataset.mode === appState.selectionMode);
+    });
+
+    dom.btnTips.classList.toggle("active", appState.view === "tips");
 
     renderLeftPanel();
     renderContent();
 }
 
+function applyPcCharacterLayout(active) {
+    const pcStyles = [
+        [dom.leftPanel, active ? { position: "absolute", inset: "0", padding: "0", overflow: "hidden", background: "transparent", pointerEvents: "none", zIndex: "auto" } : null],
+        [dom.centerPanel, active ? { position: "absolute", inset: "0", display: "block", zIndex: "3", pointerEvents: "none" } : null],
+        [dom.infoPanel, active ? { position: "absolute", inset: "0", width: "100%", height: "100%", padding: "0", background: "transparent" } : null],
+        [dom.textContainer, active ? { position: "absolute", inset: "0", width: "100%", height: "100%" } : null],
+        [dom.characterVisual, active ? { position: "absolute", inset: "0", display: "block", zIndex: "1", overflow: "hidden", pointerEvents: "none" } : null],
+        [dom.sideMenu, active ? { position: "absolute", left: "1.875%", top: "53.75%", width: "26.875%", height: "32.7083%", pointerEvents: "auto" } : null],
+        [dom.characterText, active ? { position: "absolute", left: "29.375%", top: "6.25%", width: "36.875%", height: "80.4167%", margin: "0", overflow: "hidden" } : null],
+        [dom.characterImage, active ? { position: "absolute", top: "0", bottom: "auto", width: "auto", height: "100%", maxWidth: "none", maxHeight: "none", objectFit: "contain" } : null]
+    ];
+
+    for (const [element, styles] of pcStyles) {
+        if (!element) continue;
+        if (!styles) {
+            element.removeAttribute("style");
+            continue;
+        }
+        Object.assign(element.style, styles);
+    }
+}
+
 function renderLeftPanel() {
-    const episode = Engine.getCurrentEpisode();
-    if (!episode) return;
+    const characters = Engine.getAvailableCharacters();
+    const tips = Engine.getAvailableTips();
 
     dom.selectorContainer.innerHTML = "";
     dom.selectorContainer.className = appState.view === "tips" ? "tips-mode" : "";
 
     if (appState.view === "character") {
-        episode.characters.forEach(char => {
-            const state = char.states[char.currentPhase];
+        characters.forEach(char => {
+            const state = Engine.getCurrentCharacterState(char);
             const slot = document.createElement("div");
-            slot.className = `character-slot char-${char.id.toLowerCase()} state-${state.phase}`;
+            slot.className = `character-slot char-${char.id.toLowerCase()} state-${state?.phase || "active"}`;
             slot.dataset.id = char.id;
-            slot.style.backgroundImage = `url('${char.portrait}')`;
+            if (char.pc) {
+                slot.classList.add("pc-character-slot");
+                slot.dataset.pcCode = char.pc.code;
+                slot.style.setProperty("--pc-grid-left", `${(char.pc.gridX / 640) * 100}%`);
+                slot.style.setProperty("--pc-grid-top", `${(char.pc.gridY / 480) * 100}%`);
+                slot.style.backgroundImage = `url('${state?.pc?.icon || char.pc.iconAlive}')`;
+            } else {
+                slot.style.backgroundImage = `url('${char.portrait}')`;
+            }
             if (char.id === appState.selectedCharacterId) slot.classList.add("active");
             dom.selectorContainer.appendChild(slot);
         });
     } else {
-        episode.tips.forEach((tip, i) => {
+        tips.forEach((tip, i) => {
             const btn = document.createElement("div");
             btn.className = `tip-container ${i === appState.selectedTipIndex ? 'active' : ''}`;
             btn.dataset.tipIndex = i;
-            btn.textContent = tip.title;
+            if (tip.buttonImage) {
+                const image = document.createElement("img");
+                image.src = tip.buttonImage;
+                image.alt = tip.buttonTitle || tip.title;
+                image.className = "tip-button-image";
+                image.addEventListener("error", () => {
+                    btn.textContent = tip.buttonTitle || tip.title;
+                    btn.classList.add("tip-image-missing");
+                }, { once: true });
+                btn.appendChild(image);
+            } else {
+                const label = document.createElement("span");
+                label.className = "tip-button-label";
+                label.textContent = tip.buttonTitle || tip.title;
+                btn.appendChild(label);
+            }
             dom.selectorContainer.appendChild(btn);
         });
     }
@@ -72,11 +132,8 @@ function renderContent() {
 
     const isCharView = appState.view === "character";
 
-    const baseCharacter = Engine.getCurrentCharacter();
     const data = isCharView
-        ? (baseCharacter?.subCharacters
-            ? baseCharacter.subCharacters[baseCharacter.currentSubIndex]
-            : baseCharacter)
+        ? Engine.getCurrentCharacterViewModel()
         : Engine.getCurrentTip();
 
     const offset = isCharView ? appState.characterTextOffset : appState.tipTextOffset;
@@ -90,8 +147,12 @@ function renderContent() {
 
     if (!data) {
         dom.characterName.textContent = "";
-        dom.characterText.textContent = isCharView ? "Select a character." : "Select a tip.";
+        dom.characterText.classList.remove("image-page-active");
+        dom.characterText.classList.remove("english-tip-page");
+        dom.characterText.classList.remove("pc-character-text-image");
+        dom.characterText.textContent = (isCharView && appState.currentEpisode === 1) ? "" : (isCharView ? "Select a character." : "Select a tip.");
         dom.characterImage.style.display = "none";
+        document.documentElement.style.setProperty("--tip-background", "none");
         togglePagination(false, false);
         return;
     }
@@ -99,20 +160,52 @@ function renderContent() {
     if (!isCharView && data.style) {
         dom.mainLayout.classList.add(data.style);
     }
+    if (!isCharView && data.background) {
+        document.documentElement.style.setProperty("--tip-background", `url('${data.background}')`);
+    } else {
+        document.documentElement.style.setProperty("--tip-background", "none");
+    }
 
-    const pages = isCharView ? data.states[data.currentPhase].text : data.pages;
+    const pages = isCharView
+        ? data.pages || []
+        : Engine.getTipPages(data);
+    const pcCharacterTextImage = isCharView
+        ? (data.referenceTextImage || data.pc?.referenceTextImage)
+        : null;
+    const tipPageImage = !isCharView && data.pageImages ? pages[offset] : null;
 
     dom.characterName.textContent = data.name || data.title;
-    dom.characterText.innerText = pages[offset] || "";
+    dom.characterText.classList.toggle("image-page-active", Boolean(tipPageImage));
+    dom.characterText.classList.toggle("english-tip-page", !isCharView && !tipPageImage);
+    dom.characterText.classList.toggle("pc-character-text-image", Boolean(pcCharacterTextImage));
+    dom.characterText.style.removeProperty("--pc-text-image");
+    dom.characterText.innerHTML = "";
+
+    if (pcCharacterTextImage) {
+        dom.characterText.style.setProperty("--pc-text-image", cssUrl(pcCharacterTextImage));
+    } else if (tipPageImage) {
+        dom.characterText.style.setProperty("--pc-text-image", cssUrl(tipPageImage));
+    } else {
+        dom.characterText.innerText = pages[offset] || "";
+    }
 
     if (isCharView) {
-        dom.characterImage.src = data.states[data.currentPhase].image;
+        dom.characterImage.src = data.pc?.tachi || data.image;
+        if (data.pc?.tachiX) {
+            dom.characterImage.style.setProperty("--pc-tachi-left", `${(data.pc.tachiX / 640) * 100}%`);
+        } else {
+            dom.characterImage.style.removeProperty("--pc-tachi-left");
+        }
         dom.characterImage.style.display = "block";
     } else {
         dom.characterImage.style.display = "none";
     }
 
     togglePagination(offset > 0, offset < pages.length - 1);
+}
+
+function cssUrl(path) {
+    return `url("${new URL(path, document.baseURI).href}")`;
 }
 
 function togglePagination(showBack, showNext) {

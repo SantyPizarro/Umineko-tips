@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --scene-background: url("../assets/backgrounds/m1f_p1b.png");
+  --tip-background: none;
+}
+
 body {
   height: 100vh;
   overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: #000;
 }
 
 @font-face {
@@ -20,13 +28,14 @@ body,
 #character-name, 
 #character-text, 
 .tip-container,
+.mode-btn,
 #text-next-btn,
 #text-back-btn {
   color: white;
   text-shadow: 
   -2px -2px 0 #000,  2px -2px 0 #000, -2px  2px 0 #000,  2px  2px 0 #000, 
    0px -2px 0 #000,  0px  2px 0 #000, -2px  0px 0 #000,  2px  0px 0 #000; 
-    font-family: '', sans-serif; 
+    font-family: 'face0', sans-serif; 
 }
 
 button {

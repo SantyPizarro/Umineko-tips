@@ -1,0 +1,175 @@
+{
+  "extracted": [
+    {
+      "target": "assets/ui/tips/ep1/backdrop/tips1_back.png",
+      "source": "bmp\\r_click\\tips_btn\\tips1_back.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa"
+    },
+    {
+      "target": "assets/ui/tips/back.png",
+      "source": "bmp\\r_click\\tips_btn\\tips_back.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa"
+    },
+    {
+      "target": "assets/ui/tips/next.png",
+      "source": "bmp\\r_click\\tips_btn\\tips_next.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa"
+    },
+    {
+      "target": "assets/ui/system/tips.png",
+      "source": "en\\bmp\\r_click\\sys_btn\\tips.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/system/character.png",
+      "source": "en\\bmp\\r_click\\sys_btn\\cha.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/system/execute.png",
+      "source": "en\\bmp\\r_click\\sys_btn\\execute.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/system/resurrect.png",
+      "source": "en\\bmp\\r_click\\sys_btn\\resur.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/system/title.png",
+      "source": "en\\bmp\\r_click\\sys_btn\\title.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/system/exit.png",
+      "source": "en\\bmp\\r_click\\sys_btn\\exit.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/hana_back.png",
+      "source": "bmp\\r_click\\hana_back.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_1.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_2.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_3.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_4.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_4.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_5.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_5.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_6.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_6.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/ui/tips/ep1/buttons/tips1_7.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips1_7.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/1_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\1_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/1_2.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\1_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/1_3.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\1_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/2_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\2_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/2_2.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\2_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/2_3.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\2_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/2_4.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\2_4.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/2_5.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\2_5.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/2_6.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\2_6.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/3_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\3_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/4_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\4_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/5_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\5_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/5_2.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\5_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/5_3.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\5_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/5_4.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\5_4.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/6_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\6_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    },
+    {
+      "target": "assets/tips/ep1/7_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\7_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa"
+    }
+  ],
+  "missing": []
+}

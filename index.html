@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Umineko</title>
 
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/layout.css" />
-  <link rel="stylesheet" href="css/theme-umineko.css" />
+  <link rel="stylesheet" href="css/base.css?v=ep1-complete-pass11" />
+  <link rel="stylesheet" href="css/layout.css?v=ep1-complete-pass11" />
+  <link rel="stylesheet" href="css/theme-umineko.css?v=ep1-complete-pass11" />
 </head>
 <body>
 
   <div id="app">
+
+    <div id="pc-utility-buttons" aria-hidden="true">
+      <button id="btn-pc-language" class="pc-utility-btn" tabindex="-1"></button>
+      <button id="btn-pc-sprites" class="pc-utility-btn" tabindex="-1"></button>
+    </div>
 
     <header id="app-header">
       <h1 id="game-title">Umineko: When They Cry</h1>
@@ -24,13 +29,19 @@
 
 <div id="characters-selector">
     <div id="selector-container"></div>
-    <button id="btn-fantasy-next" class="fantasy-next-btn hidden">NEXT</button>
+    <div id="mode-selector">
+      <button id="btn-normal-mode" class="mode-btn" data-mode="normal">Normal</button>
+      <button id="btn-fantasy-next" class="mode-btn hidden" data-mode="fantasy">Fantasy</button>
+      <button id="btn-future-next" class="mode-btn hidden" data-mode="future">Future</button>
+    </div>
   </div>
 
     <nav id="side-menu">
       <button id="btn-tips" class="menu-btn">Tips</button>
       <button id="btn-execute" class="menu-btn">Execute</button>
       <button id="btn-resurrect" class="menu-btn">Resurrect</button>
+      <button id="btn-title-back" class="menu-btn">Title Back</button>
+      <button id="btn-exit" class="menu-btn">Exit</button>
     </nav>
 
   </aside>
@@ -51,6 +62,7 @@
           <button id="text-next-btn">Next</button>
       </div>
 
+    </div>
   </section>
 
 
@@ -68,6 +80,10 @@
         <button class="episode-btn" data-ep="2">Ep 2</button>
         <button class="episode-btn" data-ep="3">Ep 3</button>
         <button class="episode-btn" data-ep="4">Ep 4</button>
+        <button class="episode-btn" data-ep="5">Ep 5</button>
+        <button class="episode-btn" data-ep="6">Ep 6</button>
+        <button class="episode-btn" data-ep="7">Ep 7</button>
+        <button class="episode-btn" data-ep="8">Ep 8</button>
       </div>
 
       <div id="music-player">
@@ -89,6 +105,6 @@
 
   </div>
 
-  <script src="js/main.js" type="module"></script>
+  <script src="js/main.js?v=ep1-complete-pass11" type="module"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 export const ep7 = {
   id: 7,
+  title: "Requiem of the Golden Witch",
   background: "assets/backgrounds/mansion_night_funeral.png",
   backgroundFantasy: "assets/backgrounds/tea_party_hall.png",
 

@@ -1,5 +1,6 @@
 export const ep6 = {
   id: 6,
+  title: "Dawn of the Golden Witch",
   background: "assets/backgrounds/mansion_day.png",
   backgroundFantasy: "assets/backgrounds/meta_world_dawn.png",
   backgroundFuture: "assets/backgrounds/skyscraper_roof_night.png",

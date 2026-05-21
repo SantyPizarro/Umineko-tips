@@ -1,0 +1,431 @@
+{
+  "generatedAt": "2026-05-20T14:42:14.669Z",
+  "dryRun": false,
+  "copied": [
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_defa1.png",
+      "to": "assets/characters/ep2/battler/full/bat_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_defa1.png",
+      "to": "assets/characters/ep2/battler/portrait/bat_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beatrice2\\1\\be2_defa1.png",
+      "to": "assets/characters/ep2/beatrice/full/bea_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beatrice\\1\\bea_defa1.png",
+      "to": "assets/characters/ep2/beatrice/portrait/bea_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep2/bernkastel/full/ber_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep2/bernkastel/portrait/ber_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\genji\\gen_defa1.png",
+      "to": "assets/characters/ep2/genji/full/gen_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\genji\\gen_defa1.png",
+      "to": "assets/characters/ep2/genji/portrait/gen_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\kanon\\1\\ka2_defa1.png",
+      "to": "assets/characters/ep2/kanon/full/kan_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\kanon\\1\\kan_defa1.png",
+      "to": "assets/characters/ep2/kanon/portrait/kan_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Kinzo2\\ki2_defa1.png",
+      "to": "assets/characters/ep2/kinzo/full/kin_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\kinzo\\kin_defa1.png",
+      "to": "assets/characters/ep2/kinzo/portrait/kin_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep2/lambdadelta/full/lam_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep2/lambdadelta/portrait/lam_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Maria\\1\\mar_defa1.png",
+      "to": "assets/characters/ep2/maria/full/mar_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Maria\\1\\mar_defa1.png",
+      "to": "assets/characters/ep2/maria/portrait/mar_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Ronove\\ron_defa1.png",
+      "to": "assets/characters/ep2/ronove/full/ron_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Ronove\\ron_defa1.png",
+      "to": "assets/characters/ep2/ronove/portrait/ron_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\shannon\\1\\sha_defa1.png",
+      "to": "assets/characters/ep2/shannon/full/sha_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\shannon\\1\\sha_defa1.png",
+      "to": "assets/characters/ep2/shannon/portrait/sha_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Virgilia\\wal_defa1.png",
+      "to": "assets/characters/ep2/virgilia/full/vir_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Virgilia\\wal_defa1.png",
+      "to": "assets/characters/ep2/virgilia/portrait/vir_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep3/ange/full/ang_child.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep3/ange/portrait/ang_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep3/bernkastel/full/ber_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep3/bernkastel/portrait/ber_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\410\\s41_defa1.png",
+      "to": "assets/characters/ep3/chiester/full/c410_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\45\\s45_defa1.png",
+      "to": "assets/characters/ep3/chiester/full/c45_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\410\\s41_defa1.png",
+      "to": "assets/characters/ep3/chiester/full/chi_group_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\410\\s41_defa1.png",
+      "to": "assets/characters/ep3/chiester/portrait/chi_group.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Eva\\eva_defa1.png",
+      "to": "assets/characters/ep3/eva/full/eva_head.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Eva2\\EVA\\ev2_akuwaraia1.png",
+      "to": "assets/characters/ep3/evabea/full/evb_smug.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Eva2\\EVA\\ev2_defa1.png",
+      "to": "assets/characters/ep3/evabea/portrait/evb_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Ronove\\ron_defa1.png",
+      "to": "assets/characters/ep3/ronove/full/ron_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Ronove\\ron_defa1.png",
+      "to": "assets/characters/ep3/ronove/portrait/ron_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Virgilia\\wal_defa1.png",
+      "to": "assets/characters/ep3/virgilia/full/vir_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Virgilia\\wal_defa1.png",
+      "to": "assets/characters/ep3/virgilia/portrait/vir_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep4/ange1998/full/ang_long.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep4/ange1998/portrait/ang_future.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep4/bernkastel/full/ber_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep4/bernkastel/portrait/ber_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Gapgapgap\\gap_defa1.png",
+      "to": "assets/characters/ep4/gaap/full/gap_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Gapgapgap\\gap_defa1.png",
+      "to": "assets/characters/ep4/gaap/portrait/gap_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep4/lambdadelta/full/lam_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep4/lambdadelta/portrait/lam_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Mammon\\rg5_defa1.png",
+      "to": "assets/characters/ep4/mammon/full/mam_future.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Mammon\\rg5_defa1.png",
+      "to": "assets/characters/ep4/mammon/portrait/mam_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Maria\\1\\mar_defa1.png",
+      "to": "assets/characters/ep4/maria/full/mar_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Maria\\1\\mar_defa1.png",
+      "to": "assets/characters/ep4/maria/portrait/mar_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Ronove\\ron_defa1.png",
+      "to": "assets/characters/ep4/ronove/full/ron_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Ronove\\ron_defa1.png",
+      "to": "assets/characters/ep4/ronove/portrait/ron_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Sakutaro\\sak_defa1.png",
+      "to": "assets/characters/ep4/saku/full/sak_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Sakutaro\\sak_defa1.png",
+      "to": "assets/characters/ep4/saku/portrait/sak_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_majimea1.png",
+      "to": "assets/characters/ep5/battler/full/but_serious.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep5/bern/full/ber_cold.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep5/bern/portrait/ber_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\cornelia\\cor_defa1.png",
+      "to": "assets/characters/ep5/cornelia/full/cor_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\cornelia\\cor_defa1.png",
+      "to": "assets/characters/ep5/cornelia/portrait/cor_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\dlanor\\1\\dla_defa1.png",
+      "to": "assets/characters/ep5/dlanor/full/dla_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\dlanor\\1\\dla_defa1.png",
+      "to": "assets/characters/ep5/dlanor/portrait/dla_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\erika\\1\\eri_defa1.png",
+      "to": "assets/characters/ep5/erika/full/eri_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\erika\\1\\eri_defa1.png",
+      "to": "assets/characters/ep5/erika/portrait/eri_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Gertrude\\ger_defa1.png",
+      "to": "assets/characters/ep5/gertrude/full/ger_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Gertrude\\ger_defa1.png",
+      "to": "assets/characters/ep5/gertrude/portrait/ger_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep5/lambda/full/lam_smug.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep5/lambda/portrait/lam_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\natsuhi\\nat_komarua1.png",
+      "to": "assets/characters/ep5/natsu/full/nat_stressed.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep6/ange/full/ang_witch.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep6/ange/portrait/ang_future.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_defa1.png",
+      "to": "assets/characters/ep6/battler/full/but_gm_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_defa1.png",
+      "to": "assets/characters/ep6/battler/portrait/but_gm.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beatrice2\\1\\be2_defa1.png",
+      "to": "assets/characters/ep6/beato/full/bea_chick_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beatrice2\\1\\be2_defa1.png",
+      "to": "assets/characters/ep6/beato/portrait/bea_chick.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\erika\\1\\eri_defa1.png",
+      "to": "assets/characters/ep6/erika/full/eri_witch_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\featherine\\1\\fea_defa1.png",
+      "to": "assets/characters/ep6/hachijo/full/hac_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\featherine\\1\\fea_defa1.png",
+      "to": "assets/characters/ep6/hachijo/portrait/hac_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\furfur\\fur_defa1.png",
+      "to": "assets/characters/ep6/zepar_furfur/full/zf_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\furfur\\fur_defa1.png",
+      "to": "assets/characters/ep6/zepar_furfur/portrait/zf_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep7/bern/full/ber_tea.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep7/bern/portrait/ber_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beatrice3\\bea_defa1.png",
+      "to": "assets/characters/ep7/clair/full/cla_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beatrice3\\bea_defa1.png",
+      "to": "assets/characters/ep7/clair/portrait/cla_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Lion\\rio_defa1.png",
+      "to": "assets/characters/ep7/lion/full/lio_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Lion\\rio_defa1.png",
+      "to": "assets/characters/ep7/lion/full/lio_dead.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Lion\\rio_defa1.png",
+      "to": "assets/characters/ep7/lion/portrait/lio_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Will\\wil_defa1.png",
+      "to": "assets/characters/ep7/will/full/wil_copy.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Will\\wil_defa1.png",
+      "to": "assets/characters/ep7/will/portrait/wil_defa1.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep8/ange/full/ang_golden_witch.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\ange\\1\\enj_defa1.png",
+      "to": "assets/characters/ep8/ange/portrait/ang_final.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_defa1.png",
+      "to": "assets/characters/ep8/batbea/full/bb_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\battler\\1\\but_defa1.png",
+      "to": "assets/characters/ep8/batbea/portrait/bb_final.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep8/bern/full/ber_monster.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\bernkastel pc\\ber_defa1.png",
+      "to": "assets/characters/ep8/bern/portrait/ber_final.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\featherine\\1\\fea_defa1.png",
+      "to": "assets/characters/ep8/featherine/full/fea_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\featherine\\1\\fea_defa1.png",
+      "to": "assets/characters/ep8/featherine/portrait/fea_def.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep8/lambda/full/lam_full_power.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\lambdadelta\\lam_akuwaraia1.png",
+      "to": "assets/characters/ep8/lambda/portrait/lam_hero.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Asmo\\rg7_defa1.png",
+      "to": "assets/characters/stakes/asmodeus_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Beelz\\rg6_defa1.png",
+      "to": "assets/characters/stakes/beelzebub_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\00 - Goat-kun\\Belphe\\rg4_defa1.png",
+      "to": "assets/characters/stakes/belphegor_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Luci\\rg1_defa1.png",
+      "to": "assets/characters/stakes/group_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Levi\\rg2_defa1.png",
+      "to": "assets/characters/stakes/leviathan_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Luci\\rg1_defa1.png",
+      "to": "assets/characters/stakes/lucifer_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Mammon\\rg5_defa1.png",
+      "to": "assets/characters/stakes/mammon_full.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Luci\\rg1_defa1.png",
+      "to": "assets/characters/stakes/portrait_group.png"
+    },
+    {
+      "from": "C:\\Users\\Santy\\Downloads\\umineko sprites\\gohda - zepar\\Satan\\rg3_defa1.png",
+      "to": "assets/characters/stakes/satan_full.png"
+    }
+  ],
+  "skipped": []
+}

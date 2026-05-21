@@ -1,6 +1,54 @@
+const EP1_TIPS_SOURCE = "local-original-pc-arc.nsa";
+const EP1_PC_SOURCE = "local-original-pc-arc.nsa";
+const EP1_EN_SOURCE = "local-original-pc-arc3.nsa";
+
+const EP1_CHARACTER_PC = {
+  kinzo: { code: "kin", grid: [17, 37], tachiX: 380, states: { alive: "kin", missing: "kin_m", dead: "kin_d" } },
+  krauss: { code: "kla", grid: [62, 37], tachiX: 425 },
+  natsuhi: { code: "nat", grid: [106, 37], tachiX: 430 },
+  jessica: { code: "jes", grid: [150, 37], tachiX: 420 },
+  nanjo: { code: "nan", grid: [17, 82], tachiX: 425 },
+  eva: { code: "eva", grid: [62, 82], tachiX: 440 },
+  hideyoshi: { code: "hid", grid: [106, 82], tachiX: 415 },
+  george: { code: "geo", grid: [150, 82], tachiX: 435 },
+  beatrice: { code: "bea", grid: [17, 126], tachiX: 380 },
+  rudolf: { code: "rud", grid: [62, 126], tachiX: 455 },
+  kyrie: { code: "kir", grid: [106, 126], tachiX: 455 },
+  battler: { code: "but", grid: [150, 126], tachiX: 455 },
+  genji: { code: "gen", grid: [17, 170], tachiX: 455 },
+  rosa: { code: "ros", grid: [62, 170], tachiX: 445 },
+  maria: { code: "mar", grid: [150, 170], tachiX: 390 },
+  shannon: { code: "sha", grid: [17, 214], tachiX: 430 },
+  kanon: { code: "kan", grid: [62, 214], tachiX: 460 },
+  gohda: { code: "goh", grid: [106, 214], tachiX: 450 },
+  kumasawa: { code: "kum", grid: [150, 214], tachiX: 440 }
+};
+
+function tipAsset(index, pageCount) {
+  return {
+    id: `ep1-tip-${index}`,
+    episode: 1,
+    unlockOrder: index,
+    buttonImage: `assets/ui/tips/ep1/buttons/tips1_${index}.png`,
+    referenceButtonImage: `assets/ui/tips/ep1/buttons/tips1_${index}.png`,
+    background: "assets/ui/tips/ep1/backdrop/tips1_back.png",
+    pageImages: Array.from(
+      { length: pageCount },
+      (_, pageIndex) => `assets/tips/ep1/${index}_${pageIndex + 1}.png`
+    ),
+    referencePageImages: Array.from(
+      { length: pageCount },
+      (_, pageIndex) => `assets/tips/ep1/${index}_${pageIndex + 1}.png`
+    ),
+    sourceUrl: EP1_EN_SOURCE,
+    verified: false
+  };
+}
+
 export const ep1 = {
   id: 1,
-  background: "assets/m1f_p1b.png",
+  title: "Legend of the Golden Witch",
+  background: "assets/backgrounds/m1f_p1b.png",
   
   characters: [
     {
@@ -572,7 +620,9 @@ At the seventh twilight gouge the knee and kill.`
 
   tips: [
     {
+      ...tipAsset(1, 3),
       title: "The Portrait Epitaph",
+      buttonTitle: "Portrait Epitaph",
       style: "tip-epitaph",
       pages: [
         `Behold the sweetfish river running through my beloved hometown. 
@@ -605,13 +655,15 @@ At the seventh twilight gouge the knee and kill.`
       ]
     },
     {
+      ...tipAsset(2, 6),
       title: "The Witch's Letter",
+      buttonTitle: "Witch's Letter",
       style: "tip-witch-letter",
       pages: [
       `Welcome to Rokkenjima, members of the Ushiromiya family.
       I am Beatrice, the alchemist for this family employed by Kinzo-sama himself.
-      I have served him for many years in accordance with our contract, but on this say, Kinzo-sama has announced the suspension of that contract. 
-      Therefore, I ask that you acknowledge my resignation from he position of family alchemist from this day forth.`,
+      I have served him for many years in accordance with our contract, but on this day, Kinzo-sama has announced the final suspension of that contract. 
+      Therefore, I ask that you acknowledge my resignation from the position of family alchemist from this day forth.`,
       `And now, there is one part of the contract that must be explained to all present.
         I, Beatrice, lent Kinzo-sama a vast quantity of gold under certain terms. 
         One of these terms specifies that all the gold is to be returned to me upon the termination of the contract. Furthermore, I am to receive everything of the Ushiromiya family as interest.`,
@@ -626,19 +678,24 @@ At the seventh twilight gouge the knee and kill.`
         `Kinzo-sama has already publicly displayed the location of the hidden gold within the epitaph under my portrait.
         The rules apply equally to all who can read the epitaph.
         If you discover the gold, I shall return everything to you.
-        Tonight, I ask that you enjoy your battle of wits with Kinzo-sama to the fullest. I sincerely pray that this night will be both intellectual and elegant.`,
-        `――Beatrice the Golden`
+        Tonight, I ask that you enjoy your battle of wits with Kinzo-sama to the fullest. I sincerely pray that this night will be both intellectual and elegant.
+        
+        --Beatrice the Golden`
       ]
     },
     {
+      ...tipAsset(3, 1),
       title: "The Witch's Letter II",
+      buttonTitle: "Witch's Letter II",
       style: "tip-witch-letter-2",
       pages: [
         `Praise my Name`,
       ]
     },
     {
+      ...tipAsset(4, 1),
       title: "The Witch's Letter III",
+      buttonTitle: "Witch's Letter III",
       style: "tip-witch-letter-3",
       pages: [
         `Are you enjoying the riddle of Kinzo-sama's epitaph? You have very little time remaining.
@@ -648,7 +705,9 @@ At the seventh twilight gouge the knee and kill.`
       ]
     },
     {
+      ...tipAsset(5, 4),
       title: "The Witch's Game Record",
+      buttonTitle: "Witch's Game Record",
       style: "tip-game-record",
       pages: [
         `Ushiromiya Krauss
@@ -731,25 +790,57 @@ Will the witch invite this man, who denied her existence, to the Golden Land?`,
       ]
     },
     {
+      ...tipAsset(6, 1),
       title: "Winchester M1894 Sawed Off",
+      buttonTitle: "Winchester M1894\nSawed Off",
       style: "tip-winchester",
       pages: [
         `A sawed-off custom version of a rifle manufactured during the golden age of Winchesters.
-This special model more than makes up for its shorter lethal range by its portability and old-time cool factor. It can even be fired as quickly as a pistol if one works the lever action skillfully enough. Furthermore, any true lover of old western dramas can't help but be attracted to the one-handed reload made possible by its characteristic level handle.
+This special model more than makes up for its shorter lethal range by its portability and old-time cool factor. It can even be fired as quickly as a pistol if one works the lever action skillfully enough. Furthermore, any true lover of old western dramas can't help but be attracted to the one-handed reload made possible by its characteristic lever handle.
 
 To match with Kinzo's personal preferences, it was made to handle .45 Long Colt bullets.
 It holds 4+1 rounds.`
       ]
     },
     {
+      ...tipAsset(7, 1),
       title: "The Seven Stakes of Purgatory",
+      buttonTitle: "Seven Stakes\nof Purgatory",
       style: "tip-stakes",
       pages: [
         `Stakes containing the seven magics that represent the seven deadly sins.
-In accordance with their user's orders, they bury themselves into the desired location of the desired target with perfect accuracy. Because they flit about at ultra-high speeds and change their trajectories at will by bouncing off walls and the like, they have no blinds spots, and will hit their targets without fail no matter what form of cover they might be hiding before. Furthermore, it is possible to change the force they hit with depending on the part of the body at which they strike.
+In accordance with their user's orders, they bury themselves into the desired location of the desired target with perfect accuracy. Because they flit about at ultra-high speeds and change their trajectories at will by bouncing off walls and the like, they have no blind spots, and will hit their targets without fail no matter what form of cover they might be hiding behind. Furthermore, it is possible to change the force they hit with depending on the part of the body at which they strike.
 
 They are extremely powerful weapons, but they cannot target pure people who have not committed one of the seven deadly sins or people who have a strong resistance to magical power.`
       ]
     }
   ]
 };
+
+for (const character of ep1.characters) {
+  const pc = EP1_CHARACTER_PC[character.id];
+  if (!pc) continue;
+
+  character.pc = {
+    sourceUrl: EP1_PC_SOURCE,
+    code: pc.code,
+    gridX: pc.grid[0],
+    gridY: pc.grid[1],
+    tachiX: pc.tachiX,
+    iconAlive: `assets/ui/characters/ep1/icons/${pc.code}_l.png`,
+    iconDead: `assets/ui/characters/ep1/icons/${pc.code}_d.png`
+  };
+
+  for (const [index, state] of (character.states || []).entries()) {
+    const imageCode = pc.states?.[state.phase] || (state.phase === "alive" ? pc.code : `${pc.code}_d`);
+    const iconCode = state.phase === "alive"
+      ? `${pc.code}_l`
+      : (state.phase === "missing" && pc.states?.missing ? pc.states.missing : `${pc.code}_d`);
+    state.pc = {
+      sourceUrl: EP1_PC_SOURCE,
+      icon: `assets/ui/characters/ep1/icons/${iconCode}.png`,
+      tachi: `assets/ui/characters/ep1/tachi/${imageCode}.png`,
+      referenceTextImage: `assets/ui/characters/ep1/reference-text/${pc.code}_${index + 1}.png`
+    };
+  }
+}

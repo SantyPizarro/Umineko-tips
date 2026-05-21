@@ -1,0 +1,859 @@
+{
+  "extracted": [
+    {
+      "target": "assets/ui/characters/ep1/backdrop/cha_back.png",
+      "source": "bmp\\r_click\\cha_btn\\cha_back.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 344,
+      "height": 452
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/non.png",
+      "source": "bmp\\r_click\\cha_btn\\non.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/text/txt_def.png",
+      "source": "bmp\\r_click\\text\\txt_def.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/system/r_jp.png",
+      "source": "bmp\\r_click\\sys_btn\\r_jp.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 240,
+      "height": 36
+    },
+    {
+      "target": "assets/ui/system/r_new.png",
+      "source": "bmp\\r_click\\sys_btn\\r_new.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 240,
+      "height": 36
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kin_l.png",
+      "source": "bmp\\r_click\\cha_btn\\kin_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kin_d.png",
+      "source": "bmp\\r_click\\cha_btn\\kin_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kla_l.png",
+      "source": "bmp\\r_click\\cha_btn\\kla_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kla_d.png",
+      "source": "bmp\\r_click\\cha_btn\\kla_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/nat_l.png",
+      "source": "bmp\\r_click\\cha_btn\\nat_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/nat_d.png",
+      "source": "bmp\\r_click\\cha_btn\\nat_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/jes_l.png",
+      "source": "bmp\\r_click\\cha_btn\\jes_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/jes_d.png",
+      "source": "bmp\\r_click\\cha_btn\\jes_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/nan_l.png",
+      "source": "bmp\\r_click\\cha_btn\\nan_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/nan_d.png",
+      "source": "bmp\\r_click\\cha_btn\\nan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/eva_l.png",
+      "source": "bmp\\r_click\\cha_btn\\eva_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/eva_d.png",
+      "source": "bmp\\r_click\\cha_btn\\eva_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/hid_l.png",
+      "source": "bmp\\r_click\\cha_btn\\hid_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/hid_d.png",
+      "source": "bmp\\r_click\\cha_btn\\hid_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/geo_l.png",
+      "source": "bmp\\r_click\\cha_btn\\geo_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/geo_d.png",
+      "source": "bmp\\r_click\\cha_btn\\geo_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/bea_l.png",
+      "source": "bmp\\r_click\\cha_btn\\bea_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/bea_d.png",
+      "source": "bmp\\r_click\\cha_btn\\bea_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/rud_l.png",
+      "source": "bmp\\r_click\\cha_btn\\rud_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/rud_d.png",
+      "source": "bmp\\r_click\\cha_btn\\rud_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kir_l.png",
+      "source": "bmp\\r_click\\cha_btn\\kir_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kir_d.png",
+      "source": "bmp\\r_click\\cha_btn\\kir_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/but_l.png",
+      "source": "bmp\\r_click\\cha_btn\\but_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/but_d.png",
+      "source": "bmp\\r_click\\cha_btn\\but_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/gen_l.png",
+      "source": "bmp\\r_click\\cha_btn\\gen_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/gen_d.png",
+      "source": "bmp\\r_click\\cha_btn\\gen_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/ros_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ros_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/ros_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ros_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/mar_l.png",
+      "source": "bmp\\r_click\\cha_btn\\mar_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/mar_d.png",
+      "source": "bmp\\r_click\\cha_btn\\mar_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/sha_l.png",
+      "source": "bmp\\r_click\\cha_btn\\sha_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/sha_d.png",
+      "source": "bmp\\r_click\\cha_btn\\sha_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kan_l.png",
+      "source": "bmp\\r_click\\cha_btn\\kan_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kan_d.png",
+      "source": "bmp\\r_click\\cha_btn\\kan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/goh_l.png",
+      "source": "bmp\\r_click\\cha_btn\\goh_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/goh_d.png",
+      "source": "bmp\\r_click\\cha_btn\\goh_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kum_l.png",
+      "source": "bmp\\r_click\\cha_btn\\kum_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kum_d.png",
+      "source": "bmp\\r_click\\cha_btn\\kum_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/icons/kin_m.png",
+      "source": "bmp\\r_click\\cha_btn\\kin_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kin.png",
+      "source": "bmp\\r_click\\cha_tati\\kin.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kin_m.png",
+      "source": "bmp\\r_click\\cha_tati\\kin_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kin_d.png",
+      "source": "bmp\\r_click\\cha_tati\\kin_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kla.png",
+      "source": "bmp\\r_click\\cha_tati\\kla.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 422,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kla_d.png",
+      "source": "bmp\\r_click\\cha_tati\\kla_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 422,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/nat.png",
+      "source": "bmp\\r_click\\cha_tati\\nat.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 400,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/nat_d.png",
+      "source": "bmp\\r_click\\cha_tati\\nat_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 400,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/jes.png",
+      "source": "bmp\\r_click\\cha_tati\\jes.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/jes_d.png",
+      "source": "bmp\\r_click\\cha_tati\\jes_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/nan.png",
+      "source": "bmp\\r_click\\cha_tati\\nan.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 412,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/nan_d.png",
+      "source": "bmp\\r_click\\cha_tati\\nan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 412,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/eva.png",
+      "source": "bmp\\r_click\\cha_tati\\eva.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 356,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/eva_d.png",
+      "source": "bmp\\r_click\\cha_tati\\eva_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 356,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/hid.png",
+      "source": "bmp\\r_click\\cha_tati\\hid.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 454,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/hid_d.png",
+      "source": "bmp\\r_click\\cha_tati\\hid_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 454,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/geo.png",
+      "source": "bmp\\r_click\\cha_tati\\geo.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 324,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/geo_d.png",
+      "source": "bmp\\r_click\\cha_tati\\geo_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 324,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/bea.png",
+      "source": "bmp\\r_click\\cha_tati\\bea.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 582,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/bea_d.png",
+      "source": "bmp\\r_click\\cha_tati\\bea_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 582,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/rud.png",
+      "source": "bmp\\r_click\\cha_tati\\rud.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 286,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/rud_d.png",
+      "source": "bmp\\r_click\\cha_tati\\rud_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 286,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kir.png",
+      "source": "bmp\\r_click\\cha_tati\\kir.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 284,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kir_d.png",
+      "source": "bmp\\r_click\\cha_tati\\kir_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 284,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/but.png",
+      "source": "bmp\\r_click\\cha_tati\\but.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/but_d.png",
+      "source": "bmp\\r_click\\cha_tati\\but_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/gen.png",
+      "source": "bmp\\r_click\\cha_tati\\gen.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 288,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/gen_d.png",
+      "source": "bmp\\r_click\\cha_tati\\gen_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 288,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/ros.png",
+      "source": "bmp\\r_click\\cha_tati\\ros.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/ros_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ros_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/mar.png",
+      "source": "bmp\\r_click\\cha_tati\\mar.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/mar_d.png",
+      "source": "bmp\\r_click\\cha_tati\\mar_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/sha.png",
+      "source": "bmp\\r_click\\cha_tati\\sha.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/sha_d.png",
+      "source": "bmp\\r_click\\cha_tati\\sha_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kan.png",
+      "source": "bmp\\r_click\\cha_tati\\kan.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 274,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kan_d.png",
+      "source": "bmp\\r_click\\cha_tati\\kan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 274,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/goh.png",
+      "source": "bmp\\r_click\\cha_tati\\goh.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 306,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/goh_d.png",
+      "source": "bmp\\r_click\\cha_tati\\goh_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 306,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kum.png",
+      "source": "bmp\\r_click\\cha_tati\\kum.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 366,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/tachi/kum_d.png",
+      "source": "bmp\\r_click\\cha_tati\\kum_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc.nsa",
+      "width": 366,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kin_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kin_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kin_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kin_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kin_3.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kin_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kla_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kla_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kla_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kla_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/nat_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\nat_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/nat_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\nat_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/jes_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\jes_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/jes_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\jes_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/nan_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\nan_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/nan_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\nan_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/eva_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\eva_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/eva_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\eva_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/hid_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\hid_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/hid_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\hid_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/geo_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\geo_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/geo_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\geo_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/bea_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\bea_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/bea_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\bea_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/rud_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\rud_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/rud_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\rud_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kir_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kir_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kir_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kir_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/but_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\but_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/but_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\but_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/gen_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\gen_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/gen_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\gen_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/ros_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ros_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/ros_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ros_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/mar_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\mar_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/mar_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\mar_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/sha_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\sha_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/sha_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\sha_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kan_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kan_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kan_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kan_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/goh_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\goh_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/goh_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\goh_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kum_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kum_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep1/reference-text/kum_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\kum_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    }
+  ],
+  "missing": []
+}

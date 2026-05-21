@@ -1,0 +1,55 @@
+{
+  "extracted": [
+    {
+      "target": "assets/backgrounds/mansion_day.png",
+      "source": "bmp\\background\\mainbuilding\\m1f_p1b.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/mansion_night_funeral.png",
+      "source": "bmp\\background\\mainbuilding\\m1f_p1bn.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/golden_land.png",
+      "source": "bmp\\background\\efe\\gold1.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/golden_land_final.png",
+      "source": "bmp\\background\\efe\\gold3.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/city_of_books.png",
+      "source": "bmp\\background\\efe\\book1.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/meta_world_silver.png",
+      "source": "bmp\\background\\efe\\book1.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/meta_world_dawn.png",
+      "source": "bmp\\background\\efe\\gold2.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/skyscraper_roof.png",
+      "source": "bmp\\background\\city\\bui_h1a.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/skyscraper_roof_night.png",
+      "source": "bmp\\background\\city\\bui_h1b.bmp",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    },
+    {
+      "target": "assets/backgrounds/tea_party_hall.png",
+      "source": "bmp\\title\\title_menu\\tea.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa"
+    }
+  ],
+  "missing": []
+}

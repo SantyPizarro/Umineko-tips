@@ -1,5 +1,4 @@
 body {
-  background: url("../assets/backgrounds/m1f_p1b.png") center / cover no-repeat;
   font-family: "Georgia", serif;
   color: #f5f5f5;
 }
@@ -12,9 +11,9 @@ footer {
   z-index: 1;
 }
 
-body::after {
+#app::after {
   content: "";
-  position: fixed;
+  position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 0;
@@ -125,6 +124,7 @@ body::after {
 .menu-btn,
 .text-next,
 .episode-btn,
+.mode-btn,
 .tip-button-container,
 .tip-container {
   background: #371b1b;
@@ -136,16 +136,24 @@ body::after {
 .menu-btn:hover,
 .text-next:hover,
 .episode-btn:hover,
+.mode-btn:hover,
 .tip-button-container:hover,
 .tip-container:hover {
   background: #ff0000;
+}
+
+#app.pc-ui-active::after {
+  content: none !important;
+  display: none !important;
 }
 
 .text-next:hover {
   box-shadow: 0 0 6px #ff0000;
 }
 
-.episode-btn.active {
+.episode-btn.active,
+.mode-btn.active,
+.menu-btn.active {
   background: #ff0000;
 }
 
@@ -181,7 +189,196 @@ body::after {
   flex-shrink: 0;
 }
 
-#main-layout[class*="tip-"]:not(.tip-witch-letter-2) #info-panel {
+#selector-container.tips-mode .tip-container {
+  position: relative;
+  width: 100%;
+  height: 13.31%;
+  padding: 0;
+  background: #371b1b;
+  line-height: 0;
+  overflow: hidden;
+}
+
+#selector-container.tips-mode .tip-container:not(:last-child) {
+  margin-bottom: 1.38%;
+}
+
+#selector-container.tips-mode .tip-container:hover,
+#selector-container.tips-mode .tip-container.active {
+  background: #f00;
+  filter: none;
+}
+
+#selector-container.tips-mode .tip-container.tip-image-missing {
+  width: 100%;
+  padding: 15px;
+  line-height: normal;
+  background: #371b1b;
+}
+
+.tip-button-image {
+  display: block;
+  width: 200%;
+  height: 100%;
+  max-width: none;
+  object-fit: fill;
+  object-position: left top;
+}
+
+.tip-button-label {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 0 4px;
+  color: #fff;
+  font-family: 'face0', sans-serif;
+  font-size: clamp(6px, 1.65vw, 10px);
+  line-height: 1;
+  text-align: center;
+  white-space: pre-line;
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000;
+}
+
+#selector-container.tips-mode .tip-container:hover .tip-button-image,
+#selector-container.tips-mode .tip-container.active .tip-button-image {
+  transform: translateX(-50%);
+}
+
+#main-layout.tips-active #info-panel::after {
+  display: none;
+}
+
+#app:has(#main-layout.tips-active)::after,
+#main-layout.tips-active #selector-container.tips-mode::before,
+#main-layout.tips-active #selector-container.tips-mode::after,
+#main-layout.tips-active #side-menu::after {
+  display: none;
+}
+
+#main-layout.tips-active #side-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.91%;
+}
+
+#main-layout.tips-active .menu-btn {
+  width: 100%;
+  height: 18.471% !important;
+  min-height: 0;
+  padding: 0 !important;
+  overflow: hidden;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+}
+
+#main-layout.tips-active .menu-btn:hover,
+#main-layout.tips-active .menu-btn.active {
+  background-position: right top;
+}
+
+#main-layout.tips-active #btn-tips {
+  background-image: url("../assets/ui/system/character.png");
+}
+
+#main-layout.tips-active #btn-execute {
+  background-image: url("../assets/ui/system/execute.png");
+}
+
+#main-layout.tips-active #btn-resurrect {
+  background-image: url("../assets/ui/system/resurrect.png");
+}
+
+#main-layout.tips-active #btn-title-back {
+  background-image: url("../assets/ui/system/title.png");
+}
+
+#main-layout.tips-active #btn-exit {
+  background-image: url("../assets/ui/system/exit.png");
+}
+
+#main-layout.tips-active #character-name {
+  display: none;
+}
+
+#main-layout.tips-active #character-text.english-tip-page {
+  background: #371b1b;
+  color: #fff;
+  font-family: 'face0', sans-serif;
+  font-size: clamp(9px, 2.55vw, 15px);
+  line-height: 1.45;
+  white-space: pre-line;
+  text-align: left;
+}
+
+#main-layout.tips-active.tip-game-record #character-text.english-tip-page {
+  padding: 28px 28px 24px 34px;
+  font-size: 13px;
+  line-height: 1.28;
+}
+
+#main-layout.tips-active.tip-witch-letter-2 #character-text.english-tip-page {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#main-layout.tips-active #text-nav {
+  right: 24px;
+  bottom: 18px;
+}
+
+#main-layout.tips-active #text-controls {
+  left: 82.8125%;
+  top: 81.25%;
+  right: auto;
+  bottom: auto;
+  width: 15.625%;
+  height: 4.1667%;
+  gap: 0;
+  z-index: 10;
+}
+
+#main-layout.tips-active #text-next-btn,
+#main-layout.tips-active #text-back-btn {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  color: transparent;
+  text-shadow: none;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+}
+
+#main-layout.tips-active #text-next-btn {
+  background-image: url("../assets/ui/tips/next.png");
+}
+
+#main-layout.tips-active #text-back-btn {
+  background-image: url("../assets/ui/tips/back.png");
+}
+
+#main-layout.tips-active #text-next-btn:hover,
+#main-layout.tips-active #text-back-btn:hover {
+  background-position: right top;
+}
+
+#main-layout[class*="tip-"]:not(.tips-active):not(.tip-witch-letter-2) #info-panel {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,7 +386,7 @@ body::after {
     padding-left: 30px;
 }
 
-#main-layout.tip-witch-letter-2 #info-panel {
+#main-layout.tip-witch-letter-2:not(.tips-active) #info-panel {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,7 +404,14 @@ body::after {
 
 }
 
-#main-layout.tip-game-record #character-text {
+#main-layout.tips-active #info-panel {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#main-layout.tip-game-record:not(.tips-active) #character-text {
     font-size: 0.80rem; 
     line-height: 1.4;
     text-align: left;   
@@ -240,7 +444,7 @@ body::after {
   background: #371b1b;
 }
 
-.fantasy-next-btn {
+.mode-btn {
   background: linear-gradient(to bottom, #4a0000, #2a0000);
   color: #ffd700;
   border: 1px solid #ffd700;
@@ -249,11 +453,11 @@ body::after {
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  width: 80%;
+  width: auto;
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 
-.fantasy-next-btn:hover {
+.mode-btn:hover {
   background: #ff0000;
   color: white;
   box-shadow: 0 0 15px #ff0000;
@@ -263,4 +467,85 @@ body::after {
 #main-layout.fantasy-active {
   filter: sepia(0.3) saturate(1.2) contrast(1.1);
   transition: filter 1s ease-in-out;
+}
+
+#app:has(#main-layout.pc-characters-active)::after,
+#main-layout.pc-characters-active #info-panel::after,
+#main-layout.pc-characters-active #side-menu::after {
+  content: none !important;
+  display: none !important;
+}
+
+#main-layout.pc-characters-active #character-name,
+#main-layout.pc-characters-active #text-controls {
+  display: none;
+}
+
+#main-layout.pc-characters-active #side-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.91%;
+  background: transparent;
+}
+
+#main-layout.pc-characters-active .menu-btn {
+  width: 100%;
+  height: 18.471% !important;
+  min-height: 0;
+  padding: 0 !important;
+  overflow: hidden;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+  border: 0;
+  box-shadow: none;
+}
+
+#main-layout.pc-characters-active .menu-btn:hover,
+#main-layout.pc-characters-active .menu-btn.active {
+  background-position: right top;
+}
+
+#main-layout.pc-characters-active #btn-tips {
+  background-image: url("../assets/ui/system/tips.png");
+}
+
+#main-layout.pc-characters-active #btn-execute {
+  background-image: url("../assets/ui/system/execute.png");
+}
+
+#main-layout.pc-characters-active #btn-resurrect {
+  background-image: url("../assets/ui/system/resurrect.png");
+}
+
+#main-layout.pc-characters-active #btn-title-back {
+  background-image: url("../assets/ui/system/title.png");
+}
+
+#main-layout.pc-characters-active #btn-exit {
+  background-image: url("../assets/ui/system/exit.png");
+}
+
+#main-layout.pc-characters-active #character-text {
+  color: #fff;
+  font-family: 'face0', sans-serif;
+  font-size: 9px;
+  line-height: 1.23;
+  white-space: pre-line;
+  text-align: left;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+#main-layout.pc-characters-active .character-slot {
+  filter: none;
+  border: 0;
+  box-shadow: none;
+  transform: none;
 }

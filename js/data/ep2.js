@@ -1,7 +1,7 @@
 export const ep2 = {
   id: 2,
-  background: "assets/m1f_p1b.png",
-    background: "assets/backgrounds/mansion_day.png",
+  title: "Turn of the Golden Witch",
+  background: "assets/backgrounds/m1f_p1b.png",
   backgroundFantasy: "assets/backgrounds/golden_land.png",
   
   characters: [
@@ -63,7 +63,7 @@ She likes black tea and ice cream. She hates boredom and people who deny her exi
         },
                 {
           phase: "alive2",
-          image: "assets/characters/ep1/bea/full/Bea d1.png",
+          image: "assets/characters/ep2/beatrice/full/Bea d1.png",
           text: [
             `The mysterious visitor and 19th person who appeared on the day of the family conference. She goes by the same name as the Golden Witch who gave the gold to Kinzo.
 

@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "assets:report": "node scripts/report-assets.mjs",
+    "assets:import": "node scripts/import-assets.mjs",
+    "assets:import-sprites": "node scripts/import-pc-sprites.mjs",
+    "assets:extract-backgrounds": "python scripts/extract-nsa-backgrounds.py",
+    "assets:extract-ep1-tips": "python scripts/extract-ep1-tips-assets.py",
+    "validate-data": "node scripts/validate-data.mjs",
+    "validate-assets": "node scripts/validate-assets.mjs",
+    "validate-pages": "node scripts/validate-pages.mjs",
+    "validate-routes": "node scripts/validate-routes.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/validate-pages.mjs && node scripts/validate-assets.mjs && node scripts/validate-routes.mjs"
+  }
+}

@@ -1,0 +1,4081 @@
+{
+  "generatedAt": "2026-05-20T14:46:25.269Z",
+  "total": 179,
+  "present": 179,
+  "missing": 0,
+  "records": [
+    {
+      "path": "assets/backgrounds/city_of_books.png",
+      "fileName": "city_of_books.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/golden_land_final.png",
+      "fileName": "golden_land_final.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/golden_land.png",
+      "fileName": "golden_land.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "background"
+        },
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "background"
+        },
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/m1f_p1b.png",
+      "fileName": "m1f_p1b.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "background"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/mansion_day.png",
+      "fileName": "mansion_day.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "background"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "background"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "background"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/mansion_night_funeral.png",
+      "fileName": "mansion_night_funeral.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/meta_world_dawn.png",
+      "fileName": "meta_world_dawn.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/meta_world_silver.png",
+      "fileName": "meta_world_silver.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/skyscraper_roof_night.png",
+      "fileName": "skyscraper_roof_night.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "future",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/skyscraper_roof.png",
+      "fileName": "skyscraper_roof.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "future",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/backgrounds/tea_party_hall.png",
+      "fileName": "tea_party_hall.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "background"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/battler/full/but copy.png",
+      "fileName": "but copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/battler/full/but dead.png",
+      "fileName": "but dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "battler:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/battler/portrait/but_defa1.png",
+      "fileName": "but_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "battler:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/bea/full/bea smug.png",
+      "fileName": "bea smug.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "beatrice:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "beatrice:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "beatrice:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/bea/full/bea.png",
+      "fileName": "bea.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "beatrice:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "beatrice:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "beatrice:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "beatrice:active:full"
+        },
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "beatrice:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/bea/portrait/bea_defb1.png",
+      "fileName": "bea_defb1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "beatrice:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "beatrice:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "beatrice:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "beatrice:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "beatrice:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/eva/full/eva copy.png",
+      "fileName": "eva copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "eva:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/eva/full/eva dead.png",
+      "fileName": "eva dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "eva:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "eva:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "eva:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "eva:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "eva:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "eva:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/eva/portrait/eva_defa1.png",
+      "fileName": "eva_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "eva:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/genji/full/gen copy.png",
+      "fileName": "gen copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "genji:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/genji/full/gen dead.png",
+      "fileName": "gen dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "genji:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/genji/portrait/gen_defa1.png",
+      "fileName": "gen_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "genji:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/george/full/geo copy.png",
+      "fileName": "geo copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "george:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/george/full/geo dead.png",
+      "fileName": "geo dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "george:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/george/portrait/geo_defa1.png",
+      "fileName": "geo_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "george:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "george:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/gohda/full/goh copy.png",
+      "fileName": "goh copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "gohda:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/gohda/full/goh dead.png",
+      "fileName": "goh dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "gohda:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/gohda/portrait/goh_defa1.png",
+      "fileName": "goh_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "gohda:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/hide/full/hid copy.png",
+      "fileName": "hid copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "hideyoshi:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/hide/full/hid dead.png",
+      "fileName": "hid dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "hideyoshi:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/hide/portrait/hid_defa1.png",
+      "fileName": "hid_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "hideyoshi:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/jessica/full/jes copy.png",
+      "fileName": "jes copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "jessica:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/jessica/full/jes dead.png",
+      "fileName": "jes dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "jessica:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/jessica/portrait/jes_defa1.png",
+      "fileName": "jes_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "jessica:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kanon/full/kan dead.png",
+      "fileName": "kan dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kanon:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kanon/full/kan.png",
+      "fileName": "kan.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kanon:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kanon/portrait/kan_defa1.png",
+      "fileName": "kan_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kanon:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kinzo/full/kin copy.png",
+      "fileName": "kin copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kinzo:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kinzo/full/kin dead.png",
+      "fileName": "kin dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kinzo:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kinzo/full/kin missing.png",
+      "fileName": "kin missing.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kinzo:missing:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kinzo:missing:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kinzo/portrait/kin_defa1.png",
+      "fileName": "kin_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kinzo:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/krauss/full/kla copy.png",
+      "fileName": "kla copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "krauss:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/krauss/full/kla dead.png",
+      "fileName": "kla dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "krauss:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/krauss/portrait/kla_defa1.png",
+      "fileName": "kla_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "krauss:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kuma/full/kum copy.png",
+      "fileName": "kum copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kumasawa:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kuma/full/kum dead.png",
+      "fileName": "kum dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kumasawa:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kuma/portrait/kum_defa1.png",
+      "fileName": "kum_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kumasawa:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kyrie/full/kir copy.png",
+      "fileName": "kir copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kyrie:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kyrie/full/kir dead.png",
+      "fileName": "kir dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kyrie:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/kyrie/portrait/kir_defa1.png",
+      "fileName": "kir_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "kyrie:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/maria/full/mar dead.png",
+      "fileName": "mar dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "maria:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/maria/full/mar.png",
+      "fileName": "mar.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "maria:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/maria/portrait/mar_defa1.png",
+      "fileName": "mar_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "maria:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/nanjo/full/nan copy.png",
+      "fileName": "nan copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "nanjo:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/nanjo/full/nan dead.png",
+      "fileName": "nan dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "nanjo:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/nanjo/portrait/nan_defa1.png",
+      "fileName": "nan_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "nanjo:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/natsu/full/nat copy.png",
+      "fileName": "nat copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/natsu/full/nat dead.png",
+      "fileName": "nat dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "natsuhi:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/natsu/portrait/nat_defa1.png",
+      "fileName": "nat_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "natsuhi:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/rosa/full/ros copy.png",
+      "fileName": "ros copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "rosa:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/rosa/full/ros dead.png",
+      "fileName": "ros dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "rosa:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/rosa/portrait/ros_defa1.png",
+      "fileName": "ros_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "rosa:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/rudo/full/rud copy.png",
+      "fileName": "rud copy.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "rudolf:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/rudo/full/rud dead.png",
+      "fileName": "rud dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "rudolf:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/rudo/portrait/rud_defa1.png",
+      "fileName": "rud_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "rudolf:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/shannon/full/sha dead.png",
+      "fileName": "sha dead.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "shannon:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/shannon/full/sha.png",
+      "fileName": "sha.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "shannon:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep1/shannon/portrait/sha_defa1.png",
+      "fileName": "sha_defa1.png",
+      "usages": [
+        {
+          "episode": 1,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 4,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        },
+        {
+          "episode": 8,
+          "mode": "normal",
+          "usage": "shannon:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/battler/full/bat_copy.png",
+      "fileName": "bat_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "battler:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/battler/portrait/bat_defa1.png",
+      "fileName": "bat_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "battler:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/beatrice/full/Bea d1.png",
+      "fileName": "Bea d1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "normal",
+          "usage": "beatrice:alive2:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/beatrice/full/bea_copy.png",
+      "fileName": "bea_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "beatrice:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/beatrice/portrait/bea_defa1.png",
+      "fileName": "bea_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "beatrice:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/bernkastel/full/ber_copy.png",
+      "fileName": "ber_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "bernkastel:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/bernkastel/portrait/ber_defa1.png",
+      "fileName": "ber_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "bernkastel:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/genji/full/gen_copy.png",
+      "fileName": "gen_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "genji:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/genji/portrait/gen_defa1.png",
+      "fileName": "gen_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "genji:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/kanon/full/kan_copy.png",
+      "fileName": "kan_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "kanon:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/kanon/portrait/kan_defa1.png",
+      "fileName": "kan_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "kanon:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/kinzo/full/kin_copy.png",
+      "fileName": "kin_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "kinzo:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/kinzo/portrait/kin_defa1.png",
+      "fileName": "kin_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "kinzo:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/lambdadelta/full/lam_copy.png",
+      "fileName": "lam_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "lambdadelta:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/lambdadelta/portrait/lam_defa1.png",
+      "fileName": "lam_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "lambdadelta:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/maria/full/mar_copy.png",
+      "fileName": "mar_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "maria:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/maria/portrait/mar_defa1.png",
+      "fileName": "mar_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "maria:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/ronove/full/ron_copy.png",
+      "fileName": "ron_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "ronove:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/ronove/portrait/ron_defa1.png",
+      "fileName": "ron_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "ronove:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/shannon/full/sha_copy.png",
+      "fileName": "sha_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "shannon:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/shannon/portrait/sha_defa1.png",
+      "fileName": "sha_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "shannon:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/virgilia/full/vir_copy.png",
+      "fileName": "vir_copy.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "virgilia:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep2/virgilia/portrait/vir_defa1.png",
+      "fileName": "vir_defa1.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "virgilia:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/ange/full/ang_child.png",
+      "fileName": "ang_child.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "ange:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/ange/portrait/ang_defa1.png",
+      "fileName": "ang_defa1.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "ange:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/bernkastel/full/ber_copy.png",
+      "fileName": "ber_copy.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "bernkastel:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/bernkastel/portrait/ber_defa1.png",
+      "fileName": "ber_defa1.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "bernkastel:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/chiester/full/c410_full.png",
+      "fileName": "c410_full.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "chiester_sisters:Chiester 410:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/chiester/full/c45_full.png",
+      "fileName": "c45_full.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "chiester_sisters:Chiester 45:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/chiester/full/chi_group_full.png",
+      "fileName": "chi_group_full.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "chiester_sisters:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/chiester/portrait/chi_group.png",
+      "fileName": "chi_group.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "chiester_sisters:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/eva/full/eva_head.png",
+      "fileName": "eva_head.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "normal",
+          "usage": "eva:winner:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/evabea/full/evb_smug.png",
+      "fileName": "evb_smug.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "evabeatrice:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/evabea/portrait/evb_defa1.png",
+      "fileName": "evb_defa1.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "evabeatrice:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/ronove/full/ron_copy.png",
+      "fileName": "ron_copy.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "ronove:active:full"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "ronove:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/ronove/portrait/ron_defa1.png",
+      "fileName": "ron_defa1.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "ronove:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "ronove:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/virgilia/full/vir_copy.png",
+      "fileName": "vir_copy.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "virgilia:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep3/virgilia/portrait/vir_defa1.png",
+      "fileName": "vir_defa1.png",
+      "usages": [
+        {
+          "episode": 3,
+          "mode": "fantasy",
+          "usage": "virgilia:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/ange1998/full/ang_long.png",
+      "fileName": "ang_long.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "future",
+          "usage": "ange_1998:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/ange1998/portrait/ang_future.png",
+      "fileName": "ang_future.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "future",
+          "usage": "ange_1998:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/bernkastel/full/ber_copy.png",
+      "fileName": "ber_copy.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "bernkastel:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/bernkastel/portrait/ber_defa1.png",
+      "fileName": "ber_defa1.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "bernkastel:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/gaap/full/gap_copy.png",
+      "fileName": "gap_copy.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "gaap:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/gaap/portrait/gap_defa1.png",
+      "fileName": "gap_defa1.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "gaap:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/lambdadelta/full/lam_copy.png",
+      "fileName": "lam_copy.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "lambdadelta:active:full"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "lambdadelta:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/lambdadelta/portrait/lam_defa1.png",
+      "fileName": "lam_defa1.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "lambdadelta:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "lambdadelta:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/mammon/full/mam_future.png",
+      "fileName": "mam_future.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "future",
+          "usage": "mammon_1998:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/mammon/portrait/mam_def.png",
+      "fileName": "mam_def.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "future",
+          "usage": "mammon_1998:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/maria/full/mar_copy.png",
+      "fileName": "mar_copy.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "maria_fantasy:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/maria/portrait/mar_defa1.png",
+      "fileName": "mar_defa1.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "maria_fantasy:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/ronove/full/ron_copy.png",
+      "fileName": "ron_copy.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "ronove:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/ronove/portrait/ron_defa1.png",
+      "fileName": "ron_defa1.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "ronove:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/saku/full/sak_copy.png",
+      "fileName": "sak_copy.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "sakutarou:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep4/saku/portrait/sak_def.png",
+      "fileName": "sak_def.png",
+      "usages": [
+        {
+          "episode": 4,
+          "mode": "fantasy",
+          "usage": "sakutarou:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/battler/full/but_serious.png",
+      "fileName": "but_serious.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/bern/full/ber_cold.png",
+      "fileName": "ber_cold.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "bernkastel:active:full"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "bernkastel:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/bern/portrait/ber_defa1.png",
+      "fileName": "ber_defa1.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "bernkastel:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "bernkastel:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/cornelia/full/cor_copy.png",
+      "fileName": "cor_copy.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "cornelia:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/cornelia/portrait/cor_def.png",
+      "fileName": "cor_def.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "cornelia:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/dlanor/full/dla_copy.png",
+      "fileName": "dla_copy.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "dlanor:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/dlanor/portrait/dla_def.png",
+      "fileName": "dla_def.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "dlanor:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/erika/full/eri_copy.png",
+      "fileName": "eri_copy.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "erika:alive:full"
+        },
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "erika_meta:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/erika/portrait/eri_defa1.png",
+      "fileName": "eri_defa1.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "erika:portrait"
+        },
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "erika_meta:portrait"
+        },
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "erika:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/gertrude/full/ger_copy.png",
+      "fileName": "ger_copy.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "gertrude:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/gertrude/portrait/ger_def.png",
+      "fileName": "ger_def.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "gertrude:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/lambda/full/lam_smug.png",
+      "fileName": "lam_smug.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "lambdadelta:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/lambda/portrait/lam_defa1.png",
+      "fileName": "lam_defa1.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "fantasy",
+          "usage": "lambdadelta:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep5/natsu/full/nat_stressed.png",
+      "fileName": "nat_stressed.png",
+      "usages": [
+        {
+          "episode": 5,
+          "mode": "normal",
+          "usage": "natsuhi:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/ange/full/ang_witch.png",
+      "fileName": "ang_witch.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "future",
+          "usage": "ange_beatrice:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/ange/portrait/ang_future.png",
+      "fileName": "ang_future.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "future",
+          "usage": "ange_beatrice:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/battler/full/but_gm_full.png",
+      "fileName": "but_gm_full.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "battler:alive:full"
+        },
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "battler_gm:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/battler/portrait/but_gm.png",
+      "fileName": "but_gm.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "battler_gm:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/beato/full/bea_chick_full.png",
+      "fileName": "bea_chick_full.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "chick_beato:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/beato/portrait/bea_chick.png",
+      "fileName": "bea_chick.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "chick_beato:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/erika/full/eri_witch_full.png",
+      "fileName": "eri_witch_full.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "normal",
+          "usage": "erika:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/hachijo/full/hac_full.png",
+      "fileName": "hac_full.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "future",
+          "usage": "hachijo_ikuko:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/hachijo/portrait/hac_def.png",
+      "fileName": "hac_def.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "future",
+          "usage": "hachijo_ikuko:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/zepar_furfur/full/zf_full.png",
+      "fileName": "zf_full.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "zepar_furfur:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep6/zepar_furfur/portrait/zf_def.png",
+      "fileName": "zf_def.png",
+      "usages": [
+        {
+          "episode": 6,
+          "mode": "fantasy",
+          "usage": "zepar_furfur:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/bern/full/ber_tea.png",
+      "fileName": "ber_tea.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "bernkastel:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/bern/portrait/ber_defa1.png",
+      "fileName": "ber_defa1.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "bernkastel:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/clair/full/cla_full.png",
+      "fileName": "cla_full.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "clair:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/clair/portrait/cla_def.png",
+      "fileName": "cla_def.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "clair:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/lion/full/lio_copy.png",
+      "fileName": "lio_copy.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "lion:alive:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/lion/full/lio_dead.png",
+      "fileName": "lio_dead.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "lion:dead:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/lion/portrait/lio_defa1.png",
+      "fileName": "lio_defa1.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "lion:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/will/full/wil_copy.png",
+      "fileName": "wil_copy.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "willard:active:full"
+        },
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "willard_meta:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep7/will/portrait/wil_defa1.png",
+      "fileName": "wil_defa1.png",
+      "usages": [
+        {
+          "episode": 7,
+          "mode": "normal",
+          "usage": "willard:portrait"
+        },
+        {
+          "episode": 7,
+          "mode": "fantasy",
+          "usage": "willard_meta:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/ange/full/ang_golden_witch.png",
+      "fileName": "ang_golden_witch.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "ange_final:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/ange/portrait/ang_final.png",
+      "fileName": "ang_final.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "ange_final:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/batbea/full/bb_full.png",
+      "fileName": "bb_full.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "battler_beato_final:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/batbea/portrait/bb_final.png",
+      "fileName": "bb_final.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "battler_beato_final:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/bern/full/ber_monster.png",
+      "fileName": "ber_monster.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "bernkastel_final:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/bern/portrait/ber_final.png",
+      "fileName": "ber_final.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "bernkastel_final:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/featherine/full/fea_full.png",
+      "fileName": "fea_full.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "featherine:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/featherine/portrait/fea_def.png",
+      "fileName": "fea_def.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "featherine:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/lambda/full/lam_full_power.png",
+      "fileName": "lam_full_power.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "lambdadelta_hero:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/ep8/lambda/portrait/lam_hero.png",
+      "fileName": "lam_hero.png",
+      "usages": [
+        {
+          "episode": 8,
+          "mode": "fantasy",
+          "usage": "lambdadelta_hero:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/asmodeus_full.png",
+      "fileName": "asmodeus_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Asmodeus:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/beelzebub_full.png",
+      "fileName": "beelzebub_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Beelzebub:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/belphegor_full.png",
+      "fileName": "belphegor_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Belphegor:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/group_full.png",
+      "fileName": "group_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:active:full"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/leviathan_full.png",
+      "fileName": "leviathan_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Leviathan:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/lucifer_full.png",
+      "fileName": "lucifer_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Lucifer:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/mammon_full.png",
+      "fileName": "mammon_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Mammon:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/portrait_group.png",
+      "fileName": "portrait_group.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:portrait"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/characters/stakes/satan_full.png",
+      "fileName": "satan_full.png",
+      "usages": [
+        {
+          "episode": 2,
+          "mode": "fantasy",
+          "usage": "stakes:Satan:sub"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/fonts/face0.otf",
+      "fileName": "face0.otf",
+      "usages": [
+        {
+          "episode": "ui",
+          "mode": "font",
+          "usage": "face0"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/ui/umi_gf.png",
+      "fileName": "umi_gf.png",
+      "usages": [
+        {
+          "episode": "ui",
+          "mode": "ornament",
+          "usage": "gold-wing"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "assets/ui/umi-gf-black.png",
+      "fileName": "umi-gf-black.png",
+      "usages": [
+        {
+          "episode": "ui",
+          "mode": "ornament",
+          "usage": "black-wing"
+        }
+      ],
+      "exists": true
+    }
+  ]
+}

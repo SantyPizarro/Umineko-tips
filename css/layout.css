@@ -1,7 +1,60 @@
 #app {
-  height: 100vh;
+  width: min(100vw, calc(100vh * 4 / 3));
+  height: min(100vh, calc(100vw * 3 / 4));
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-image: var(--scene-background);
+  background-size: cover;
+  background-position: center;
+}
+
+#app.pc-ui-active {
+  width: min(100vw, calc(100vh * 4 / 3));
+  height: min(100vh, calc(100vw * 3 / 4));
+}
+
+#pc-utility-buttons {
+  display: none;
+}
+
+#app.pc-ui-active #pc-utility-buttons {
+  display: block;
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.pc-utility-btn {
+  position: absolute;
+  top: 1.4583%;
+  width: 9.375%;
+  height: 3.75%;
+  padding: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+  border: 0;
+  color: transparent;
+  text-shadow: none;
+  pointer-events: auto;
+}
+
+#btn-pc-language {
+  left: 4.84375%;
+  background-image: url("../assets/ui/system/r_jp.png");
+}
+
+#btn-pc-sprites {
+  left: 17.1875%;
+  background-image: url("../assets/ui/system/r_new.png");
+}
+
+.pc-utility-btn:hover {
+  background-position: right top;
 }
 
 #app-header {
@@ -25,11 +78,67 @@
 }
 
 #main-layout.tips-active {
-  grid-template-columns: 320px 1fr 0px;
+  display: block;
+  grid-template-columns: none;
+  height: 100%;
+}
+
+#main-layout.pc-characters-active {
+  display: block;
+  grid-template-columns: none;
+  height: 100%;
+  background: transparent;
 }
 
 #main-layout.tips-active #character-visual {
   display: none;
+}
+
+#app:has(#main-layout.tips-active) #app-header,
+#app:has(#main-layout.pc-characters-active) #app-header {
+  display: none;
+}
+
+#app:has(#main-layout.tips-active) #app-footer,
+#app:has(#main-layout.pc-characters-active) #app-footer {
+  position: absolute;
+  left: 2.1875%;
+  right: auto;
+  bottom: 2.0833%;
+  z-index: 10;
+  display: block;
+  height: 3.75%;
+  background: transparent;
+  padding: 0;
+}
+
+#app.pc-ui-active #music-player {
+  display: none;
+}
+
+#app.pc-ui-active #episode-selector {
+  display: flex;
+  gap: min(0.625vw, calc(0.625vh * 4 / 3));
+  height: 100%;
+  padding: 0;
+}
+
+#app.pc-ui-active .episode-btn {
+  width: min(9.375vw, calc(9.375vh * 4 / 3));
+  height: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: rgba(55, 27, 27, 0.9);
+  color: #fff;
+  font-family: 'face0', sans-serif;
+  font-size: min(1.875vw, calc(1.875vh * 4 / 3));
+  line-height: 1;
+  text-align: center;
+}
+
+#app.pc-ui-active .episode-btn.active {
+  background: #f00;
 }
 
 #left-panel {
@@ -125,11 +234,111 @@
 #selector-container.tips-mode {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  padding: 10px;
+  gap: 0.625%;
+  padding: 0;
   height: 100%;
   background: none;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+
+#main-layout.tips-active #left-panel {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  pointer-events: none;
+}
+
+#main-layout.tips-active #characters-selector,
+#main-layout.tips-active #selector-container.tips-mode {
+  display: block;
+}
+
+#main-layout.tips-active #characters-selector {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#main-layout.tips-active #selector-container.tips-mode {
+  position: absolute;
+  left: 1.875%;
+  top: 6.25%;
+  width: 26.875%;
+  height: 45.42%;
+  pointer-events: auto;
+}
+
+#main-layout.tips-active #mode-selector {
+  display: none;
+}
+
+#main-layout.pc-characters-active #left-panel {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  pointer-events: none;
+}
+
+#main-layout.pc-characters-active #characters-selector {
+  position: absolute;
+  inset: 0;
+  display: block;
+  pointer-events: none;
+}
+
+#main-layout.pc-characters-active #selector-container:not(.tips-mode) {
+  position: absolute;
+  inset: 0;
+  display: block;
+  padding: 0;
+  background: transparent;
+  pointer-events: auto;
+}
+
+#main-layout.pc-characters-active #selector-container:not(.tips-mode)::before {
+  content: "";
+  position: absolute;
+  left: 1.875%;
+  top: 6.25%;
+  width: 26.875%;
+  height: 47.0833%;
+  background-image: url("../assets/ui/characters/ep1/backdrop/cha_back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#main-layout.pc-characters-active #mode-selector {
+  display: none;
+}
+
+#main-layout.tips-active #side-menu {
+  position: absolute;
+  left: 1.875%;
+  top: 53.75%;
+  width: 26.875%;
+  height: 32.7083%;
+  pointer-events: auto;
+}
+
+#main-layout.pc-characters-active #side-menu {
+  position: absolute;
+  left: 1.875%;
+  top: 53.75%;
+  width: 26.875%;
+  height: 32.7083% !important;
+  pointer-events: auto;
+  z-index: 5;
 }
 
 #selector-container.tips-mode::before,
@@ -231,6 +440,151 @@
   width: 90%;
 }
 
+#main-layout.pc-characters-active .character-slot {
+  position: absolute;
+  left: var(--pc-grid-left);
+  top: var(--pc-grid-top);
+  width: 4.84375%;
+  height: 7.5%;
+  aspect-ratio: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  background-position: left top;
+  transition: none;
+  z-index: 5;
+}
+
+#main-layout.pc-characters-active .character-slot:hover,
+#main-layout.pc-characters-active .character-slot.active {
+  background-position: right top;
+}
+
+#main-layout.pc-characters-active .character-slot::after {
+  display: none;
+}
+
+#main-layout.tips-active #info-panel {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: transparent;
+  background-image: var(--tip-background);
+  background-repeat: repeat-y;
+  background-position: 1.875% 6.25%;
+  background-size: 26.875% auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-layout.pc-characters-active #center-panel,
+#main-layout.pc-characters-active #character-visual {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+#main-layout.pc-characters-active::before,
+#main-layout.tips-active::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.48);
+  pointer-events: none;
+}
+
+#main-layout.pc-characters-active #center-panel {
+  z-index: 3;
+  pointer-events: none;
+}
+
+#main-layout.pc-characters-active #character-visual {
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#main-layout.pc-characters-active #character-visual::before {
+  content: "";
+  position: absolute;
+  left: 46.875%;
+  top: 17.9167%;
+  width: 51.71875%;
+  height: 80%;
+  background-image: url("../assets/ui/hana_back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#main-layout.pc-characters-active #info-panel {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+#main-layout.pc-characters-active #text-container {
+  position: absolute;
+  inset: 0;
+}
+
+#main-layout.pc-characters-active #character-text {
+  position: absolute;
+  left: 29.375%;
+  top: 6.25%;
+  width: 36.875%;
+  height: 80.4167%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 10px 12px;
+  background-image: url("../assets/ui/characters/ep1/text/txt_def.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#main-layout.pc-characters-active #character-text.pc-character-text-image {
+  padding: 0;
+  background-image: var(--pc-text-image);
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  text-shadow: none;
+}
+
+#main-layout.pc-characters-active #character-image {
+  position: absolute;
+  left: var(--pc-tachi-left, 59.375%);
+  top: 0;
+  bottom: auto;
+  width: auto;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  z-index: 1;
+}
+
+#main-layout.tips-active #center-panel {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+#main-layout.tips-active #text-container {
+  position: absolute;
+  inset: 0;
+}
+
 #info-panel::after {
   content: "";
   position: absolute;
@@ -275,6 +629,44 @@
   font-size: 16px;
   margin-bottom: 40px;
   overflow-y: auto;
+}
+
+#character-text.image-page-active {
+  position: absolute;
+  left: 29.375%;
+  top: 6.25%;
+  width: 69.21875%;
+  height: 80.4167%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-image: var(--pc-text-image);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  text-shadow: none;
+}
+
+#main-layout.tips-active #character-text.english-tip-page {
+  position: absolute;
+  left: 29.375%;
+  top: 6.25%;
+  width: 69.21875%;
+  height: 80.4167%;
+  margin: 0;
+  overflow: hidden;
+  padding: 28% 8% 7% 23.5%;
+}
+
+.tip-page-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  image-rendering: auto;
 }
 
 .text-next {
@@ -360,11 +752,26 @@
 #episode-selector {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .episode-btn {
   padding: 6px 14px;
   cursor: pointer;
+}
+
+#mode-selector {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+}
+
+.mode-btn {
+  min-width: 78px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
 }
 
 
