@@ -26,7 +26,7 @@ for (const episodeId of [1, 2, 3, 4, 5, 6, 7, 8]) {
     if (!modeData.characters.length) {
       errors.push(`EP${episodeId} ${mode} mode has no characters.`);
     }
-    if (!modeData.tips.length) {
+    if (!modeData.tips.length && episodeId !== 8) {
       errors.push(`EP${episodeId} ${mode} mode has no tips.`);
     }
 

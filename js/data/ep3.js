@@ -903,3 +903,252 @@ That was EVA-Beatrice. The part of Eva that had always wanted to destroy everyth
     }
   ]
 };
+
+const EP3_PC_SOURCE = "local-original-pc-arc.nsa";
+const EP3_EN_SOURCE = "local-original-pc-arc3.nsa";
+
+const EP3_PC_NORMAL = {
+  characterBackdrop: "assets/ui/characters/ep3/backdrop/cha_back4.png",
+  textPanel: "assets/ui/characters/ep3/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP3_PC_FANTASY = {
+  characterBackdrop: "assets/ui/characters/ep3_2/backdrop/cha_back15.png",
+  textPanel: "assets/ui/characters/ep3/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP3_NORMAL_PC = {
+  kinzo: { code: "kin", grid: [17, 37], tachiX: 380 },
+  krauss: { code: "kla", grid: [62, 37], tachiX: 425 },
+  natsuhi: { code: "nat", grid: [106, 37], tachiX: 430 },
+  jessica: { code: "jes", grid: [150, 37], tachiX: 420 },
+  nanjo: { code: "nan", grid: [17, 82], tachiX: 425 },
+  eva: { code: "eva", grid: [62, 82], tachiX: 440 },
+  hideyoshi: { code: "hid", grid: [106, 82], tachiX: 415 },
+  george: { code: "geo", grid: [150, 82], tachiX: 435 },
+  beatrice: { code: "bea", grid: [17, 126], tachiX: 380 },
+  rudolf: { code: "rud", grid: [62, 126], tachiX: 455 },
+  kyrie: { code: "kir", grid: [106, 126], tachiX: 455 },
+  battler: { code: "but", grid: [150, 126], tachiX: 455 },
+  genji: { code: "gen", grid: [17, 170], tachiX: 455 },
+  rosa: { code: "ros", grid: [62, 170], tachiX: 445 },
+  maria: { code: "mar", grid: [106, 170], tachiX: 390 },
+  shannon: { code: "sha", grid: [17, 214], tachiX: 430 },
+  kanon: { code: "kan", grid: [62, 214], tachiX: 460 },
+  gohda: { code: "goh", grid: [106, 214], tachiX: 450 },
+  kumasawa: { code: "kum", grid: [150, 214], tachiX: 440 },
+  ange: { code: "enj", grid: [150, 170], tachiX: 440 }
+};
+
+const EP3_FANTASY_PC = {
+  virgilia: { code: "wal", grid: [17, 37], tachiX: 360 },
+  lambdadelta: {
+    code: "lam",
+    grid: [106, 37],
+    tachiX: 410,
+    textPath: "assets/ui/characters/ep2_2/reference-text/lam_1.png"
+  },
+  bernkastel: { code: "ber", grid: [150, 37], tachiX: 430 },
+  beatrice: { code: "bea", grid: [17, 82], tachiX: 380 },
+  evabeatrice: { code: "ev2", grid: [17, 126], tachiX: 400 },
+  chiester_sisters: { code: "s", grid: [62, 126], tachiX: 420, tachi: "s41", text: "s41_1" },
+  ronove: { code: "ron", grid: [62, 170], tachiX: 420 },
+  stakes: { code: "rg", grid: [106, 170], tachiX: 420, tachi: "rg1", text: "rg1_1" },
+  goats: { code: "goa", grid: [150, 170], tachiX: 380 },
+  ange: { code: "enj", grid: [17, 214], tachiX: 440 }
+};
+
+const EP3_TIP_PAGE_COUNTS = [3, 1, 4, 1, 1, 1];
+
+const EP3_ALT_COSTUMES = {
+  geo: { icon: "geo_l", tachi: "geo", tachiX: 435 },
+  sha: { icon: "sha_l", tachi: "sha", tachiX: 430 },
+  kan: { icon: "kan_l", tachi: "kan", tachiX: 440 }
+};
+
+ensureEp3FantasyCharacters();
+
+ep3.pc = EP3_PC_NORMAL;
+ep3.modes = {
+  normal: {
+    background: ep3.background,
+    characters: ep3.characters,
+    tips: ep3.tips,
+    pc: EP3_PC_NORMAL
+  },
+  fantasy: {
+    background: ep3.backgroundFantasy,
+    characters: ep3.charactersFantasy,
+    tips: ep3.tips,
+    pc: EP3_PC_FANTASY
+  }
+};
+
+applyEp3PcCharacters(ep3.characters, EP3_NORMAL_PC, "ep3");
+applyEp3PcCharacters(ep3.charactersFantasy, EP3_FANTASY_PC, "ep3_2", true);
+applyEp3Tips(ep3.tips);
+
+function applyEp3PcCharacters(characters, pcMap, folder, singleState = false) {
+  for (const character of characters || []) {
+    const pc = pcMap[character.id];
+    if (!pc) continue;
+
+    character.pc = {
+      sourceUrl: EP3_PC_SOURCE,
+      code: pc.code,
+      gridX: pc.grid[0],
+      gridY: pc.grid[1],
+      tachiX: pc.tachiX,
+      iconAlive: `assets/ui/characters/${folder}/icons/${pc.code}_l.png`,
+      iconDead: singleState || ["eva", "enj"].includes(pc.code)
+        ? `assets/ui/characters/${folder}/icons/${pc.code}_l.png`
+        : `assets/ui/characters/${folder}/icons/${pc.code}_d.png`
+    };
+
+    for (const [index, state] of (character.states || []).entries()) {
+      const statePc = singleState
+        ? fantasyState(pc)
+        : normalState(pc.code, index, state.phase);
+      if (!statePc) continue;
+
+      state.pc = {
+        sourceUrl: EP3_PC_SOURCE,
+        icon: `assets/ui/characters/${folder}/icons/${statePc.icon}.png`,
+        tachi: `assets/ui/characters/${folder}/tachi/${statePc.tachi}.png`,
+        referenceTextImage: statePc.textPath || `assets/ui/characters/${folder}/reference-text/${statePc.text}.png`
+      };
+      if (statePc.tachiX) state.pc.tachiX = statePc.tachiX;
+      if (statePc.alt) {
+        state.pcAlt = {
+          icon: `assets/ui/characters/${folder}/icons/${statePc.alt.icon}.png`,
+          tachi: `assets/ui/characters/${folder}/tachi/${statePc.alt.tachi}.png`
+        };
+        if (statePc.alt.tachiX) state.pcAlt.tachiX = statePc.alt.tachiX;
+      }
+    }
+
+    if (character.id === "chiester_sisters") {
+      applyChiesterSubCharacters(character);
+    }
+  }
+}
+
+function ensureEp3FantasyCharacters() {
+  const additions = [
+    ["lambdadelta", "Lambdadelta", "lam"],
+    ["stakes", "The Seven Stakes of Purgatory", "rg", makeStakeSubCharacters()],
+    ["goats", "All of the Goats", "goa"],
+    ["ange", "Ushiromiya Ange", "enj"]
+  ];
+  const existingIds = new Set(ep3.charactersFantasy.map(character => character.id));
+  for (const [id, name, code, subCharacters] of additions) {
+    if (existingIds.has(id)) continue;
+    ep3.charactersFantasy.push({
+      id,
+      name,
+      portrait: `assets/ui/characters/ep3_2/icons/${code}_l.png`,
+      currentPhase: 0,
+      states: [{
+        phase: "alive",
+        image: `assets/ui/characters/ep3_2/tachi/${code === "rg" ? "rg1" : code}.png`,
+        pages: [name]
+      }],
+      ...(subCharacters ? { subCharacters } : {})
+    });
+  }
+}
+
+function makeStakeSubCharacters() {
+  return [
+    ["Lucifer", "rg1"],
+    ["Leviathan", "rg2"],
+    ["Satan", "rg3"],
+    ["Belphegor", "rg4"],
+    ["Mammon", "rg5"],
+    ["Beelzebub", "rg6"],
+    ["Asmodeus", "rg7"]
+  ].map(([name, code]) => ({
+    name,
+    image: `assets/ui/characters/ep3_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep3_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep3_2/reference-text/${code}_1.png`,
+      tachiX: 420
+    }
+  }));
+}
+
+function normalState(code, index, phase) {
+  if (index === 0) {
+    return {
+      icon: `${code}_l`,
+      tachi: code,
+      text: `${code}_1`,
+      alt: EP3_ALT_COSTUMES[code] || null
+    };
+  }
+  if (code === "eva" || code === "enj") {
+    return { icon: `${code}_l`, tachi: code, text: `${code}_1` };
+  }
+  return {
+    icon: `${code}_d`,
+    tachi: `${code}_d`,
+    text: phase === "alive" ? `${code}_1` : `${code}_2`
+  };
+}
+
+function fantasyState(pc) {
+  return {
+    icon: `${pc.code}_l`,
+    tachi: pc.tachi || pc.code,
+    text: pc.text || `${pc.code}_1`,
+    textPath: pc.textPath || null
+  };
+}
+
+function applyChiesterSubCharacters(character) {
+  const subMap = {
+    "Chiester 410": ["s41", 420],
+    "Chiester 45": ["s45", 420]
+  };
+  for (const subCharacter of character.subCharacters || []) {
+    const sub = subMap[subCharacter.name];
+    if (!sub) continue;
+    subCharacter.pc = {
+      tachi: `assets/ui/characters/ep3_2/tachi/${sub[0]}.png`,
+      referenceTextImage: `assets/ui/characters/ep3_2/reference-text/${sub[0]}_1.png`,
+      tachiX: sub[1]
+    };
+  }
+}
+
+function applyEp3Tips(tips) {
+  for (const [index, tip] of (tips || []).entries()) {
+    const tipNumber = index + 1;
+    const pageCount = EP3_TIP_PAGE_COUNTS[index] || tip.pages?.length || 1;
+    if (Array.isArray(tip.pages)) {
+      tip.pages = tip.pages.slice(0, pageCount);
+    }
+    Object.assign(tip, {
+      id: `ep3-tip-${tipNumber}`,
+      episode: 3,
+      unlockOrder: tipNumber,
+      buttonImage: `assets/ui/tips/ep3/buttons/tips3_${tipNumber}.png`,
+      referenceButtonImage: `assets/ui/tips/ep3/buttons/tips3_${tipNumber}.png`,
+      background: "assets/ui/tips/ep1/backdrop/tips1_back.png",
+      pageImages: Array.from(
+        { length: pageCount },
+        (_, pageIndex) => `assets/tips/ep3/${tipNumber}_${pageIndex + 1}.png`
+      ),
+      referencePageImages: Array.from(
+        { length: pageCount },
+        (_, pageIndex) => `assets/tips/ep3/${tipNumber}_${pageIndex + 1}.png`
+      ),
+      sourceUrl: EP3_EN_SOURCE,
+      verified: false
+    });
+  }
+}

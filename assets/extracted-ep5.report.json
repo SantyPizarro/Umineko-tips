@@ -1,0 +1,1594 @@
+{
+  "extracted": [
+    {
+      "target": "assets/tips/ep5/1_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\1_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/tips/ep5/2_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\2_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/tips/ep5/2_2.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\2_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/tips/ep5/2_3.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\2_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/tips/ep5/3_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\3_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/tips/ep5/3_2.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\3_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/tips/ep5/4_1.png",
+      "source": "en\\bmp\\r_click\\text\\tips\\ep5\\4_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 886,
+      "height": 806
+    },
+    {
+      "target": "assets/ui/characters/ep5/backdrop/cha_back.png",
+      "source": "bmp\\r_click\\cha_btn\\cha_back.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 344,
+      "height": 452
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/bea_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\bea_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/bea_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\bea_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/ber_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\ber_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/ber_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\ber_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/but_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\but_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/but_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\but_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/enj_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\enj_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/enj_l2.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\enj_l2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/eri_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\eri_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/eva_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\eva_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/eva_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\eva_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/gen_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\gen_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/gen_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\gen_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/geo_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\geo_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/geo_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\geo_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/goh_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\goh_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/goh_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\goh_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/hid_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\hid_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/hid_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\hid_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/jes_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\jes_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/jes_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\jes_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kan_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kan_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kan_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kan_m.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kan_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kin_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kin_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kin_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kin_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kin_m.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kin_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kir_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kir_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kir_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kir_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kla_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kla_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kla_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kla_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kla_m.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kla_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kum_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kum_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kum_d2.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kum_d2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/kum_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\kum_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/mar_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\mar_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/mar_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\mar_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/nan_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\nan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/nan_d2.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\nan_d2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/nan_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\nan_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/nat_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\nat_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/nat_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\nat_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/non.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\non.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/ros_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\ros_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/ros_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\ros_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/rud_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\rud_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/rud_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\rud_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/sha_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\sha_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/icons/sha_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5\\sha_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/bea_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\bea_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/bea_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\bea_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/ber_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\ber_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/but_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\but_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/enj_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\enj_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/eri_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\eri_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/eva_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\eva_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/gen_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\gen_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/gen_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\gen_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/geo_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\geo_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/geo_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\geo_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/goh_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\goh_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/hid_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\hid_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/hid_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\hid_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/jes_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\jes_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/jes_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\jes_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kan_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kan_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kin_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kin_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kir_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kir_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kla_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kla_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kla_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kla_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kla_3.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kla_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/kum_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\kum_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/mar_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\mar_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/mar_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\mar_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/nan_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\nan_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/nat_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\nat_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/ros_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\ros_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/ros_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\ros_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/rud_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\rud_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/reference-text/sha_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5\\sha_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/bea.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\bea.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 596,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/bea_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\bea_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 596,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/ber.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\ber.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 382,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/ber_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\ber_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 382,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/but.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\but.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/but_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\but_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/enj.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\enj.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 450,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/enj_2.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\enj_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 450,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/eri.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\eri.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 452,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/eva.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\eva.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 356,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/eva_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\eva_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 356,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/gen.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\gen.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 288,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/gen_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\gen_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 288,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/geo.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\geo.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 324,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/geo_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\geo_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 324,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/goh.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\goh.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 306,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/goh_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\goh_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 306,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/hid.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\hid.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 454,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/hid_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\hid_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 454,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/jes.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\jes.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/jes_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\jes_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kan.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kan.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 274,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kan_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 358,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kan_m.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kan_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 358,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kin.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kin.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kin_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kin_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kin_m.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kin_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kir.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kir.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 284,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kir_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kir_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 284,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kla.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kla.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 422,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kla_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kla_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 422,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kla_m.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kla_m.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 422,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kum.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kum.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 366,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/kum_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\kum_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 366,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/mar.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\mar.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/mar_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\mar_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/nan.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\nan.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 412,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/nan_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\nan_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 412,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/nan_d2.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\nan_d2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 412,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/nat.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\nat.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 400,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/nat_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\nat_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 400,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/ros.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\ros.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/ros_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\ros_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/rud.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\rud.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 286,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/rud_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\rud_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 286,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/sha.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\sha.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/tachi/sha_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5\\sha_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5/text/txt_def2.png",
+      "source": "bmp\\r_click\\text\\txt_def2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 472,
+      "height": 806
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/backdrop/cha_back.png",
+      "source": "bmp\\r_click\\cha_btn\\cha_back.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 344,
+      "height": 452
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/backdrop/cha_back20.png",
+      "source": "bmp\\r_click\\cha_btn\\cha_back20.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 344,
+      "height": 452
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/backdrop/cha_back3.png",
+      "source": "bmp\\r_click\\cha_btn\\cha_back3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 344,
+      "height": 452
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/backdrop/cha_back_29.png",
+      "source": "bmp\\r_click\\cha_btn\\cha_back_29.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 344,
+      "height": 452
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/bea_d.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\bea_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/bea_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\bea_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/ber_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\ber_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/but_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\but_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/cor.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\cor.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/dla_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\dla_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/eri_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\eri_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/gap_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\gap_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/ger.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\ger.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/k_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\k_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/lam_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\lam_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/rg_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\rg_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/ron_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\ron_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/s_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\s_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/icons/wal_l.png",
+      "source": "bmp\\r_click\\cha_btn\\ep5_2\\wal_l.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 124,
+      "height": 72
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/bea_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\bea_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/bea_11.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\bea_11.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/bea_12.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\bea_12.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/bea_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\bea_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/ber_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\ber_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/but_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\but_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/cor_11.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\cor_11.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/cor_12.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\cor_12.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/dla_11.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\dla_11.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/dla_12.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\dla_12.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/enj_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\enj_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/eri_11.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\eri_11.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/eri_12.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\eri_12.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/gap_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\gap_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/ger_11.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\ger_11.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/ger_12.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\ger_12.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/kin_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\kin_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/lam_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\lam_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/mar_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\mar_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/mar_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\mar_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg1_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg1_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg2_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg2_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg3_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg3_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg4_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg4_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg5_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg5_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg6_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg6_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/rg7_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\rg7_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/ron_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\ron_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/s00_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\s00_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/s41_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\s41_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/s45_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\s45_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/s55_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\s55_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/s55_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\s55_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/sak_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\sak_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/sak_2.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\sak_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/reference-text/wal_1.png",
+      "source": "en\\bmp\\r_click\\text\\cha\\ep5_2\\wal_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 472,
+      "height": 772
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/bea.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\bea.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 596,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/bea_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\bea_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 596,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/ber.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\ber.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 382,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/but.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\but.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 328,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/cor.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\cor.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 530,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/dla.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\dla.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 478,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/dla_megane.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\dla_megane.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 478,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/eri.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\eri.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 452,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/gap.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\gap.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 432,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/ger.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\ger.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/kin.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\kin.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 518,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/lam.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\lam.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 496,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/mar.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\mar.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/mar_2.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\mar_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg1.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg2.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg3.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg4.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg4.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg5.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg5.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg6.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg6.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/rg7.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\rg7.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/ron.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\ron.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 436,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/s00.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\s00.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/s41.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\s41.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/s45.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\s45.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/s55.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\s55.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/s55_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\s55_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 444,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/sak.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\sak.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 530,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/sak_d.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\sak_d.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 530,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/characters/ep5_2/tachi/wal.png",
+      "source": "bmp\\r_click\\cha_tati\\ep5_2\\wal.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 656,
+      "height": 960
+    },
+    {
+      "target": "assets/ui/hana3_back.png",
+      "source": "en\\bmp\\r_click\\hana3_back.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 662,
+      "height": 768
+    },
+    {
+      "target": "assets/ui/system/cha_next.png",
+      "source": "bmp\\r_click\\sys_btn\\cha_next.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc.nsa",
+      "width": 240,
+      "height": 28
+    },
+    {
+      "target": "assets/ui/tips/ep5/buttons/tips5_1.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips5_1.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 688,
+      "height": 58
+    },
+    {
+      "target": "assets/ui/tips/ep5/buttons/tips5_2.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips5_2.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 688,
+      "height": 58
+    },
+    {
+      "target": "assets/ui/tips/ep5/buttons/tips5_3.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips5_3.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 688,
+      "height": 58
+    },
+    {
+      "target": "assets/ui/tips/ep5/buttons/tips5_4.png",
+      "source": "en\\bmp\\r_click\\tips_btn\\tips5_4.png",
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Umineko Chiru\\arc3.nsa",
+      "width": 688,
+      "height": 58
+    }
+  ],
+  "missing": []
+}

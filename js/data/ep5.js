@@ -754,3 +754,249 @@ Whoever he is, he knows exactly where to press to make Natsuhi crack.`
     }
   ]
 };
+
+const EP5_PC_SOURCE = "local-original-chiru-pc-archives";
+const EP5_EN_SOURCE = "local-original-chiru-pc-archives-en";
+
+const EP5_PC_NORMAL = {
+  characterBackdrop: "assets/ui/characters/ep5/backdrop/cha_back.png",
+  textPanel: "assets/ui/characters/ep5/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP5_PC_FANTASY = {
+  characterBackdrop: "assets/ui/characters/ep5_2/backdrop/cha_back20.png",
+  textPanel: "assets/ui/characters/ep5/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP5_NORMAL_PC = {
+  kinzo: { code: "kin", grid: [17, 37], tachiX: 380, variants: ["l"] },
+  krauss: { code: "kla", grid: [62, 37], tachiX: 425, variants: ["l", "m", "d"] },
+  natsuhi: { code: "nat", grid: [106, 37], tachiX: 430, variants: ["l"] },
+  jessica: { code: "jes", grid: [150, 37], tachiX: 420, variants: ["l", "d"] },
+  nanjo: { code: "nan", grid: [17, 82], tachiX: 425, variants: ["l"] },
+  eva: { code: "eva", grid: [62, 82], tachiX: 440, variants: ["l"] },
+  hideyoshi: { code: "hid", grid: [106, 82], tachiX: 415, variants: ["l", "d"] },
+  george: { code: "geo", grid: [150, 82], tachiX: 435, variants: ["l", "d"] },
+  erika: { code: "eri", grid: [17, 126], tachiX: 400, variants: ["l"] },
+  rudolf: { code: "rud", grid: [62, 126], tachiX: 455, variants: ["l"] },
+  kyrie: { code: "kir", grid: [106, 126], tachiX: 455, variants: ["l"] },
+  battler: { code: "but", grid: [150, 126], tachiX: 455, variants: ["l"] },
+  genji: { code: "gen", grid: [17, 170], tachiX: 455, variants: ["l", "d"] },
+  rosa: { code: "ros", grid: [62, 170], tachiX: 445, variants: ["l", "d"] },
+  maria: { code: "mar", grid: [150, 170], tachiX: 390, variants: ["l", "d"] },
+  shannon: { code: "sha", grid: [17, 214], tachiX: 430, variants: ["l"] },
+  kanon: { code: "kan", grid: [62, 214], tachiX: 460, variants: ["l"] },
+  gohda: { code: "goh", grid: [106, 214], tachiX: 450, variants: ["l"] },
+  kumasawa: { code: "kum", grid: [150, 214], tachiX: 440, variants: ["l"] }
+};
+
+const EP5_FANTASY_PC = {
+  beatrice: { code: "bea", grid: [17, 35], tachiX: 380, variants: ["l", "d"] },
+  virgilia: { code: "wal", grid: [17, 78], tachiX: 360, variants: ["l"] },
+  ronove: { code: "ron", grid: [17, 121], tachiX: 420, variants: ["l"] },
+  gaap: { code: "gap", grid: [17, 168], tachiX: 415, variants: ["l"] },
+  stakes: { code: "rg", grid: [17, 215], tachiX: 420, variants: ["l"], tachi: "rg1", text: "rg1_1" },
+  battler_meta: { code: "but", grid: [62, 215], tachiX: 455, variants: ["l"] },
+  lambdadelta: { code: "lam", grid: [106, 215], tachiX: 410, variants: ["l"] },
+  bernkastel: { code: "ber", grid: [150, 35], tachiX: 430, variants: ["l"] },
+  erika_meta: { code: "eri", grid: [150, 78], tachiX: 400, variants: ["l"], text: "eri_11" },
+  dlanor: { code: "dla", grid: [150, 121], tachiX: 405, variants: ["l"], text: "dla_11" },
+  knox: { code: "k", grid: [150, 168], tachiX: 405, variants: ["l"], tachi: "dla", text: "dla_12" },
+  chiester_sisters: { code: "s", grid: [150, 215], tachiX: 420, variants: ["l"], tachi: "s00", text: "s00_1" },
+  gertrude: { code: "ger", grid: [150, 568], tachiX: 395, variants: [""], icon: "ger", text: "ger_11" },
+  cornelia: { code: "cor", grid: [150, 615], tachiX: 403, variants: [""], icon: "cor", text: "cor_11" }
+};
+
+const EP5_TIP_PAGE_COUNTS = [1, 3, 2, 1];
+
+ensureEp5Characters();
+ensureEp5FantasyCharacters();
+ensureEp5Tips();
+
+ep5.pc = EP5_PC_NORMAL;
+ep5.modes = {
+  normal: {
+    background: ep5.background,
+    characters: ep5.characters,
+    tips: ep5.tips,
+    pc: EP5_PC_NORMAL
+  },
+  fantasy: {
+    background: ep5.backgroundFantasy,
+    characters: ep5.charactersFantasy,
+    tips: ep5.tips,
+    pc: EP5_PC_FANTASY
+  }
+};
+
+applyEp5PcCharacters(ep5.characters, EP5_NORMAL_PC, "ep5", ep5NormalState);
+applyEp5PcCharacters(ep5.charactersFantasy, EP5_FANTASY_PC, "ep5_2", ep5FantasyState);
+applyEp5Tips(ep5.tips);
+
+function ensureEp5Characters() {
+  ep5.characters = ep5.characters.filter(character => EP5_NORMAL_PC[character.id]);
+  for (const character of ep5.characters) {
+    const pc = EP5_NORMAL_PC[character.id];
+    character.portrait = `assets/ui/characters/ep5/icons/${pc.code}_l.png`;
+    character.states = pc.variants.map((variant, index) => ({
+      phase: index === 0 ? "alive" : variant === "d" ? "dead" : "missing",
+      image: `assets/ui/characters/ep5/tachi/${pc.code}${variant === "l" ? "" : `_${variant}`}.png`,
+      pages: [character.name]
+    }));
+  }
+}
+
+function ensureEp5FantasyCharacters() {
+  const names = {
+    beatrice: "Beatrice",
+    virgilia: "Virgilia",
+    ronove: "Ronove",
+    gaap: "Gaap",
+    stakes: "The Seven Stakes of Purgatory",
+    battler_meta: "Ushiromiya Battler",
+    lambdadelta: "Lambdadelta",
+    bernkastel: "Bernkastel",
+    erika_meta: "Furudo Erika",
+    dlanor: "Dlanor A. Knox",
+    knox: "Knox's Decalogue",
+    chiester_sisters: "Chiester Sisters",
+    gertrude: "Gertrude",
+    cornelia: "Cornelia"
+  };
+
+  ep5.charactersFantasy = Object.entries(EP5_FANTASY_PC).map(([id, pc]) => ({
+    id,
+    name: names[id],
+    portrait: `assets/ui/characters/ep5_2/icons/${pc.icon || `${pc.code}_${pc.variants[0]}`}.png`,
+    currentPhase: 0,
+    states: pc.variants.map((variant, index) => ({
+      phase: index === 0 ? "active" : "alternate",
+      image: `assets/ui/characters/ep5_2/tachi/${pc.tachi || pc.code}${variant && variant !== "l" && !pc.tachi ? `_${variant}` : ""}.png`,
+      pages: [names[id]]
+    })),
+    ...(id === "stakes" ? { subCharacters: makeEp5StakeSubCharacters() } : {}),
+    ...(id === "chiester_sisters" ? { subCharacters: makeEp5ChiesterSubCharacters() } : {})
+  }));
+}
+
+function ensureEp5Tips() {
+  while (ep5.tips.length < EP5_TIP_PAGE_COUNTS.length) {
+    const tipNumber = ep5.tips.length + 1;
+    ep5.tips.push({
+      title: `EP5 Tip ${tipNumber}`,
+      style: "tip-lore",
+      pages: [`EP5 Tip ${tipNumber}`],
+      verified: false
+    });
+  }
+}
+
+function applyEp5PcCharacters(characters, pcMap, folder, stateResolver) {
+  for (const character of characters || []) {
+    const pc = pcMap[character.id];
+    if (!pc) continue;
+    const icon = pc.icon || `${pc.code}_${pc.variants[0]}`;
+    character.pc = {
+      sourceUrl: EP5_PC_SOURCE,
+      code: pc.code,
+      gridX: pc.grid[0],
+      gridY: pc.grid[1],
+      tachiX: pc.tachiX,
+      iconAlive: `assets/ui/characters/${folder}/icons/${icon}.png`,
+      iconDead: `assets/ui/characters/${folder}/icons/${icon}.png`
+    };
+
+    for (const [index, state] of (character.states || []).entries()) {
+      const statePc = stateResolver(pc, index);
+      state.pc = {
+        sourceUrl: EP5_PC_SOURCE,
+        icon: `assets/ui/characters/${folder}/icons/${statePc.icon}.png`,
+        tachi: `assets/ui/characters/${folder}/tachi/${statePc.tachi}.png`,
+        referenceTextImage: `assets/ui/characters/${folder}/reference-text/${statePc.text}.png`,
+        tachiX: statePc.tachiX || pc.tachiX
+      };
+    }
+  }
+}
+
+function ep5NormalState(pc, index) {
+  const variant = pc.variants[index] || pc.variants[0];
+  const icon = `${pc.code}_${variant}`;
+  return {
+    icon,
+    tachi: `${pc.code}${variant === "l" ? "" : `_${variant}`}`,
+    text: `${pc.code}_${index + 1}`,
+    tachiX: pc.tachiX
+  };
+}
+
+function ep5FantasyState(pc, index) {
+  const variant = pc.variants[index] || pc.variants[0];
+  return {
+    icon: pc.icon || `${pc.code}_${variant}`,
+    tachi: pc.tachi || `${pc.code}${variant && variant !== "l" ? `_${variant}` : ""}`,
+    text: index === 1 && pc.code === "bea" ? "bea_2" : pc.text || `${pc.code}_1`,
+    tachiX: pc.tachiX
+  };
+}
+
+function makeEp5StakeSubCharacters() {
+  return [
+    ["Lucifer", "rg1"],
+    ["Leviathan", "rg2"],
+    ["Satan", "rg3"],
+    ["Belphegor", "rg4"],
+    ["Mammon", "rg5"],
+    ["Beelzebub", "rg6"],
+    ["Asmodeus", "rg7"]
+  ].map(([name, code]) => ({
+    name,
+    image: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${code}_1.png`,
+      tachiX: 420
+    }
+  }));
+}
+
+function makeEp5ChiesterSubCharacters() {
+  return [
+    ["Chiester 00", "s00"],
+    ["Chiester 410", "s41"],
+    ["Chiester 45", "s45"],
+    ["Chiester 556", "s55"]
+  ].map(([name, code]) => ({
+    name,
+    image: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${code}_1.png`,
+      tachiX: 420
+    }
+  }));
+}
+
+function applyEp5Tips(tips) {
+  for (const [index, tip] of (tips || []).entries()) {
+    const tipNumber = index + 1;
+    const pageCount = EP5_TIP_PAGE_COUNTS[index] || 1;
+    tip.pages = Array.from({ length: pageCount }, (_, pageIndex) => tip.pages?.[pageIndex] || tip.title);
+    Object.assign(tip, {
+      id: `ep5-tip-${tipNumber}`,
+      episode: 5,
+      unlockOrder: tipNumber,
+      buttonImage: `assets/ui/tips/ep5/buttons/tips5_${tipNumber}.png`,
+      referenceButtonImage: `assets/ui/tips/ep5/buttons/tips5_${tipNumber}.png`,
+      background: "assets/ui/tips/ep1/backdrop/tips1_back.png",
+      pageImages: Array.from({ length: pageCount }, (_, pageIndex) => `assets/tips/ep5/${tipNumber}_${pageIndex + 1}.png`),
+      referencePageImages: Array.from({ length: pageCount }, (_, pageIndex) => `assets/tips/ep5/${tipNumber}_${pageIndex + 1}.png`),
+      sourceUrl: EP5_EN_SOURCE,
+      verified: false
+    });
+  }
+}

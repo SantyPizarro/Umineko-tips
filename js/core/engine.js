@@ -1,5 +1,5 @@
 import { appState } from "./state.js";
-import { episodesById } from "../data/episodes.js?v=ep1-complete-pass11";
+import { episodesById } from "../data/episodes.js?v=pc-ep8-tip-visible7";
 import { MODE_NAMES, getEpisodeMode } from "../data/normalize.js";
 
 export const getCurrentEpisode = () => episodesById[appState.currentEpisode] || null;
@@ -41,8 +41,26 @@ export function toggleFantasyMode() {
     setSelectionMode(appState.selectionMode === "fantasy" ? "normal" : "fantasy");
 }
 
+export function goToNextSpecialMode() {
+    const modes = getAvailableModes();
+    if (appState.selectionMode === "normal" && modes.includes("fantasy")) {
+        setSelectionMode("fantasy");
+        return;
+    }
+    if (appState.selectionMode !== "future" && modes.includes("future")) {
+        setSelectionMode("future");
+        return;
+    }
+    setSelectionMode("normal");
+}
+
 export function updateCharacterPhase(direction) {
-    const char = getCurrentCharacter();
+    let char = getCurrentCharacter();
+    if (!char) {
+        const characters = getAvailableCharacters();
+        char = characters[0] || null;
+        if (char) appState.selectedCharacterId = char.id;
+    }
     if (!char) return;
 
     const nextPhase = char.currentPhase + direction;
@@ -53,13 +71,27 @@ export function updateCharacterPhase(direction) {
     }
 }
 
+export function toggleCharacterVariant() {
+    const char = getCurrentCharacter();
+    if (!char?.states?.length || char.states.length < 2) return;
+
+    char.currentPhase = ((char.currentPhase || 0) + 1) % char.states.length;
+    appState.characterTextOffset = 0;
+}
+
 export function toggleTipsView() {
+    if (appState.view === "character" && !getAvailableTips().length) return;
+
     const nextView = appState.view === "character" ? "tips" : "character";
     appState.view = nextView;
     appState.selectedCharacterId = null;
     appState.selectedTipIndex = nextView === "tips" && getAvailableTips().length ? 0 : null;
     appState.characterTextOffset = 0;
     appState.tipTextOffset = 0;
+}
+
+export function togglePcSpriteVariant() {
+    appState.pcSpriteVariant = appState.pcSpriteVariant === "new" ? "original" : "new";
 }
 
 export function selectCharacter(id) {
@@ -87,28 +119,42 @@ export function getCurrentCharacterViewModel() {
 
     if (char.subCharacters?.length) {
         const subCharacter = char.subCharacters[char.currentSubIndex || 0];
+        const state = getCurrentCharacterState(char);
+        const statePc = getCharacterStatePc(state);
         if (subCharacter) {
+            const subVariant = subCharacter.variants?.[char.currentPhase || 0] || subCharacter;
+            const subPc = subVariant.pc || subCharacter.pc || null;
             return {
                 id: char.id,
                 name: subCharacter.name || char.name,
-                image: subCharacter.image || getCurrentCharacterState(char)?.image,
-                pages: subCharacter.pages || [subCharacter.info || ""],
-                phase: getCurrentCharacterState(char)?.phase || "active",
-                pc: char.pc ? { ...char.pc, ...getCurrentCharacterState(char)?.pc } : null
+                image: subVariant.image || subCharacter.image || state?.image,
+                pages: subVariant.pages || subCharacter.pages || [subCharacter.info || ""],
+                phase: state?.phase || "active",
+                referenceTextImage: subPc?.referenceTextImage || statePc?.referenceTextImage || null,
+                pc: char.pc || statePc || subPc ? { ...char.pc, ...statePc, ...subPc } : null
             };
         }
     }
 
     const state = getCurrentCharacterState(char);
+    const statePc = getCharacterStatePc(state);
     return {
         id: char.id,
         name: char.name,
         image: state?.image || "",
         pages: state?.pages || state?.text || [],
         phase: state?.phase || "active",
-        referenceTextImage: state?.pc?.referenceTextImage || null,
-        pc: char.pc ? { ...char.pc, ...state?.pc } : null
+        referenceTextImage: statePc?.referenceTextImage || null,
+        pc: char.pc ? { ...char.pc, ...statePc } : null
     };
+}
+
+export function getCharacterStatePc(state) {
+    if (!state?.pc) return null;
+    if (appState.pcSpriteVariant === "new" && state.pcAlt) {
+        return { ...state.pc, ...state.pcAlt };
+    }
+    return state.pc;
 }
 
 export function getCurrentCharacterState(char = getCurrentCharacter()) {

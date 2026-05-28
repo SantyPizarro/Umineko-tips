@@ -1,8 +1,16 @@
-import { renderAll } from "./renderer.js";
+import { renderAll } from "./renderer.js?v=pc-ep8-tip-visible7";
 import { appState } from "./state.js";
-import * as Engine from "./engine.js?v=ep1-complete-pass11";
+import * as Engine from "./engine.js?v=pc-ep8-tip-visible7";
 
 export function bindEvents() {
+    const changeButton = document.getElementById("btn-pc-change");
+    changeButton?.addEventListener("click", e => {
+        e.stopPropagation();
+        Engine.toggleCharacterVariant();
+        saveState();
+        renderAll();
+    });
+
     document.addEventListener("click", e => {
         const target = e.target;
 
@@ -35,35 +43,50 @@ export function bindEvents() {
             return renderAll();
         }
 
-        if (target.id === "btn-execute") {
+        if (target.closest("#btn-execute")) {
             Engine.updateCharacterPhase(1);
             saveState();
             return renderAll();
         }
-        if (target.id === "btn-resurrect") {
+        if (target.closest("#btn-resurrect")) {
             Engine.updateCharacterPhase(-1);
             saveState();
             return renderAll();
         }
 
-        if (target.id === "btn-tips") {
+        if (target.closest("#btn-tips")) {
             Engine.toggleTipsView();
             saveState();
             return renderAll();
         }
-        if (target.id === "text-next-btn") {
+        if (target.closest("#btn-pc-sprites")) {
+            Engine.togglePcSpriteVariant();
+            saveState();
+            return renderAll();
+        }
+        if (target.closest("#btn-pc-next-mode")) {
+            Engine.goToNextSpecialMode();
+            saveState();
+            return renderAll();
+        }
+        if (target.closest("#btn-pc-change")) {
+            Engine.toggleCharacterVariant();
+            saveState();
+            return renderAll();
+        }
+        if (target.closest("#text-next-btn")) {
             Engine.changePage(1);
             saveState();
             return renderAll();
         }
-        if (target.id === "text-back-btn") {
+        if (target.closest("#text-back-btn")) {
             Engine.changePage(-1);
             saveState();
             return renderAll();
         }
 
-        if (target.id === "btn-fantasy-next") {
-            Engine.toggleFantasyMode();
+        if (target.closest("#btn-fantasy-next")) {
+            Engine.goToNextSpecialMode();
             saveState();
             return renderAll();
         }
@@ -103,6 +126,7 @@ export function restoreState() {
         appState.selectedTipIndex = Number.isInteger(savedState.selectedTipIndex) ? savedState.selectedTipIndex : null;
         appState.characterTextOffset = Number.isInteger(savedState.characterTextOffset) ? savedState.characterTextOffset : 0;
         appState.tipTextOffset = Number.isInteger(savedState.tipTextOffset) ? savedState.tipTextOffset : 0;
+        appState.pcSpriteVariant = savedState.pcSpriteVariant || "original";
 
         const phaseKey = getPhaseKey();
         const phases = savedState.characterPhases?.[phaseKey] || {};
@@ -134,6 +158,7 @@ function saveState() {
         selectedTipIndex: appState.selectedTipIndex,
         characterTextOffset: appState.characterTextOffset,
         tipTextOffset: appState.tipTextOffset,
+        pcSpriteVariant: appState.pcSpriteVariant,
         characterPhases
     }));
 }

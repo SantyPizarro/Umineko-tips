@@ -1031,3 +1031,246 @@ Ironically, the more dramatic its effect becomes, the less one would need such a
     }
   ]
 };
+
+const EP2_PC_SOURCE = "local-original-pc-arc.nsa";
+const EP2_EN_SOURCE = "local-original-pc-arc3.nsa";
+
+const EP2_PC_COMMON = {
+  characterBackdrop: "assets/ui/characters/ep2/backdrop/cha_back.png",
+  textPanel: "assets/ui/characters/ep2/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP2_PC_FANTASY = {
+  characterBackdrop: "assets/ui/characters/ep2_2/backdrop/cha_back_ma.png",
+  textPanel: "assets/ui/characters/ep2/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP2_NORMAL_PC = {
+  kinzo: { code: "kin", grid: [17, 37], tachiX: 380 },
+  krauss: { code: "kla", grid: [62, 37], tachiX: 425 },
+  natsuhi: { code: "nat", grid: [106, 37], tachiX: 430 },
+  jessica: { code: "jes", grid: [150, 37], tachiX: 420 },
+  nanjo: { code: "nan", grid: [17, 82], tachiX: 425 },
+  eva: { code: "eva", grid: [62, 82], tachiX: 440 },
+  hideyoshi: { code: "hid", grid: [106, 82], tachiX: 415 },
+  george: { code: "geo", grid: [150, 82], tachiX: 435 },
+  beatrice: { code: "bea", grid: [17, 126], tachiX: 380 },
+  rudolf: { code: "rud", grid: [62, 126], tachiX: 455 },
+  kyrie: { code: "kir", grid: [106, 126], tachiX: 455 },
+  battler: { code: "but", grid: [150, 126], tachiX: 455 },
+  genji: { code: "gen", grid: [17, 170], tachiX: 455 },
+  rosa: { code: "ros", grid: [62, 170], tachiX: 445 },
+  maria: { code: "mar", grid: [150, 170], tachiX: 390 },
+  shannon: { code: "sha", grid: [17, 214], tachiX: 430 },
+  kanon: { code: "kan", grid: [62, 214], tachiX: 460 },
+  gohda: { code: "goh", grid: [106, 214], tachiX: 450 },
+  kumasawa: { code: "kum", grid: [150, 214], tachiX: 440 }
+};
+
+const EP2_NORMAL_STATES = {
+  kin: [{ icon: "kin_l", tachi: "kin", textPath: commonText("kin_1") }, { icon: "kin_d", tachi: "kin_d", text: "kin_2" }, { icon: "kin_d", tachi: "kin_d", text: "kin_2" }],
+  kla: [{ icon: "kla_l", tachi: "kla", textPath: commonText("kla_1") }, { icon: "kla_d", tachi: "kla_d", text: "kla_2" }],
+  nat: [{ icon: "nat_l", tachi: "nat", textPath: commonText("nat_1") }, { icon: "nat_d", tachi: "nat_d", text: "nat_2" }],
+  jes: [{ icon: "jes_l", tachi: "jes", textPath: commonText("jes_1") }, { icon: "jes_d", tachi: "jes_d", text: "jes_2" }],
+  nan: [{ icon: "nan_l", tachi: "nan", textPath: commonText("nan_1") }, { icon: "nan_d", tachi: "nan_d", text: "nan_2" }, { icon: "nan_d2", tachi: "nan_d2", text: "nan_3" }],
+  eva: [{ icon: "eva_l", tachi: "eva", textPath: commonText("eva_1") }, { icon: "eva_d", tachi: "eva_d", text: "eva_2" }],
+  hid: [{ icon: "hid_l", tachi: "hid", textPath: commonText("hid_1") }, { icon: "hid_d", tachi: "hid_d", text: "hid_2" }],
+  geo: [{ icon: "geo_l", tachi: "geo", textPath: commonText("geo_1") }, { icon: "geo_d", tachi: "geo_d", text: "geo_2" }],
+  bea: [{ icon: "bea_l", tachi: "bea", textPath: commonText("bea_1"), tachiX: 380 }, { icon: "bea_l2", tachi: "bea2", text: "bea_2", tachiX: 435 }, { icon: "bea_d", tachi: "bea_d", textPath: commonText("bea_2"), tachiX: 380 }],
+  rud: [{ icon: "rud_l", tachi: "rud", textPath: commonText("rud_1") }, { icon: "rud_d", tachi: "rud_d", text: "rud_2" }],
+  kir: [{ icon: "kir_l", tachi: "kir", textPath: commonText("kir_1") }, { icon: "kir_d", tachi: "kir_d", text: "kir_2" }],
+  but: [{ icon: "but_l", tachi: "but", textPath: commonText("but_1") }, { icon: "but_d", tachi: "but_d", text: "but_2" }],
+  gen: [{ icon: "gen_l", tachi: "gen", textPath: commonText("gen_1") }, { icon: "gen_d", tachi: "gen_d", text: "gen_2" }],
+  ros: [{ icon: "ros_l", tachi: "ros", textPath: commonText("ros_1") }, { icon: "ros_d", tachi: "ros_d", text: "ros_2" }],
+  mar: [{ icon: "mar_l", tachi: "mar", textPath: commonText("mar_1") }, { icon: "mar_d", tachi: "mar_d", text: "mar_2" }],
+  sha: [{ icon: "sha_l", tachi: "sha", textPath: commonText("sha_1") }, { icon: "sha_d", tachi: "sha_d", text: "sha_2" }],
+  kan: [{ icon: "kan_l", tachi: "kan", textPath: commonText("kan_1") }, { icon: "kan_m", tachi: "kan_m", text: "kan_2" }, { icon: "kan_d", tachi: "kan_d", text: "kan_3" }],
+  goh: [{ icon: "goh_l", tachi: "goh", textPath: commonText("goh_1") }, { icon: "goh_d", tachi: "goh_d", text: "goh_2" }],
+  kum: [{ icon: "kum_l", tachi: "kum", textPath: commonText("kum_1") }, { icon: "kum_d", tachi: "kum_d", text: "kum_2" }, { icon: "kum_d2", tachi: "kum_d2", text: "kum_3" }]
+};
+
+const EP2_ALT_COSTUMES = {
+  george: { icon: "geo_l2", tachi: "geo2" },
+  shannon: { icon: "sha_l2", tachi: "sha2" },
+  kanon: { icon: "kan_l2", tachi: "kan2", tachiX: 440 }
+};
+
+const EP2_FANTASY_PC = {
+  beatrice: { code: "bea", grid: [17, 37], tachiX: 380 },
+  stakes: { code: "rg", grid: [62, 37], tachiX: 420 },
+  bernkastel: { code: "ber", grid: [17, 82], tachiX: 430 },
+  kinzo: { code: "kin", grid: [62, 82], tachiX: 380 },
+  battler: { code: "but", grid: [106, 82], tachiX: 455 },
+  maria: { code: "mar", grid: [150, 82], tachiX: 390 },
+  lambdadelta: { code: "lam", grid: [17, 126], tachiX: 410 },
+  genji: { code: "gen", grid: [62, 126], tachiX: 455 },
+  shannon: { code: "sha", grid: [62, 170], tachiX: 430 },
+  kanon: { code: "kan", grid: [62, 214], tachiX: 460 }
+};
+
+const EP2_FANTASY_STATE = {
+  bea: { icon: "bea_l", tachi: "bea", text: "bea_1" },
+  ber: { icon: "ber_l", tachi: "ber", text: "ber_1" },
+  lam: { icon: "lam_l", tachi: "lam", text: "lam_1" },
+  kin: { icon: "kin_l", tachi: "kin", text: "kin_1" },
+  but: { icon: "but_l", tachi: "but", text: "but_1" },
+  mar: { icon: "mar_l", tachi: "mar", text: "mar_1" },
+  gen: { icon: "gen_l", tachi: "gen", text: "gen_1" },
+  sha: { icon: "sha_l", tachi: "sha", text: "sha_1" },
+  kan: { icon: "kan_l", tachi: "kan", text: "kan_1" },
+  rg: { icon: "rg_l", tachi: "rg1", text: "rg1_1" }
+};
+
+const EP2_STAKES = [
+  ["Lucifer", "rg1"],
+  ["Leviathan", "rg2"],
+  ["Satan", "rg3"],
+  ["Belphegor", "rg4"],
+  ["Mammon", "rg5"],
+  ["Beelzebub", "rg6"],
+  ["Asmodeus", "rg7"]
+];
+
+const EP2_TIP_PAGE_COUNTS = [3, 6, 1, 1, 1, 4, 1];
+
+ep2.charactersFantasy = ep2.charactersFantasy.filter(character => EP2_FANTASY_PC[character.id]);
+addEp2PcOnlyCharacterStates(ep2.characters);
+ep2.pc = EP2_PC_COMMON;
+ep2.modes = {
+  normal: {
+    background: ep2.background,
+    characters: ep2.characters,
+    tips: ep2.tips,
+    pc: EP2_PC_COMMON
+  },
+  fantasy: {
+    background: "assets/backgrounds/different_space_1a.png",
+    characters: ep2.charactersFantasy,
+    tips: ep2.tips,
+    pc: EP2_PC_FANTASY
+  }
+};
+
+applyEp2PcCharacters(ep2.characters, EP2_NORMAL_PC, "ep2", EP2_NORMAL_STATES);
+applyEp2PcCharacters(ep2.charactersFantasy, EP2_FANTASY_PC, "ep2_2", EP2_FANTASY_STATE, true);
+applyEp2Tips(ep2.tips);
+
+function applyEp2PcCharacters(characters, pcMap, folder, stateMap, singleState = false) {
+  for (const character of characters || []) {
+    const pc = pcMap[character.id];
+    if (!pc) continue;
+
+    character.pc = {
+      sourceUrl: EP2_PC_SOURCE,
+      code: pc.code,
+      gridX: pc.grid[0],
+      gridY: pc.grid[1],
+      tachiX: pc.tachiX,
+      iconAlive: `assets/ui/characters/${folder}/icons/${pc.code}_l.png`,
+      iconDead: `assets/ui/characters/${folder}/icons/${pc.code}_l.png`
+    };
+
+    for (const [index, state] of (character.states || []).entries()) {
+      const statePc = singleState ? stateMap[pc.code] : (stateMap[pc.code]?.[index] || stateMap[pc.code]?.at(-1));
+      if (!statePc) continue;
+
+      state.pc = {
+        sourceUrl: EP2_PC_SOURCE,
+        icon: `assets/ui/characters/${folder}/icons/${statePc.icon}.png`,
+        tachi: `assets/ui/characters/${folder}/tachi/${statePc.tachi}.png`,
+        referenceTextImage: statePc.textPath || (statePc.text
+          ? `assets/ui/characters/${folder}/reference-text/${statePc.text}.png`
+          : null)
+      };
+      if (statePc.tachiX) state.pc.tachiX = statePc.tachiX;
+    }
+
+    if (character.id === "stakes") {
+      for (const subCharacter of character.subCharacters || []) {
+        const stake = EP2_STAKES.find(([name]) => name === subCharacter.name);
+        if (!stake) continue;
+        subCharacter.pc = {
+          tachi: `assets/ui/characters/ep2_2/tachi/${stake[1]}.png`,
+          referenceTextImage: `assets/ui/characters/ep2_2/reference-text/${stake[1]}_1.png`,
+          tachiX: 420
+        };
+      }
+    }
+  }
+}
+
+function addEp2PcOnlyCharacterStates(characters) {
+  renameState(characters, "kanon", 1, "missing");
+  insertState(characters, "kanon", 2, {
+    phase: "dead",
+    image: "assets/ui/characters/ep2/tachi/kan_d.png",
+    text: ["Kanon's final EP2 status page from the original PC character screen."]
+  });
+  insertState(characters, "kumasawa", 2, {
+    phase: "dead2",
+    image: "assets/ui/characters/ep2/tachi/kum_d2.png",
+    text: ["Kumasawa's final EP2 status page from the original PC character screen."]
+  });
+  insertState(characters, "nanjo", 2, {
+    phase: "dead2",
+    image: "assets/ui/characters/ep2/tachi/nan_d2.png",
+    text: ["Nanjo's final EP2 status page from the original PC character screen."]
+  });
+}
+
+function renameState(characters, id, index, phase) {
+  const character = characters.find(item => item.id === id);
+  if (character?.states[index]) character.states[index].phase = phase;
+}
+
+function insertState(characters, id, index, state) {
+  const character = characters.find(item => item.id === id);
+  if (!character || character.states.some(existing => existing.phase === state.phase)) return;
+  character.states.splice(index, 0, state);
+}
+
+for (const character of ep2.characters) {
+  const alt = EP2_ALT_COSTUMES[character.id];
+  const aliveState = character.states?.[0];
+  if (!alt || !aliveState?.pc) continue;
+
+  aliveState.pcAlt = {
+    icon: `assets/ui/characters/ep2/icons/${alt.icon}.png`,
+    tachi: `assets/ui/characters/ep2/tachi/${alt.tachi}.png`
+  };
+  if (alt.tachiX) aliveState.pcAlt.tachiX = alt.tachiX;
+}
+
+function commonText(fileName) {
+  return `assets/ui/characters/ep1/reference-text/${fileName}.png`;
+}
+
+function applyEp2Tips(tips) {
+  for (const [index, tip] of (tips || []).entries()) {
+    const tipNumber = index + 1;
+    const pageCount = EP2_TIP_PAGE_COUNTS[index] || tip.pages?.length || 1;
+    if (Array.isArray(tip.pages)) {
+      tip.pages = tip.pages.slice(0, pageCount);
+    }
+    Object.assign(tip, {
+      id: `ep2-tip-${tipNumber}`,
+      episode: 2,
+      unlockOrder: tipNumber,
+      buttonImage: `assets/ui/tips/ep2/buttons/tips2_${tipNumber}.png`,
+      referenceButtonImage: `assets/ui/tips/ep2/buttons/tips2_${tipNumber}.png`,
+      background: "assets/ui/tips/ep1/backdrop/tips1_back.png",
+      pageImages: Array.from(
+        { length: pageCount },
+        (_, pageIndex) => `assets/tips/ep2/${tipNumber}_${pageIndex + 1}.png`
+      ),
+      referencePageImages: Array.from(
+        { length: pageCount },
+        (_, pageIndex) => `assets/tips/ep2/${tipNumber}_${pageIndex + 1}.png`
+      ),
+      sourceUrl: EP2_EN_SOURCE,
+      verified: false
+    });
+  }
+}

@@ -1,5 +1,5 @@
 import { appState } from "./state.js";
-import * as Engine from "./engine.js?v=ep1-complete-pass11";
+import * as Engine from "./engine.js?v=pc-ep8-tip-visible7";
 
 const dom = {
     app: document.getElementById("app"),
@@ -18,13 +18,28 @@ const dom = {
     leftPanel: document.getElementById("left-panel"),
     btnTips: document.getElementById("btn-tips")
 };
+dom.pcChangeBtn = document.getElementById("btn-pc-change");
 
 export function renderAll() {
     const main = document.getElementById("main-layout");
+    let availableModes = Engine.getAvailableModes();
+    if (!availableModes.includes(appState.selectionMode)) {
+        Engine.setSelectionMode("normal");
+        availableModes = Engine.getAvailableModes();
+    }
+
     const modeData = Engine.getCurrentModeData();
-    const availableModes = Engine.getAvailableModes();
-    const isPcCharacterView = appState.currentEpisode === 1 && appState.view === "character";
-    const isEp1TipsView = appState.currentEpisode === 1 && appState.view === "tips";
+    const hasTips = Engine.getAvailableTips().length > 0;
+    if (appState.view === "tips" && !hasTips) {
+        appState.view = "character";
+        appState.selectedTipIndex = null;
+        appState.tipTextOffset = 0;
+    }
+
+    const isPcView = Boolean(modeData?.pc);
+    const isPcCharacterView = isPcView && appState.view === "character";
+    const isPcTipsView = isPcView && appState.view === "tips";
+    const hasNextSpecialMode = availableModes.includes("fantasy") || availableModes.includes("future");
 
     main.classList.remove("fantasy-active", "future-active");
 
@@ -34,10 +49,12 @@ export function renderAll() {
         main.classList.add("future-active");
     }
 
-    document.documentElement.style.setProperty("--scene-background", `url('${modeData.background}')`);
-    dom.app.classList.toggle("pc-ui-active", isPcCharacterView || isEp1TipsView);
+    document.documentElement.style.setProperty("--scene-background", cssUrl(modeData.background));
+    applyPcTheme(modeData.pc);
+    dom.app.classList.toggle("pc-ui-active", isPcCharacterView || isPcTipsView);
     main.classList.toggle("pc-characters-active", isPcCharacterView);
-    applyPcCharacterLayout(isPcCharacterView);
+    main.classList.toggle("pc-next-mode-visible", isPcCharacterView && hasNextSpecialMode);
+    applyPcCharacterLayout(isPcCharacterView, hasNextSpecialMode);
 
     document.querySelectorAll(".episode-btn").forEach(btn => {
         btn.classList.toggle("active", Number(btn.dataset.ep) === appState.currentEpisode);
@@ -48,21 +65,47 @@ export function renderAll() {
         btn.classList.toggle("hidden", !isAvailable);
         btn.classList.toggle("active", btn.dataset.mode === appState.selectionMode);
     });
+    const pcNextModeBtn = document.getElementById("btn-pc-next-mode");
+    if (pcNextModeBtn) {
+        pcNextModeBtn.classList.toggle("hidden", !isPcCharacterView || !hasNextSpecialMode);
+        pcNextModeBtn.textContent = appState.selectionMode === "normal" && availableModes.includes("fantasy")
+            ? "Next"
+            : "Back";
+    }
 
     dom.btnTips.classList.toggle("active", appState.view === "tips");
+    dom.btnTips.classList.remove("hidden");
+    dom.btnTips.disabled = false;
 
     renderLeftPanel();
     renderContent();
 }
 
-function applyPcCharacterLayout(active) {
+function applyPcTheme(pc) {
+    const root = document.documentElement;
+    if (!pc) {
+        root.style.removeProperty("--pc-character-backdrop");
+        root.style.removeProperty("--pc-character-backdrop-color");
+        root.style.removeProperty("--pc-character-text-panel");
+        root.style.removeProperty("--pc-flourish-image");
+        return;
+    }
+
+    if (pc.characterBackdrop) root.style.setProperty("--pc-character-backdrop", cssUrl(pc.characterBackdrop));
+    else root.style.setProperty("--pc-character-backdrop", "none");
+    root.style.setProperty("--pc-character-backdrop-color", pc.characterBackdropColor || "transparent");
+    if (pc.textPanel) root.style.setProperty("--pc-character-text-panel", cssUrl(pc.textPanel));
+    if (pc.flourish) root.style.setProperty("--pc-flourish-image", cssUrl(pc.flourish));
+}
+
+function applyPcCharacterLayout(active, hasNextSpecialMode = false) {
     const pcStyles = [
         [dom.leftPanel, active ? { position: "absolute", inset: "0", padding: "0", overflow: "hidden", background: "transparent", pointerEvents: "none", zIndex: "auto" } : null],
         [dom.centerPanel, active ? { position: "absolute", inset: "0", display: "block", zIndex: "3", pointerEvents: "none" } : null],
         [dom.infoPanel, active ? { position: "absolute", inset: "0", width: "100%", height: "100%", padding: "0", background: "transparent" } : null],
         [dom.textContainer, active ? { position: "absolute", inset: "0", width: "100%", height: "100%" } : null],
         [dom.characterVisual, active ? { position: "absolute", inset: "0", display: "block", zIndex: "1", overflow: "hidden", pointerEvents: "none" } : null],
-        [dom.sideMenu, active ? { position: "absolute", left: "1.875%", top: "53.75%", width: "26.875%", height: "32.7083%", pointerEvents: "auto" } : null],
+        [dom.sideMenu, active ? { position: "absolute", left: "1.875%", top: hasNextSpecialMode ? "57.9167%" : "53.75%", width: "26.875%", height: "32.7083%", pointerEvents: "auto" } : null],
         [dom.characterText, active ? { position: "absolute", left: "29.375%", top: "6.25%", width: "36.875%", height: "80.4167%", margin: "0", overflow: "hidden" } : null],
         [dom.characterImage, active ? { position: "absolute", top: "0", bottom: "auto", width: "auto", height: "100%", maxWidth: "none", maxHeight: "none", objectFit: "contain" } : null]
     ];
@@ -91,11 +134,12 @@ function renderLeftPanel() {
             slot.className = `character-slot char-${char.id.toLowerCase()} state-${state?.phase || "active"}`;
             slot.dataset.id = char.id;
             if (char.pc) {
+                const statePc = Engine.getCharacterStatePc(state);
                 slot.classList.add("pc-character-slot");
                 slot.dataset.pcCode = char.pc.code;
                 slot.style.setProperty("--pc-grid-left", `${(char.pc.gridX / 640) * 100}%`);
                 slot.style.setProperty("--pc-grid-top", `${(char.pc.gridY / 480) * 100}%`);
-                slot.style.backgroundImage = `url('${state?.pc?.icon || char.pc.iconAlive}')`;
+                slot.style.backgroundImage = `url('${statePc?.icon || char.pc.iconAlive}')`;
             } else {
                 slot.style.backgroundImage = `url('${char.portrait}')`;
             }
@@ -150,8 +194,9 @@ function renderContent() {
         dom.characterText.classList.remove("image-page-active");
         dom.characterText.classList.remove("english-tip-page");
         dom.characterText.classList.remove("pc-character-text-image");
-        dom.characterText.textContent = (isCharView && appState.currentEpisode === 1) ? "" : (isCharView ? "Select a character." : "Select a tip.");
+        dom.characterText.textContent = (isCharView && appState.currentEpisode === 1) ? "" : (isCharView ? "" : "");
         dom.characterImage.style.display = "none";
+        if (dom.pcChangeBtn) dom.pcChangeBtn.classList.add("hidden");
         document.documentElement.style.setProperty("--tip-background", "none");
         togglePagination(false, false);
         return;
@@ -161,7 +206,7 @@ function renderContent() {
         dom.mainLayout.classList.add(data.style);
     }
     if (!isCharView && data.background) {
-        document.documentElement.style.setProperty("--tip-background", `url('${data.background}')`);
+        document.documentElement.style.setProperty("--tip-background", cssUrl(data.background));
     } else {
         document.documentElement.style.setProperty("--tip-background", "none");
     }
@@ -197,8 +242,12 @@ function renderContent() {
             dom.characterImage.style.removeProperty("--pc-tachi-left");
         }
         dom.characterImage.style.display = "block";
+        if (dom.pcChangeBtn) {
+            dom.pcChangeBtn.classList.toggle("hidden", !data.pc?.changeable);
+        }
     } else {
         dom.characterImage.style.display = "none";
+        if (dom.pcChangeBtn) dom.pcChangeBtn.classList.add("hidden");
     }
 
     togglePagination(offset > 0, offset < pages.length - 1);

@@ -806,3 +806,384 @@ A witch who is denied... ceases to exist.`
     }
   ]
 };
+
+const EP4_PC_SOURCE = "local-original-pc-arc.nsa";
+const EP4_EN_SOURCE = "local-original-pc-arc3.nsa";
+
+const EP4_PC_NORMAL = {
+  characterBackdrop: "assets/ui/characters/ep4/backdrop/cha_back.png",
+  textPanel: "assets/ui/characters/ep4/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP4_PC_FANTASY = {
+  characterBackdrop: "assets/ui/characters/ep4_2/backdrop/ba4_2_7.png",
+  textPanel: "assets/ui/characters/ep4/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP4_PC_FUTURE = {
+  characterBackdrop: "assets/ui/characters/ep4_3/backdrop/cha_back3.png",
+  textPanel: "assets/ui/characters/ep4/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP4_NORMAL_PC = {
+  kinzo: { code: "kin", grid: [17, 37], tachiX: 380 },
+  krauss: { code: "kla", grid: [62, 37], tachiX: 425 },
+  natsuhi: { code: "nat", grid: [106, 37], tachiX: 430 },
+  jessica: { code: "jes", grid: [150, 37], tachiX: 420 },
+  nanjo: { code: "nan", grid: [17, 82], tachiX: 425 },
+  eva: { code: "eva", grid: [62, 82], tachiX: 440 },
+  hideyoshi: { code: "hid", grid: [106, 82], tachiX: 415 },
+  george: { code: "geo", grid: [150, 82], tachiX: 435 },
+  rudolf: { code: "rud", grid: [62, 126], tachiX: 455 },
+  kyrie: { code: "kir", grid: [106, 126], tachiX: 455 },
+  battler: { code: "but", grid: [150, 126], tachiX: 455 },
+  genji: { code: "gen", grid: [17, 170], tachiX: 455 },
+  rosa: { code: "ros", grid: [62, 170], tachiX: 445 },
+  maria: { code: "mar", grid: [150, 170], tachiX: 390 },
+  shannon: { code: "sha", grid: [17, 214], tachiX: 430 },
+  kanon: { code: "kan", grid: [62, 214], tachiX: 460 },
+  gohda: { code: "goh", grid: [106, 214], tachiX: 450 },
+  kumasawa: { code: "kum", grid: [150, 214], tachiX: 440 }
+};
+
+const EP4_FANTASY_PC = {
+  lambdadelta: { code: "lam", grid: [62, 35], tachiX: 410, text: "lam_1" },
+  bernkastel: { code: "ber", grid: [150, 35], tachiX: 430, text: "ber_1" },
+  beatrice: {
+    code: "bea",
+    grid: [62, 78],
+    tachiX: 380,
+    variants: [
+      { icon: "bea_l", tachi: "bea", text: "bea_1" },
+      { icon: "bea_l", tachi: "bea", text: "bea_2" }
+    ]
+  },
+  maria_fantasy: {
+    code: "mar",
+    grid: [106, 78],
+    tachiX: 390,
+    variants: [
+      { icon: "mar_l", tachi: "mar", text: "mar_2" },
+      { icon: "mar_l2", tachi: "mar_2", text: "mar_2" }
+    ]
+  },
+  ange: { code: "enj", grid: [150, 78], tachiX: 440, text: "enj_1" },
+  kinzo: { code: "kin", grid: [62, 121], tachiX: 380, text: "kin_1" },
+  sakutarou: {
+    code: "sak",
+    grid: [106, 121],
+    tachiX: 380,
+    variants: [
+      { icon: "sak_l", tachi: "sak", text: "sak_1" },
+      { icon: "sak_d", tachi: "sak_d", text: "sak_2" }
+    ]
+  },
+  virgilia: {
+    code: "wal",
+    grid: [17, 168],
+    tachiX: 360,
+    textPath: "assets/ui/characters/ep3_2/reference-text/wal_1.png"
+  },
+  ronove: {
+    code: "ron",
+    grid: [62, 168],
+    tachiX: 420,
+    textPath: "assets/ui/characters/ep3_2/reference-text/ron_1.png"
+  },
+  gaap: { code: "gap", grid: [106, 168], tachiX: 415, text: "gap_1" },
+  chiester_sisters: { code: "s", grid: [150, 168], tachiX: 420, tachi: "s00", text: "s00_1" },
+  stakes: {
+    code: "rg",
+    grid: [17, 215],
+    tachiX: 420,
+    tachi: "rg1",
+    textPath: "assets/ui/characters/ep3_2/reference-text/rg1_1.png"
+  },
+  goats: {
+    code: "goa",
+    grid: [62, 215],
+    tachiX: 380,
+    textPath: "assets/ui/characters/ep3_2/reference-text/goa_1.png"
+  }
+};
+
+const EP4_FUTURE_PC = {
+  eva_1998: { code: "eva", grid: [106, 37], tachiX: 440, text: "eva_1", icon: "eva_d" },
+  okonogi: { code: "oko", grid: [150, 37], tachiX: 380, text: "oko_1" },
+  kasumi: { code: "kas", grid: [17, 82], tachiX: 380, text: "kas_1" },
+  ange_1998: {
+    code: "enj",
+    grid: [106, 82],
+    tachiX: 440,
+    text: "enj_1",
+    variants: [
+      { icon: "enj_l", tachi: "enj", text: "enj_1" },
+      { icon: "enj_l2", tachi: "enj_2", text: "enj_1" }
+    ]
+  },
+  amakusa: { code: "ama", grid: [150, 82], tachiX: 430, text: "ama_1" },
+  sakutarou_future: { code: "sak", grid: [62, 126], tachiX: 380, text: "sak_1" },
+  maria_future: { code: "mar", grid: [106, 126], tachiX: 410, text: "mar_1" },
+  stakes_future: { code: "rg", grid: [150, 126], tachiX: 420, tachi: "rg1", text: "rg1_1" },
+  professor: { code: "pro", grid: [17, 214], tachiX: 380, text: "pro_1" },
+  masayuki: { code: "mas", grid: [62, 214], tachiX: 377, text: "mas_1" },
+  sabakichi: { code: "sab", grid: [106, 214], tachiX: 380, text: "sab_1" },
+  kawabata: { code: "kwa", grid: [150, 214], tachiX: 380, text: "kwa_1" },
+  bernkastel_future: { code: "ber", grid: [17, 37], tachiX: 430, text: "ber_1" }
+};
+
+const EP4_TIP_PAGE_COUNTS = [1, 1, 1, 1, 1, 1, 1];
+
+ensureEp4FantasyCharacters();
+ensureEp4FutureCharacters();
+ep4.charactersFuture = ep4.charactersFuture.filter(character => EP4_FUTURE_PC[character.id]);
+ensureEp4Tips();
+
+ep4.pc = EP4_PC_NORMAL;
+ep4.modes = {
+  normal: {
+    background: ep4.background,
+    characters: ep4.characters,
+    tips: ep4.tips,
+    pc: EP4_PC_NORMAL
+  },
+  fantasy: {
+    background: ep4.backgroundFantasy,
+    characters: ep4.charactersFantasy,
+    tips: ep4.tips,
+    pc: EP4_PC_FANTASY
+  },
+  future: {
+    background: "assets/backgrounds/enj_mirai01.png",
+    characters: ep4.charactersFuture,
+    tips: ep4.tips,
+    pc: EP4_PC_FUTURE
+  }
+};
+
+applyEp4PcCharacters(ep4.characters, EP4_NORMAL_PC, "ep4", normalState);
+applyEp4PcCharacters(ep4.charactersFantasy, EP4_FANTASY_PC, "ep4_2", fantasyState);
+applyEp4PcCharacters(ep4.charactersFuture, EP4_FUTURE_PC, "ep4_3", futureState);
+applyEp4Tips(ep4.tips);
+
+function ensureEp4FantasyCharacters() {
+  const additions = [
+    ["ange", "Ushiromiya Ange", "enj"],
+    ["kinzo", "Ushiromiya Kinzo", "kin"],
+    ["virgilia", "Virgilia", "wal"],
+    ["chiester_sisters", "Chiester Sisters", "s", makeChiesterSubCharacters()],
+    ["stakes", "The Seven Stakes of Purgatory", "rg", makeStakeSubCharacters("ep4_2", "assets/ui/characters/ep3_2/reference-text")],
+    ["goats", "All of the Goats", "goa"]
+  ];
+  addPcOnlyCharacters(ep4.charactersFantasy, additions, "ep4_2");
+  ensureStateCount(findCharacter(ep4.charactersFantasy, "beatrice"), 2, "ep4_2", "bea", "Beatrice");
+  ensureStateCount(findCharacter(ep4.charactersFantasy, "maria_fantasy"), 2, "ep4_2", "mar", "Ushiromiya Maria");
+  ensureStateCount(findCharacter(ep4.charactersFantasy, "sakutarou"), 2, "ep4_2", "sak", "Sakutarou");
+}
+
+function ensureEp4FutureCharacters() {
+  const additions = [
+    ["eva_1998", "Ushiromiya Eva", "eva"],
+    ["okonogi", "Okonogi", "oko"],
+    ["kasumi", "Kasumi Sumadera", "kas"],
+    ["amakusa", "Amakusa Juuza", "ama"],
+    ["sakutarou_future", "Sakutarou", "sak"],
+    ["maria_future", "Ushiromiya Maria", "mar"],
+    ["stakes_future", "The Seven Stakes of Purgatory", "rg", makeStakeSubCharacters("ep4_3", "assets/ui/characters/ep4_3/reference-text")],
+    ["professor", "Professor Ootsuki", "pro"],
+    ["masayuki", "Masayuki", "mas"],
+    ["sabakichi", "Sabakichi", "sab"],
+    ["kawabata", "Kawabata", "kwa"],
+    ["bernkastel_future", "Bernkastel", "ber"]
+  ];
+  addPcOnlyCharacters(ep4.charactersFuture, additions, "ep4_3");
+  ensureStateCount(findCharacter(ep4.charactersFuture, "ange_1998"), 2, "ep4_3", "enj", "Ushiromiya Ange");
+}
+
+function ensureEp4Tips() {
+  while (ep4.tips.length < EP4_TIP_PAGE_COUNTS.length) {
+    const tipNumber = ep4.tips.length + 1;
+    ep4.tips.push({
+      title: `EP4 Tip ${tipNumber}`,
+      style: "tip-lore",
+      pages: [`EP4 Tip ${tipNumber}`],
+      verified: false
+    });
+  }
+}
+
+function addPcOnlyCharacters(characters, additions, folder) {
+  const existingIds = new Set(characters.map(character => character.id));
+  for (const [id, name, code, subCharacters] of additions) {
+    if (existingIds.has(id)) continue;
+    const pc = folder === "ep4_3" ? EP4_FUTURE_PC[id] : EP4_FANTASY_PC[id];
+    const icon = pc?.icon || `${code}_l`;
+    const tachi = pc?.tachi || (code === "rg" ? "rg1" : code === "s" ? "s00" : code);
+    characters.push({
+      id,
+      name,
+      portrait: `assets/ui/characters/${folder}/icons/${icon}.png`,
+      currentPhase: 0,
+      states: [{
+        phase: "active",
+        image: `assets/ui/characters/${folder}/tachi/${tachi}.png`,
+        pages: [name]
+      }],
+      ...(subCharacters ? { subCharacters } : {})
+    });
+  }
+}
+
+function ensureStateCount(character, count, folder, code, name) {
+  if (!character) return;
+  character.states ||= [];
+  while (character.states.length < count) {
+    const index = character.states.length;
+    character.states.push({
+      phase: index === 0 ? "active" : "alternate",
+      image: `assets/ui/characters/${folder}/tachi/${code}.png`,
+      pages: [name]
+    });
+  }
+}
+
+function applyEp4PcCharacters(characters, pcMap, folder, stateResolver) {
+  for (const character of characters || []) {
+    const pc = pcMap[character.id];
+    if (!pc) continue;
+    const baseIcon = pc.icon || `${pc.code}_l`;
+
+    character.pc = {
+      sourceUrl: EP4_PC_SOURCE,
+      code: pc.code,
+      gridX: pc.grid[0],
+      gridY: pc.grid[1],
+      tachiX: pc.tachiX,
+      iconAlive: `assets/ui/characters/${folder}/icons/${baseIcon}.png`,
+      iconDead: `assets/ui/characters/${folder}/icons/${baseIcon}.png`
+    };
+
+    for (const [index, state] of (character.states || []).entries()) {
+      const statePc = stateResolver(pc, index, state.phase);
+      if (!statePc) continue;
+      state.pc = {
+        sourceUrl: EP4_PC_SOURCE,
+        icon: `assets/ui/characters/${folder}/icons/${statePc.icon}.png`,
+        tachi: `assets/ui/characters/${folder}/tachi/${statePc.tachi}.png`,
+        referenceTextImage: statePc.textPath || `assets/ui/characters/${folder}/reference-text/${statePc.text}.png`
+      };
+      if (statePc.tachiX) state.pc.tachiX = statePc.tachiX;
+    }
+  }
+}
+
+function normalState(pc, index, phase) {
+  if (index === 0) {
+    return {
+      icon: `${pc.code}_l`,
+      tachi: pc.code,
+      textPath: `assets/ui/characters/ep1/reference-text/${pc.code}_1.png`
+    };
+  }
+  return {
+    icon: `${pc.code}_d`,
+    tachi: `${pc.code}_d`,
+    text: phase === "alive" ? `${pc.code}_1` : `${pc.code}_2`
+  };
+}
+
+function fantasyState(pc, index) {
+  const variant = pc.variants?.[index];
+  return {
+    icon: variant?.icon || `${pc.code}_l`,
+    tachi: variant?.tachi || pc.tachi || pc.code,
+    text: variant?.text || pc.text || `${pc.code}_1`,
+    textPath: variant?.textPath || pc.textPath || null,
+    tachiX: variant?.tachiX || pc.tachiX
+  };
+}
+
+function futureState(pc, index) {
+  const variant = pc.variants?.[index];
+  return {
+    icon: variant?.icon || pc.icon || `${pc.code}_l`,
+    tachi: variant?.tachi || pc.tachi || (pc.code === "eva" ? "eva" : pc.code),
+    text: variant?.text || pc.text || `${pc.code}_1`,
+    textPath: variant?.textPath || pc.textPath || null,
+    tachiX: variant?.tachiX || pc.tachiX
+  };
+}
+
+function makeChiesterSubCharacters() {
+  return [
+    ["Chiester 00", "s00", "assets/ui/characters/ep4_2/reference-text/s00_1.png"],
+    ["Chiester 410", "s41", "assets/ui/characters/ep3_2/reference-text/s41_1.png"],
+    ["Chiester 45", "s45", "assets/ui/characters/ep3_2/reference-text/s45_1.png"],
+    ["Chiester 556", "s55", "assets/ui/characters/ep4_2/reference-text/s55_1.png"]
+  ].map(([name, code, referenceTextImage]) => ({
+    name,
+    image: `assets/ui/characters/ep4_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep4_2/tachi/${code}.png`,
+      referenceTextImage,
+      tachiX: 420
+    }
+  }));
+}
+
+function makeStakeSubCharacters(folder, textFolder) {
+  return [
+    ["Lucifer", "rg1"],
+    ["Leviathan", "rg2"],
+    ["Satan", "rg3"],
+    ["Belphegor", "rg4"],
+    ["Mammon", "rg5"],
+    ["Beelzebub", "rg6"],
+    ["Asmodeus", "rg7"]
+  ].map(([name, code]) => ({
+    name,
+    image: `assets/ui/characters/${folder}/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/${folder}/tachi/${code}.png`,
+      referenceTextImage: `${textFolder}/${code}_1.png`,
+      tachiX: 420
+    }
+  }));
+}
+
+function findCharacter(characters, id) {
+  return characters.find(character => character.id === id);
+}
+
+function applyEp4Tips(tips) {
+  for (const [index, tip] of (tips || []).entries()) {
+    const tipNumber = index + 1;
+    const pageCount = EP4_TIP_PAGE_COUNTS[index] || 1;
+    if (Array.isArray(tip.pages)) {
+      tip.pages = tip.pages.slice(0, pageCount);
+    }
+    Object.assign(tip, {
+      id: `ep4-tip-${tipNumber}`,
+      episode: 4,
+      unlockOrder: tipNumber,
+      buttonImage: `assets/ui/tips/ep4/buttons/tips4_${tipNumber}.png`,
+      referenceButtonImage: `assets/ui/tips/ep4/buttons/tips4_${tipNumber}.png`,
+      background: "assets/ui/tips/ep1/backdrop/tips1_back.png",
+      pageImages: Array.from(
+        { length: pageCount },
+        (_, pageIndex) => `assets/tips/ep4/${tipNumber}_${pageIndex + 1}.png`
+      ),
+      referencePageImages: Array.from(
+        { length: pageCount },
+        (_, pageIndex) => `assets/tips/ep4/${tipNumber}_${pageIndex + 1}.png`
+      ),
+      sourceUrl: EP4_EN_SOURCE,
+      verified: false
+    });
+  }
+}

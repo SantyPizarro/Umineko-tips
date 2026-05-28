@@ -5,7 +5,8 @@ export const appState = {
   selectedCharacterId: null,
   selectedTipIndex: null,
   characterTextOffset: 0,
-  tipTextOffset: 0
+  tipTextOffset: 0,
+  pcSpriteVariant: "original"
 };
 
 export function resetCharacterState() {

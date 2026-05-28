@@ -2,519 +2,293 @@ export const ep8 = {
   id: 8,
   title: "Twilight of the Golden Witch",
   background: "assets/backgrounds/golden_land_final.png",
-  backgroundFantasy: "assets/backgrounds/city_of_books.png",
-
-  // ── MODO NORMAL: 1986 / Fiesta de Halloween ───────────────────────────────
-  characters: [
-    {
-      id: "kinzo",
-      name: "Ushiromiya Kinzo",
-      portrait: "assets/characters/ep1/kinzo/portrait/kin_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/kinzo/full/kin copy.png",
-          text: [
-            `The aged head of the Ushiromiya family.
-
-In this eighth and final episode, Battler — as Game Master — has brought everyone back for a final Halloween party. A farewell banquet for all the people who have died across every game.
-
-For one night, they are all alive again. Kinzo laughs, shouts, and argues about occultism with anyone who will listen.
-
-This is his Golden Land.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "krauss",
-      name: "Ushiromiya Krauss",
-      portrait: "assets/characters/ep1/krauss/portrait/kla_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/krauss/full/kla copy.png",
-          text: [
-            `Kinzo's first child.
-
-In this final Halloween party, even Krauss is more relaxed than usual. The weight of the inheritance, the family conferences, and all the schemes — none of it matters tonight.
-
-He is simply a son, at a party, with his family.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "eva",
-      name: "Ushiromiya Eva",
-      portrait: "assets/characters/ep1/eva/portrait/eva_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/eva/full/eva copy.png",
-          text: [
-            `Kinzo's second child.
-
-In the world of 1998, she is the last survivor. She carries the secret and the guilt of what happened on Rokkenjima.
-
-But in the Golden Land — in the world Battler created — she attends the final party. No secrets. No survivor's guilt. Just family.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "rudolf",
-      name: "Ushiromiya Rudolf",
-      portrait: "assets/characters/ep1/rudo/portrait/rud_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/rudo/full/rud copy.png",
-          text: [
-            `Kinzo's third child.
-
-In this final episode, he finally gets to tell Battler his secret. Not in the chaos of the island, not in the midst of a tragedy — but quietly, at a party, the way it should have been.
-
-Some things only happen in the Golden Land.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "rosa",
-      name: "Ushiromiya Rosa",
-      portrait: "assets/characters/ep1/rosa/portrait/ros_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/rosa/full/ros copy.png",
-          text: [
-            `Kinzo's fourth child.
-
-In the Golden Land, she attends the final party with Maria at her side. She is not the Rosa who hits and screams. She is the Rosa who can love her daughter freely.
-
-That is the version of her that Maria always believed in.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "natsuhi",
-      name: "Ushiromiya Natsuhi",
-      portrait: "assets/characters/ep1/natsu/portrait/nat_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/natsu/full/nat copy.png",
-          text: [
-            `Krauss's wife.
-
-In the Golden Land, she no longer has to carry the secret. She no longer has to defend her pride alone.
-
-She is simply Krauss's wife. Jessica's mother. A member of the family. And that is enough.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "hideyoshi",
-      name: "Ushiromiya Hideyoshi",
-      portrait: "assets/characters/ep1/hide/portrait/hid_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/hide/full/hid copy.png",
-          text: [
-            `Eva's husband.
-
-In the Golden Land, he attends the final party with his beloved wife. No tragedy. No sacrifice. Just laughter and good food and the people he loves.
-
-He always said things would work out. In this world, he was right.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "kyrie",
-      name: "Ushiromiya Kyrie",
-      portrait: "assets/characters/ep1/kyrie/portrait/kir_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/kyrie/full/kir copy.png",
-          text: [
-            `Rudolf's second wife.
-
-In the Golden Land, she attends the final party with Rudolf and Battler. The secret that divided them is no longer a secret — and it no longer matters.
-
-What matters is that they are all here.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "battler",
-      name: "Ushiromiya Battler",
-      portrait: "assets/characters/ep1/battler/portrait/but_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/battler/full/but copy.png",
-          text: [
-            `Rudolf's son. The Golden Sorcerer.
-
-In this final episode, he is the one who created the Golden Land — the one who kept his promise to Beatrice.
-
-He brought everyone back for one last party. One last night of family and warmth before the catbox is opened and the truth is forced out into the cold world.
-
-He is trying to protect the people he loves. Even from the truth.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "jessica",
-      name: "Ushiromiya Jessica",
-      portrait: "assets/characters/ep1/jessica/portrait/jes_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/jessica/full/jes copy.png",
-          text: [
-            `Krauss and Natsuhi's daughter.
-
-In the Golden Land, she attends the final party without asthma, without the burden of inheritance, without anything she didn't want.
-
-She is simply Jessica. And Kanon is there.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "george",
-      name: "Ushiromiya George",
-      portrait: "assets/characters/ep1/george/portrait/geo_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/george/full/geo copy.png",
-          text: [
-            `Eva and Hideyoshi's son.
-
-In the Golden Land, he attends the final party with Shannon at his side. They are together. Nothing else matters.
-
-He is well-liked by everyone and is seen as the ideal successor to the family. But in the Golden Land, succession is the last thing on his mind.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "maria",
-      name: "Ushiromiya Maria",
-      portrait: "assets/characters/ep1/maria/portrait/mar_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/maria/full/mar.png",
-          text: [
-            `Rosa's daughter.
-
-In the Golden Land, she attends the final party with Sakutarou and her mother. There is no scolding. There are no tears.
-
-She always knew Beatrice was real. She always knew the Golden Land existed.
-
-She was right.
-
-"Uu-uu!"`
-          ]
-        }
-      ]
-    },
-    {
-      id: "genji",
-      name: "Ushiromiya Genji",
-      portrait: "assets/characters/ep1/genji/portrait/gen_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/genji/full/gen copy.png",
-          text: [
-            `The leader of the servants who work for the Ushiromiya family.
-
-In the Golden Land, he attends the final party alongside Kinzo. The lord he served for so long is finally at rest.
-
-And Genji, for the first time, is no longer needed. He can simply exist.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "shannon",
-      name: "Shannon",
-      portrait: "assets/characters/ep1/shannon/portrait/sha_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/shannon/full/sha.png",
-          text: [
-            `A young, but experienced servant.
-
-In the Golden Land, she attends the final party with George. She does not have to choose. She does not have to be anyone other than who she is.
-
-She is Shannon. And she is loved.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "kanon",
-      name: "Kanon",
-      portrait: "assets/characters/ep1/kanon/portrait/kan_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/kanon/full/kan.png",
-          text: [
-            `A young servant.
-
-In the Golden Land, he attends the final party with Jessica. He does not have to choose. He does not have to be anyone other than who he is.
-
-He is Kanon. And he is loved.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "gohda",
-      name: "Gohda",
-      portrait: "assets/characters/ep1/gohda/portrait/goh_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/gohda/full/goh copy.png",
-          text: [
-            `A servant hired as a cook.
-
-In the Golden Land, he runs the kitchen for the final Halloween party. It is the finest meal he has ever prepared.
-
-It is for people who can truly appreciate it. He has never been happier.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "kumasawa",
-      name: "Kumasawa",
-      portrait: "assets/characters/ep1/kuma/portrait/kum_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/kuma/full/kum copy.png",
-          text: [
-            `The elderly woman is a part-timer who has served the family for a great many years in total.
-
-In the Golden Land, she attends the final party and gossips freely with everyone. Nobody tells her to stop.
-
-Some things never change. And that is a comfort.`
-          ]
-        }
-      ]
-    },
-    {
-      id: "nanjo",
-      name: "Family Doctor Nanjo",
-      portrait: "assets/characters/ep1/nanjo/portrait/nan_defa1.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "alive",
-          image: "assets/characters/ep1/nanjo/full/nan copy.png",
-          text: [
-            `Kinzo's attending physician and long time friend.
-
-In the Golden Land, he attends the final party alongside his old friend Kinzo. They argue about shogi, just as they always did.
-
-He never had to keep Kinzo's secrets. He simply did it, because that is what friends do.`
-          ]
-        }
-      ]
-    }
-  ],
-
-  // ── MODO FANTASY: Entidades del meta-mundo ────────────────────────────────
-  charactersFantasy: [
-    {
-      id: "battler_beato_final",
-      name: "Battler & Beatrice",
-      portrait: "assets/characters/ep8/batbea/portrait/bb_final.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "active",
-          image: "assets/characters/ep8/batbea/full/bb_full.png",
-          text: [
-            `The Golden Sorcerer and the Golden Witch.
-
-Having reconciled their hearts, they stand together to defend the "Golden Land" from the cold, heartless truth that seeks to destroy it. They represent the miracle that occurs when two people truly understand each other.
-
-They do not want to fight anymore. They want to end the game — not with a winner and a loser, but with everyone at the table.
-
-"This isn't a game for someone who just wants to find a culprit. This is our story. And we won't let you trample over it!"`
-          ]
-        }
-      ]
-    },
-    {
-      id: "ange_final",
-      name: "Ange (Witch of Resurrection)",
-      portrait: "assets/characters/ep8/ange/portrait/ang_final.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "active",
-          image: "assets/characters/ep8/ange/full/ang_golden_witch.png",
-          text: [
-            `The final protagonist. The Witch of Resurrection.
-
-Ange has finally reached the truth of 1986 and 1998. She is given the ultimate choice: to accept a painful reality (Trick) or to believe in a beautiful possibility (Magic).
-
-As the Witch of Resurrection, she has the power to give a happy ending to the souls of her family — but only if she is willing to believe in them, even knowing what they did.
-
-"I am the one who will decide the end of this tale. Not as a victim, but as the one who remembers them with love."`
-          ]
-        }
-      ]
-    },
-    {
-      id: "bernkastel_final",
-      name: "Bernkastel",
-      portrait: "assets/characters/ep8/bern/portrait/ber_final.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "active",
-          image: "assets/characters/ep8/bern/full/ber_monster.png",
-          text: [
-            `The Witch of Miracles. The ultimate antagonist of the series.
-
-Bernkastel has dropped all pretenses. She seeks only to expose the most cold and cruel truth possible to end her eternal boredom.
-
-She views the Ushiromiya tragedy as a catbox — she will tear it open with her bare hands, regardless of the pain it causes.
-
-"I'll show you the truth you've been running away from. It's not golden, and it's not magic. It's just a lonely, pathetic corpse."`
-          ]
-        }
-      ]
-    },
-    {
-      id: "lambdadelta_hero",
-      name: "Lambdadelta",
-      portrait: "assets/characters/ep8/lambda/portrait/lam_hero.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "active",
-          image: "assets/characters/ep8/lambda/full/lam_full_power.png",
-          text: [
-            `The Witch of the Absolute.
-
-In a surprising turn, she acts as a protector of the game's "heart" against Bernkastel's nihilism. She uses her absolute power to give Ange and Battler a fighting chance.
-
-She embodies the principle that hard work is rewarded. And what Battler and Beatrice did — what they built together — was the hardest work of all.
-
-"I am the witch who grants that 'effort is rewarded'! If you have the guts to fight for your truth, I'll back you up with everything I've got!"`
-          ]
-        }
-      ]
-    },
-    {
-      id: "featherine",
-      name: "Featherine Augustus Aurora",
-      portrait: "assets/characters/ep8/featherine/portrait/fea_def.png",
-      currentPhase: 0,
-      states: [
-        {
-          phase: "active",
-          image: "assets/characters/ep8/featherine/full/fea_full.png",
-          text: [
-            `The Witch of Theatergoing, Drama, and Spectating.
-
-An ancient entity far above the level of normal witches. She is Hachijo Ikuko's mentor and observer — a being who views all existence as a script and can rewrite reality with her "Overlord" authority.
-
-She does not fight. She narrates. And what she narrates becomes true.
-
-Her interest in the final episode is in seeing how this story chooses to end.`
-          ]
-        }
-      ]
-    }
-  ],
-
-  tips: [
-    {
-      title: "The Golden Land's Final Banquet",
-      style: "tip-gold",
-      pages: [
-        `The final stage where the fate of the Ushiromiya family is decided.
-
-It is no longer a place of sacrifice, but a sanctuary for the souls who died on Rokkenjima. It exists only as long as someone remembers them with "love."
-
-If the cold truth of the public is accepted, this land and everyone in it will vanish forever.`,
-        `The banquet represents the final celebration and the final goodbye.
-
-The Seven Stakes are there. Ronove serves tea. Gohda cooks. Maria laughs.
-
-It is the world that could have been. The world Beatrice always wanted. The world Battler promised to protect.
-
-The question is whether Ange will protect it too.`
-      ]
-    },
-    {
-      title: "Magic vs. Trick",
-      style: "tip-meta",
-      pages: [
-        `The core conflict of the series' conclusion.
-
-"Trick" represents the logical, cold reality where there is no mystery — only a murderer and a motive. "Magic" represents the choice to believe in a layer of meaning beyond the physical facts: the "heart" of the story.`,
-        `Neither is objectively "wrong."
-
-But only one can provide the "Golden Truth" that brings peace to Ange's soul.
-
-The story does not force a choice. It trusts the reader to make their own.
-
-"Without love, it cannot be seen. But with love, the truth becomes golden."`
-      ]
-    },
-    {
-      title: "The Golden Truth",
-      style: "tip-red-truth",
-      pages: [
-        `A truth that can only be reached when "love" is present.
-
-It is represented by the color gold and is said to be more powerful than even the Red Truth. Its power depends entirely on the observer's perspective — it is a truth that is true because those involved have agreed to make it so.`,
-        `The Red Truth can define reality. But the Golden Truth can transcend it.
-
-It is not about what happened. It is about what it means.
-
-And meaning, unlike facts, belongs to the people who love.`
-      ]
-    }
-  ]
+  backgroundFantasy: "assets/backgrounds/different_space_1a.png",
+  characters: [],
+  charactersFantasy: [],
+  tips: []
 };
+
+const EP8_PC_SOURCE = "local-original-chiru-pc-archives";
+
+const EP8_PC_NORMAL = {
+  characterBackdrop: "assets/ui/characters/ep8/backdrop/cha_back_29.png",
+  textPanel: "assets/ui/characters/ep8/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP8_PC_FANTASY = {
+  characterBackdrop: "assets/ui/characters/ep8_2/backdrop/cha_back3.png",
+  textPanel: "assets/ui/characters/ep8/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP8_NORMAL_PC = {
+  kinzo: pc8("kin", [17, 37], 380, [
+    st8("ep5", "kin_l", "kin", "ep5", "kin_1"),
+    st8("ep7", "ki2_l", "ki2", "ep7", "ki2_1", "ep7", 450)
+  ]),
+  krauss: pc8("kla", [62, 37], 425, [st8("ep5", "kla_l", "kla", "ep5", "kla_1")]),
+  natsuhi: pc8("nat", [106, 37], 430, [st8("ep5", "nat_l", "nat", "ep5", "nat_1")]),
+  jessica: pc8("jes", [150, 37], 420, [st8("ep5", "jes_l", "jes", "ep5", "jes_1")]),
+  nanjo: pc8("nan", [17, 82], 425, [st8("ep5", "nan_l", "nan", "ep5", "nan_1")]),
+  eva: pc8("eva", [62, 82], 440, [st8("ep5", "eva_l", "eva", "ep5", "eva_1")]),
+  hideyoshi: pc8("hid", [106, 82], 415, [st8("ep5", "hid_l", "hid", "ep5", "hid_1")]),
+  george: pc8("geo", [150, 82], 435, [st8("ep5", "geo_l", "geo", "ep5", "geo_1")]),
+  beatrice: pc8("bea", [17, 126], 380, [st8("ep8", "bea_l2", "bea2", "ep8", "bea_1")]),
+  rudolf: pc8("rud", [62, 126], 455, [st8("ep5", "rud_l", "rud", "ep5", "rud_1")]),
+  kyrie: pc8("kir", [106, 126], 455, [st8("ep5", "kir_l", "kir", "ep5", "kir_1")]),
+  battler: pc8("but", [150, 126], 455, [st8("ep5", "but_l", "but", "ep5", "but_1")]),
+  genji: pc8("gen", [17, 170], 455, [st8("ep5", "gen_l", "gen", "ep5", "gen_1")]),
+  rosa: pc8("ros", [62, 170], 445, [st8("ep5", "ros_l", "ros", "ep5", "ros_1")]),
+  maria: pc8("mar", [106, 170], 390, [st8("ep5", "mar_l", "mar", "ep5", "mar_1")]),
+  ange: pc8("en2", [150, 170], 430, [st8("ep8", "en2_l", "en2_1", "ep8", "en2_1")]),
+  shannon: pc8("sha", [17, 214], 430, [st8("ep5", "sha_l", "sha", "ep5", "sha_1")]),
+  kanon: pc8("kan", [62, 214], 460, [st8("ep5", "kan_l", "kan", "ep5", "kan_1")]),
+  gohda: pc8("goh", [106, 214], 450, [st8("ep5", "goh_l", "goh", "ep5", "goh_1")]),
+  kumasawa: pc8("kum", [150, 214], 440, [st8("ep5", "kum_l", "kum", "ep5", "kum_1")])
+};
+
+const EP8_FANTASY_PC = {
+  furnitures: pc8("w", [17, 82], 360, [st8("ep6_2", "w_l", "wal", "ep5_2", "wal_1", "ep5_2")]),
+  stakes: pc8("rg", [17, 126], 420, [st8("ep5_2", "rg_l", "rg1", "ep5_2", "rg1_1")]),
+  chiester_sisters: pc8("s", [17, 170], 420, [st8("ep5_2", "s_l", "s45", "ep5_2", "s45_1")]),
+  lambdadelta: pc8("lam", [62, 37], 410, [st8("ep5_2", "lam_l", "lam", "ep8_2", "lam_1", "ep5_2")]),
+  battler_beatrice: pc8("bb", [62, 82], 356, [st8("ep8_2", "bb_l", "bb_1", "ep8_2", "bb_1")]),
+  knox: pc8("k", [62, 170], 405, [st8("ep5_2", "k_l", "dla", "ep5_2", "dla_12")]),
+  witch_resurrection: pc8("wr", [62, 214], 400, [st8("ep8_2", "wr_l", "wr_1", "ep8_2", "wr_1")]),
+  bernkastel: pc8("ber", [106, 37], 430, [st8("ep5_2", "ber_l", "ber", "ep8_2", "ber_1", "ep5_2")]),
+  ange: pc8("en2", [106, 82], 440, [st8("ep8_2", "en2_l", "en2_1", "ep8_2", "en2_1")]),
+  featherine: pc8("fea", [106, 170], 333, [st8("ep8_2", "fea_l2", "fea_2", "ep6_3", "fea_2", "ep8_2")]),
+  zepar_furfur: pc8("zf", [106, 214], 403, [st8("ep6_2", "zf_l", "zep_1", "ep6_2", "zep_1")]),
+  erika: pc8("eri", [150, 82], 393, [st8("ep5_2", "eri_l", "eri", "ep8_2", "eri_1", "ep5_2")]),
+  eva_beatrice: pc8("ev2", [150, 126], 393, [st8("ep8_2", "ev2_l", "ev2_1", "ep8_2", "ev2_1")]),
+  goats: pc8("goa", [150, 170], 403, [st8("ep6_2", "goa_l", "goa_1", "ep6_2", "goa_1", "ep6_2")])
+};
+
+ensureEp8Characters();
+ensureEp8FantasyCharacters();
+
+ep8.pc = EP8_PC_NORMAL;
+ep8.modes = {
+  normal: {
+    background: ep8.background,
+    characters: ep8.characters,
+    tips: ep8.tips,
+    pc: EP8_PC_NORMAL
+  },
+  fantasy: {
+    background: ep8.backgroundFantasy,
+    characters: ep8.charactersFantasy,
+    tips: [],
+    pc: EP8_PC_FANTASY
+  }
+};
+
+applyEp8PcCharacters(ep8.characters, EP8_NORMAL_PC);
+applyEp8PcCharacters(ep8.charactersFantasy, EP8_FANTASY_PC);
+
+function pc8(code, grid, tachiX, states) {
+  return { code, grid, tachiX, states };
+}
+
+function st8(folder, icon, tachi, textFolder, text, tachiFolder = folder, tachiX = null) {
+  return { folder, icon, tachi, textFolder, text, tachiFolder, tachiX };
+}
+
+function ensureEp8Characters() {
+  const names = {
+    kinzo: "Ushiromiya Kinzo",
+    krauss: "Ushiromiya Krauss",
+    natsuhi: "Ushiromiya Natsuhi",
+    jessica: "Ushiromiya Jessica",
+    nanjo: "Family Doctor Nanjo",
+    eva: "Ushiromiya Eva",
+    hideyoshi: "Ushiromiya Hideyoshi",
+    george: "Ushiromiya George",
+    beatrice: "Beatrice",
+    rudolf: "Ushiromiya Rudolf",
+    kyrie: "Ushiromiya Kyrie",
+    battler: "Ushiromiya Battler",
+    genji: "Ushiromiya Genji",
+    rosa: "Ushiromiya Rosa",
+    maria: "Ushiromiya Maria",
+    ange: "Ushiromiya Ange",
+    shannon: "Shannon",
+    kanon: "Kanon",
+    gohda: "Gohda",
+    kumasawa: "Kumasawa"
+  };
+
+  ep8.characters = Object.entries(EP8_NORMAL_PC).map(([id, pc]) => makeCharacter(id, names[id], pc));
+}
+
+function ensureEp8FantasyCharacters() {
+  const names = {
+    furnitures: "Furnitures",
+    stakes: "The Seven Stakes of Purgatory",
+    chiester_sisters: "Chiester Sisters",
+    lambdadelta: "Lambdadelta",
+    battler_beatrice: "Battler and Beatrice",
+    knox: "Knox's Decalogue",
+    witch_resurrection: "The Witch of Resurrection",
+    bernkastel: "Bernkastel",
+    ange: "Ushiromiya Ange",
+    featherine: "Featherine Augustus Aurora",
+    zepar_furfur: "Zepar and Furfur",
+    erika: "Furudo Erika",
+    eva_beatrice: "EVA-Beatrice",
+    goats: "Goats"
+  };
+
+  ep8.charactersFantasy = Object.entries(EP8_FANTASY_PC).map(([id, pc]) => ({
+    ...makeCharacter(id, names[id], pc),
+    ...(id === "furnitures" ? { subCharacters: makeFurnitureSubCharacters() } : {}),
+    ...(id === "stakes" ? { subCharacters: makeStakeSubCharacters("ep5_2") } : {}),
+    ...(id === "chiester_sisters" ? { subCharacters: makeChiesterSubCharacters() } : {}),
+    ...(id === "knox" ? { subCharacters: makeKnoxSubCharacters() } : {}),
+    ...(id === "zepar_furfur" ? { subCharacters: makeZeparFurfurSubCharacters() } : {})
+  }));
+}
+
+function makeCharacter(id, name, pc) {
+  return {
+    id,
+    name,
+    portrait: icon8(pc.states[0]),
+    currentPhase: 0,
+    states: pc.states.map((statePc, index) => ({
+      phase: index === 0 ? "active" : "alternate",
+      image: tachi8(statePc),
+      pages: [name]
+    }))
+  };
+}
+
+function applyEp8PcCharacters(characters, pcMap) {
+  for (const character of characters || []) {
+    const pc = pcMap[character.id];
+    if (!pc) continue;
+    character.pc = {
+      sourceUrl: EP8_PC_SOURCE,
+      code: pc.code,
+      gridX: pc.grid[0],
+      gridY: pc.grid[1],
+      tachiX: pc.tachiX,
+      iconAlive: icon8(pc.states[0]),
+      iconDead: icon8(pc.states[pc.states.length - 1]),
+      changeable: pc.states.length > 1
+    };
+
+    for (const [index, item] of (character.states || []).entries()) {
+      const statePc = pc.states[index] || pc.states[0];
+      item.pc = {
+        sourceUrl: EP8_PC_SOURCE,
+        icon: icon8(statePc),
+        tachi: tachi8(statePc),
+        referenceTextImage: text8(statePc),
+        tachiX: statePc.tachiX ?? pc.tachiX
+      };
+    }
+  }
+}
+
+function icon8(item) {
+  return `assets/ui/characters/${item.folder}/icons/${item.icon}.png`;
+}
+
+function tachi8(item) {
+  return `assets/ui/characters/${item.tachiFolder || item.folder}/tachi/${item.tachi}.png`;
+}
+
+function text8(item) {
+  return `assets/ui/characters/${item.textFolder}/reference-text/${item.text}.png`;
+}
+
+function makeStakeSubCharacters(folder) {
+  return [
+    ["Lucifer", "rg1"],
+    ["Leviathan", "rg2"],
+    ["Satan", "rg3"],
+    ["Belphegor", "rg4"],
+    ["Mammon", "rg5"],
+    ["Beelzebub", "rg6"],
+    ["Asmodeus", "rg7"]
+  ].map(([name, code]) => ({
+    name,
+    image: `assets/ui/characters/${folder}/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/${folder}/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/${folder}/reference-text/${code}_1.png`,
+      tachiX: 420
+    }
+  }));
+}
+
+function makeFurnitureSubCharacters() {
+  return [
+    ["Virgilia", "wal", "wal_1", 360],
+    ["Ronove", "ron", "ron_1", 420],
+    ["Gaap", "gap", "gap_1", 415]
+  ].map(([name, code, text, tachiX]) => ({
+    name,
+    image: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${text}.png`,
+      tachiX
+    }
+  }));
+}
+
+function makeKnoxSubCharacters() {
+  return [
+    ["Dlanor A. Knox", "dla", "dla_12", 405],
+    ["Gertrude", "ger", "ger_11", 395],
+    ["Cornelia", "cor", "cor_11", 403]
+  ].map(([name, code, text, tachiX]) => ({
+    name,
+    image: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${text}.png`,
+      tachiX
+    }
+  }));
+}
+
+function makeChiesterSubCharacters() {
+  return [
+    ["Chiester 00", "s00"],
+    ["Chiester 410", "s41"],
+    ["Chiester 45", "s45"],
+    ["Chiester 556", "s55"]
+  ].map(([name, code]) => ({
+    name,
+    image: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${code}_1.png`,
+      tachiX: 420
+    }
+  }));
+}
+
+function makeZeparFurfurSubCharacters() {
+  return [
+    ["Zepar", "zep_1", "zep_1"],
+    ["Furfur", "fur_1", "zep_1"]
+  ].map(([name, tachi, text]) => ({
+    name,
+    image: `assets/ui/characters/ep6_2/tachi/${tachi}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep6_2/tachi/${tachi}.png`,
+      referenceTextImage: `assets/ui/characters/ep6_2/reference-text/${text}.png`,
+      tachiX: 403
+    }
+  }));
+}

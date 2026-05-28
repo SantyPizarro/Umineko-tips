@@ -1,11 +1,19 @@
 import { access, mkdir, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { episodes } from "../js/data/episodes.js";
+import { ep1 } from "../js/data/ep1.js";
+import { ep2 } from "../js/data/ep2.js";
+import { ep3 } from "../js/data/ep3.js";
+import { ep4 } from "../js/data/ep4.js";
+import { ep5 } from "../js/data/ep5.js";
+import { ep6 } from "../js/data/ep6.js";
+import { ep7 } from "../js/data/ep7.js";
+import { ep8 } from "../js/data/ep8.js";
 import { getAvailableEpisodeModes, getEpisodeMode, normalizeEpisode } from "../js/data/normalize.js";
 
 export const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-export { episodes, getAvailableEpisodeModes, getEpisodeMode, normalizeEpisode };
+export const episodes = [ep1, ep2, ep3, ep4, ep5, ep6, ep7, ep8];
+export { getAvailableEpisodeModes, getEpisodeMode, normalizeEpisode };
 
 export function collectAssetPaths() {
   return collectAssetRecords().map(record => record.path);
@@ -21,6 +29,11 @@ export function collectAssetRecords() {
   addAsset(records, "assets/ui/system/character.png", "ui", "button", "character");
   addAsset(records, "assets/ui/system/execute.png", "ui", "button", "execute");
   addAsset(records, "assets/ui/system/resurrect.png", "ui", "button", "resurrect");
+  addAsset(records, "assets/ui/system/cha_next.png", "ui", "button", "character-next");
+  addAsset(records, "assets/ui/system/change.png", "ui", "button", "change");
+  for (let episodeNumber = 1; episodeNumber <= 8; episodeNumber += 1) {
+    addAsset(records, `assets/ui/system/ep${episodeNumber}.png`, "ui", "button", `episode-${episodeNumber}`);
+  }
   addAsset(records, "assets/ui/characters/ep1/backdrop/cha_back.png", "ui", "characters", "ep1-backdrop");
   addAsset(records, "assets/ui/characters/ep1/text/txt_def.png", "ui", "characters", "ep1-text-default");
 
@@ -28,6 +41,9 @@ export function collectAssetRecords() {
     for (const mode of getAvailableEpisodeModes(episode)) {
       const modeData = getEpisodeMode(episode, mode);
       addAsset(records, modeData.background, episode.id, mode, "background");
+      addAsset(records, modeData.pc?.characterBackdrop, episode.id, mode, "pc-character-backdrop");
+      addAsset(records, modeData.pc?.textPanel, episode.id, mode, "pc-character-text-panel");
+      addAsset(records, modeData.pc?.flourish, episode.id, mode, "pc-flourish");
 
       for (const character of modeData.characters) {
         addAsset(records, character.portrait, episode.id, mode, `${character.id}:portrait`);
@@ -38,9 +54,13 @@ export function collectAssetRecords() {
           addAsset(records, state.pc?.icon, episode.id, mode, `${character.id}:${state.phase}:pc-icon`);
           addAsset(records, state.pc?.tachi, episode.id, mode, `${character.id}:${state.phase}:pc-tachi`);
           addAsset(records, state.pc?.referenceTextImage, episode.id, mode, `${character.id}:${state.phase}:pc-reference-text`);
+          addAsset(records, state.pcAlt?.icon, episode.id, mode, `${character.id}:${state.phase}:pc-alt-icon`);
+          addAsset(records, state.pcAlt?.tachi, episode.id, mode, `${character.id}:${state.phase}:pc-alt-tachi`);
         }
         for (const subCharacter of character.subCharacters || []) {
           addAsset(records, subCharacter.image, episode.id, mode, `${character.id}:${subCharacter.name}:sub`);
+          addAsset(records, subCharacter.pc?.tachi, episode.id, mode, `${character.id}:${subCharacter.name}:pc-tachi`);
+          addAsset(records, subCharacter.pc?.referenceTextImage, episode.id, mode, `${character.id}:${subCharacter.name}:pc-reference-text`);
         }
       }
 

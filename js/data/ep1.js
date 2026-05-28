@@ -2,6 +2,12 @@ const EP1_TIPS_SOURCE = "local-original-pc-arc.nsa";
 const EP1_PC_SOURCE = "local-original-pc-arc.nsa";
 const EP1_EN_SOURCE = "local-original-pc-arc3.nsa";
 
+const EP1_PC_COMMON = {
+  characterBackdrop: "assets/ui/characters/ep1/backdrop/cha_back.png",
+  textPanel: "assets/ui/characters/ep1/text/txt_def.png",
+  flourish: "assets/ui/hana_back.png"
+};
+
 const EP1_CHARACTER_PC = {
   kinzo: { code: "kin", grid: [17, 37], tachiX: 380, states: { alive: "kin", missing: "kin_m", dead: "kin_d" } },
   krauss: { code: "kla", grid: [62, 37], tachiX: 425 },
@@ -816,6 +822,8 @@ They are extremely powerful weapons, but they cannot target pure people who have
     }
   ]
 };
+
+ep1.pc = EP1_PC_COMMON;
 
 for (const character of ep1.characters) {
   const pc = EP1_CHARACTER_PC[character.id];

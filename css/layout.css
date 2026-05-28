@@ -53,6 +53,50 @@
   background-image: url("../assets/ui/system/r_new.png");
 }
 
+#btn-pc-next-mode {
+  left: 19.375%;
+  top: 53.3333%;
+  width: 9.375%;
+  height: 2.9167%;
+  background-image: url("../assets/ui/system/cha_next.png");
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+}
+
+#btn-pc-next-mode:hover,
+#btn-pc-next-mode:focus-visible {
+  background-position: right top;
+}
+
+#btn-pc-next-mode.hidden {
+  display: none;
+}
+
+#btn-pc-change {
+  left: 87.5%;
+  top: 94.7917%;
+  width: 9.375%;
+  height: 3.75%;
+  background-image: url("../assets/ui/system/change.png");
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+}
+
+#btn-pc-change:hover,
+#btn-pc-change:focus-visible {
+  background-position: right top;
+}
+
+#btn-pc-change.hidden {
+  display: none;
+}
+
 .pc-utility-btn:hover {
   background-position: right top;
 }
@@ -129,17 +173,30 @@
   padding: 0;
   border: 0;
   border-radius: 0;
-  background: rgba(55, 27, 27, 0.9);
-  color: #fff;
-  font-family: 'face0', sans-serif;
-  font-size: min(1.875vw, calc(1.875vh * 4 / 3));
-  line-height: 1;
-  text-align: center;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 200% 100%;
+  color: transparent;
+  font-size: 0;
+  text-shadow: none;
 }
 
+#app.pc-ui-active .episode-btn:hover,
+#app.pc-ui-active .episode-btn:focus-visible,
 #app.pc-ui-active .episode-btn.active {
-  background: #f00;
+  background-position: right top;
 }
+
+#app.pc-ui-active .episode-btn[data-ep="1"] { background-image: url("../assets/ui/system/ep1.png"); }
+#app.pc-ui-active .episode-btn[data-ep="2"] { background-image: url("../assets/ui/system/ep2.png"); }
+#app.pc-ui-active .episode-btn[data-ep="3"] { background-image: url("../assets/ui/system/ep3.png"); }
+#app.pc-ui-active .episode-btn[data-ep="4"] { background-image: url("../assets/ui/system/ep4.png"); }
+#app.pc-ui-active .episode-btn[data-ep="5"] { background-image: url("../assets/ui/system/ep5.png"); }
+#app.pc-ui-active .episode-btn[data-ep="6"] { background-image: url("../assets/ui/system/ep6.png"); }
+#app.pc-ui-active .episode-btn[data-ep="7"] { background-image: url("../assets/ui/system/ep7.png"); }
+#app.pc-ui-active .episode-btn[data-ep="8"] { background-image: url("../assets/ui/system/ep8.png"); }
 
 #left-panel {
   padding: 10px;
@@ -311,7 +368,8 @@
   top: 6.25%;
   width: 26.875%;
   height: 47.0833%;
-  background-image: url("../assets/ui/characters/ep1/backdrop/cha_back.png");
+  background-image: var(--pc-character-backdrop);
+  background-color: var(--pc-character-backdrop-color, transparent);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   pointer-events: none;
@@ -339,6 +397,10 @@
   height: 32.7083% !important;
   pointer-events: auto;
   z-index: 5;
+}
+
+#main-layout.pc-characters-active.pc-next-mode-visible #side-menu {
+  top: 57.9167%;
 }
 
 #selector-container.tips-mode::before,
@@ -516,7 +578,7 @@
   top: 17.9167%;
   width: 51.71875%;
   height: 80%;
-  background-image: url("../assets/ui/hana_back.png");
+  background-image: var(--pc-flourish-image);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   pointer-events: none;
@@ -547,14 +609,16 @@
   box-sizing: border-box;
   overflow: hidden;
   padding: 10px 12px;
-  background-image: url("../assets/ui/characters/ep1/text/txt_def.png");
+  background-image: var(--pc-character-text-panel);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #main-layout.pc-characters-active #character-text.pc-character-text-image {
   padding: 0;
-  background-image: var(--pc-text-image);
+  background-image: var(--pc-text-image), var(--pc-character-text-panel);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%, 100% 100%;
   color: transparent;
   font-size: 0;
   line-height: 0;

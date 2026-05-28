@@ -28,7 +28,8 @@ export function getEpisodeMode(episode, mode) {
   return {
     background: modeData.background || episode.background || "assets/backgrounds/m1f_p1b.png",
     characters: modeData.characters || [],
-    tips: modeData.tips || []
+    tips: modeData.tips || [],
+    pc: modeData.pc || episode.pc || null
   };
 }
 

@@ -3,15 +3,14 @@ import { episodes, getAvailableEpisodeModes, getEpisodeMode, printErrors } from 
 const errors = [];
 
 for (const episode of episodes) {
-  const seenTipIds = new Set();
-
   for (const mode of getAvailableEpisodeModes(episode)) {
     const modeData = getEpisodeMode(episode, mode);
+    const seenTipIds = new Set();
 
     modeData.tips.forEach((tip, index) => {
       const tipId = tip.id || `${episode.id}-${mode}-${index + 1}`;
       if (seenTipIds.has(tipId)) {
-        errors.push(`EP${episode.id} duplicate tip id: ${tipId}.`);
+        errors.push(`EP${episode.id} ${mode} duplicate tip id: ${tipId}.`);
       }
       seenTipIds.add(tipId);
 

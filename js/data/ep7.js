@@ -725,3 +725,285 @@ That is what separates him from Erika.`
     }
   ]
 };
+
+const EP7_PC_SOURCE = "local-original-chiru-pc-archives";
+const EP7_EN_SOURCE = "local-original-chiru-pc-archives-en";
+
+const EP7_PC_NORMAL = {
+  characterBackdrop: "assets/ui/characters/ep7/backdrop/EP7_01.png",
+  textPanel: "assets/ui/characters/ep7/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP7_PC_FANTASY = {
+  characterBackdrop: "assets/ui/characters/ep7_2/backdrop/cha_back26.png",
+  textPanel: "assets/ui/characters/ep7/text/txt_def2.png",
+  flourish: "assets/ui/hana3_back.png"
+};
+
+const EP7_NORMAL_PC = {
+  kinzo: pc7("kin", [17, 37], 380, [st7("ep5", "kin_l", "kin", "ep5", "kin_1"), st7("ep7", "ki2_l", "ki2", "ep7", "ki2_1")]),
+  krauss: pc7("kla", [62, 37], 425, [st7("ep5", "kla_l", "kla", "ep5", "kla_1")]),
+  natsuhi: pc7("nat", [106, 37], 430, [st7("ep5", "nat_l", "nat", "ep5", "nat_1")]),
+  jessica: pc7("jes", [150, 37], 420, [st7("ep5", "jes_l", "jes", "ep7", "jes_1")]),
+  lion: pc7("rio", [17, 82], 440, [st7("ep7", "rio_l", "rio", "ep7", "rio_1")]),
+  eva: pc7("eva", [62, 82], 440, [st7("ep5", "eva_l", "eva", "ep5", "eva_1")]),
+  hideyoshi: pc7("hid", [106, 82], 415, [st7("ep5", "hid_l", "hid", "ep5", "hid_1")]),
+  george: pc7("geo", [150, 82], 435, [st7("ep5", "geo_l", "geo", "ep7", "geo_1")]),
+  nanjo: pc7("nan", [17, 126], 425, [st7("ep5", "nan_l", "nan", "ep5", "nan_1")]),
+  rudolf: pc7("rud", [62, 126], 455, [st7("ep5", "rud_l", "rud", "ep5", "rud_1")]),
+  kyrie: pc7("kir", [106, 126], 455, [st7("ep5", "kir_l", "kir", "ep5", "kir_1")]),
+  battler: pc7("but", [150, 126], 455, [st7("ep5", "but_l", "but", "ep7", "but_1")]),
+  genji: pc7("gen", [17, 170], 455, [st7("ep5", "gen_l", "gen", "ep5", "gen_1")]),
+  rosa: pc7("ros", [62, 170], 445, [st7("ep5", "ros_l", "ros", "ep5", "ros_1")]),
+  maria: pc7("mar", [150, 170], 390, [st7("ep5", "mar_l", "mar", "ep5", "mar_1")]),
+  shannon: pc7("sha", [17, 214], 430, [st7("ep5", "sha_l", "sha", "ep5", "sha_1")]),
+  kanon: pc7("kan", [62, 214], 460, [st7("ep5", "kan_l", "kan", "ep5", "kan_1")]),
+  gohda: pc7("goh", [106, 214], 450, [st7("ep5", "goh_l", "goh", "ep5", "goh_1")]),
+  kumasawa: pc7("kum", [150, 214], 440, [st7("ep5", "kum_l", "kum", "ep5", "kum_1")])
+};
+
+const EP7_FANTASY_PC = {
+  bernkastel: pc7("ber", [17, 35], 430, [st7("ep5_2", "ber_l", "ber", "ep7_2", "ber_1")]),
+  clair: pc7("cur", [150, 35], 393, [st7("ep7_2", "cur_l", "cur_1", "ep7_2", "cur_1")]),
+  zepar_furfur: pc7("zf", [17, 215], 403, [st7("ep6_2", "zf_l", "zep_1", "ep6_2", "zep_1")]),
+  willard: pc7("wil", [17, 78], 433, [st7("ep7_2", "wil_l", "wil_1", "ep7_2", "wil_1")]),
+  maria_fantasy: pc7("mar", [62, 121], 403, [st7("ep7_2", "mar_l", "mar", "ep5_2", "mar_1", "ep5_2")]),
+  beatrice: pc7("bea", [106, 121], 380, [
+    st7("ep5_2", "bea_l", "bea", "ep7_2", "bea_2", "ep5_2", 380),
+    st7("ep7_2", "bea_l", "bea_1", "ep7_2", "bea_1", "ep7_2", 480)
+  ]),
+  furnitures: pc7("w", [150, 168], 360, [st7("ep6_2", "w_l", "wal", "ep5_2", "wal_1", "ep5_2")]),
+  stakes: pc7("rg", [150, 215], 420, [
+    st7("ep5_2", "rg_l", "rg1", "ep5_2", "rg1_1"),
+    st7("ep7_2", "rg_l2", "rg1", "ep5_2", "rg1_1")
+  ]),
+  zepar: pc7("zep", [17, 568], 403, [st7("ep6_2", "zep_l", "zep_1", "ep6_2", "zep_1")]),
+  furfur: pc7("fur", [17, 615], 403, [st7("ep6_2", "fur_l", "fur_1", "ep6_2", "fur_1")]),
+  virgilia: pc7("wal", [17, 578], 360, [st7("ep5_2", "wal_l", "wal", "ep5_2", "wal_1")]),
+  ronove: pc7("ron", [17, 621], 420, [st7("ep5_2", "ron_l", "ron", "ep5_2", "ron_1")]),
+  gaap: pc7("gap", [17, 668], 415, [st7("ep5_2", "gap_l", "gap", "ep5_2", "gap_1")])
+};
+
+const EP7_TIP_PAGE_COUNTS = [1];
+
+ensureEp7Characters();
+ensureEp7FantasyCharacters();
+ensureEp7Tips();
+
+ep7.pc = EP7_PC_NORMAL;
+ep7.modes = {
+  normal: {
+    background: ep7.background,
+    characters: ep7.characters,
+    tips: ep7.tips,
+    pc: EP7_PC_NORMAL
+  },
+  fantasy: {
+    background: ep7.backgroundFantasy,
+    characters: ep7.charactersFantasy,
+    tips: ep7.tips,
+    pc: EP7_PC_FANTASY
+  }
+};
+
+applyEp7PcCharacters(ep7.characters, EP7_NORMAL_PC);
+applyEp7PcCharacters(ep7.charactersFantasy, EP7_FANTASY_PC);
+applyEp7Tips(ep7.tips);
+
+function pc7(code, grid, tachiX, states) {
+  return { code, grid, tachiX, states };
+}
+
+function st7(folder, icon, tachi, textFolder, text, tachiFolder = folder, tachiX = null) {
+  return { folder, icon, tachi, textFolder, text, tachiFolder, tachiX };
+}
+
+function ensureEp7Characters() {
+  const names = Object.fromEntries(ep7.characters.map(character => [character.id, character.name]));
+  names.lion ||= "Ushiromiya Lion";
+  ep7.characters = Object.entries(EP7_NORMAL_PC).map(([id, pc]) => ({
+    id,
+    name: names[id] || id,
+    portrait: icon7(pc.states[0]),
+    currentPhase: 0,
+    states: pc.states.map((statePc, index) => ({
+      phase: index === 0 ? "active" : "alternate",
+      image: tachi7(statePc),
+      pages: [names[id] || id]
+    }))
+  }));
+}
+
+function ensureEp7FantasyCharacters() {
+  const names = {
+    bernkastel: "Bernkastel",
+    clair: "Clair Vaux Bernardus",
+    zepar_furfur: "Zepar and Furfur",
+    willard: "Willard H. Wright",
+    maria_fantasy: "Ushiromiya Maria",
+    beatrice: "Beatrice",
+    furnitures: "Furnitures",
+    stakes: "The Seven Stakes of Purgatory",
+    zepar: "Zepar",
+    furfur: "Furfur",
+    virgilia: "Virgilia",
+    ronove: "Ronove",
+    gaap: "Gaap"
+  };
+
+  ep7.charactersFantasy = Object.entries(EP7_FANTASY_PC).map(([id, pc]) => ({
+    id,
+    name: names[id],
+    portrait: icon7(pc.states[0]),
+    currentPhase: 0,
+    states: pc.states.map(statePc => ({
+      phase: "active",
+      image: tachi7(statePc),
+      pages: [names[id]]
+    })),
+    ...(id === "zepar_furfur" ? { subCharacters: makeEp7ZeparFurfurSubCharacters() } : {}),
+    ...(id === "furnitures" ? { subCharacters: makeEp7FurnitureSubCharacters() } : {}),
+    ...(id === "stakes" ? { subCharacters: makeEp7StakeSubCharacters() } : {})
+  }));
+}
+
+function ensureEp7Tips() {
+  ep7.tips = ep7.tips.slice(0, EP7_TIP_PAGE_COUNTS.length);
+  while (ep7.tips.length < EP7_TIP_PAGE_COUNTS.length) {
+    const tipNumber = ep7.tips.length + 1;
+    ep7.tips.push({
+      title: `EP7 Tip ${tipNumber}`,
+      style: "tip-lore",
+      pages: [`EP7 Tip ${tipNumber}`],
+      verified: false
+    });
+  }
+}
+
+function applyEp7PcCharacters(characters, pcMap) {
+  for (const character of characters || []) {
+    const pc = pcMap[character.id];
+    if (!pc) continue;
+    character.pc = {
+      sourceUrl: EP7_PC_SOURCE,
+      code: pc.code,
+      gridX: pc.grid[0],
+      gridY: pc.grid[1],
+      tachiX: pc.tachiX,
+      iconAlive: icon7(pc.states[0]),
+      iconDead: icon7(pc.states[pc.states.length - 1]),
+      changeable: pc.states.length > 1
+    };
+
+    for (const [index, item] of (character.states || []).entries()) {
+      const statePc = pc.states[index] || pc.states[0];
+      item.pc = {
+        sourceUrl: EP7_PC_SOURCE,
+        icon: icon7(statePc),
+        tachi: tachi7(statePc),
+        referenceTextImage: text7(statePc),
+        tachiX: statePc.tachiX ?? pc.tachiX
+      };
+    }
+  }
+}
+
+function icon7(item) {
+  return `assets/ui/characters/${item.folder}/icons/${item.icon}.png`;
+}
+
+function tachi7(item) {
+  return `assets/ui/characters/${item.tachiFolder}/tachi/${item.tachi}.png`;
+}
+
+function text7(item) {
+  return `assets/ui/characters/${item.textFolder}/reference-text/${item.text}.png`;
+}
+
+function makeEp7ZeparFurfurSubCharacters() {
+  return [
+    ["Zepar", "zep_1", "zep_1"],
+    ["Furfur", "fur_1", "fur_1"]
+  ].map(([name, tachi, text]) => ({
+    name,
+    image: `assets/ui/characters/ep6_2/tachi/${tachi}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep6_2/tachi/${tachi}.png`,
+      referenceTextImage: `assets/ui/characters/ep6_2/reference-text/${text}.png`,
+      tachiX: 403
+    }
+  }));
+}
+
+function makeEp7FurnitureSubCharacters() {
+  return [
+    ["Virgilia", "wal", "wal_1", 360],
+    ["Ronove", "ron", "ron_1", 420],
+    ["Gaap", "gap", "gap_1", 415]
+  ].map(([name, tachi, text, tachiX]) => ({
+    name,
+    image: `assets/ui/characters/ep5_2/tachi/${tachi}.png`,
+    pages: [name],
+    pc: {
+      tachi: `assets/ui/characters/ep5_2/tachi/${tachi}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${text}.png`,
+      tachiX
+    }
+  }));
+}
+
+function makeEp7StakeSubCharacters() {
+  return [
+    ["Lucifer", "rg1"],
+    ["Leviathan", "rg2"],
+    ["Satan", "rg3"],
+    ["Belphegor", "rg4"],
+    ["Mammon", "rg5"],
+    ["Beelzebub", "rg6"],
+    ["Asmodeus", "rg7"]
+  ].map(([name, code]) => {
+    const defaultPc = {
+      tachi: `assets/ui/characters/ep5_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${code}_1.png`,
+      tachiX: 420
+    };
+    const ep7Pc = {
+      tachi: `assets/ui/characters/ep7_2/tachi/${code}.png`,
+      referenceTextImage: `assets/ui/characters/ep5_2/reference-text/${code}_1.png`,
+      tachiX: 420
+    };
+
+    return {
+      name,
+      image: defaultPc.tachi,
+      pages: [name],
+      pc: defaultPc,
+      variants: [
+        { image: defaultPc.tachi, pages: [name], pc: defaultPc },
+        { image: ep7Pc.tachi, pages: [name], pc: ep7Pc }
+      ]
+    };
+  });
+}
+
+function applyEp7Tips(tips) {
+  for (const [index, tip] of (tips || []).entries()) {
+    const tipNumber = index + 1;
+    const pageCount = EP7_TIP_PAGE_COUNTS[index] || 1;
+    tip.pages = Array.from({ length: pageCount }, (_, pageIndex) => tip.pages?.[pageIndex] || tip.title);
+    Object.assign(tip, {
+      id: `ep7-tip-${tipNumber}`,
+      episode: 7,
+      unlockOrder: tipNumber,
+      buttonImage: `assets/ui/tips/ep7/buttons/tips7_${tipNumber}.png`,
+      referenceButtonImage: `assets/ui/tips/ep7/buttons/tips7_${tipNumber}.png`,
+      background: "assets/ui/tips/ep1/backdrop/tips1_back.png",
+      pageImages: Array.from({ length: pageCount }, (_, pageIndex) => `assets/tips/ep7/${tipNumber}_${pageIndex + 1}.png`),
+      referencePageImages: Array.from({ length: pageCount }, (_, pageIndex) => `assets/tips/ep7/${tipNumber}_${pageIndex + 1}.png`),
+      sourceUrl: EP7_EN_SOURCE,
+      verified: false
+    });
+  }
+}
