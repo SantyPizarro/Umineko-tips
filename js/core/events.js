@@ -1,6 +1,14 @@
-import { renderAll } from "./renderer.js?v=pc-ep8-tip-visible7";
+import { renderAll } from "./renderer.js?v=pc-button-hover1";
 import { appState } from "./state.js";
-import * as Engine from "./engine.js?v=pc-ep8-tip-visible7";
+import * as Engine from "./engine.js?v=pc-button-hover1";
+
+const TRANSITION_TIMINGS = {
+    "break-black": { cover: 900, hold: 220, reveal: 520 },
+    "break-whirl": { cover: 320, hold: 60, reveal: 860 },
+    "break-left": { cover: 320, hold: 80, reveal: 760 },
+    "break-wave": { cover: 320, hold: 80, reveal: 820 },
+};
+let screenTransitionRunning = false;
 
 export function bindEvents() {
     const changeButton = document.getElementById("btn-pc-change");
@@ -11,7 +19,8 @@ export function bindEvents() {
         renderAll();
     });
 
-    document.addEventListener("click", e => {
+    document.addEventListener("click", async e => {
+        if (screenTransitionRunning) return;
         const target = e.target;
 
         const charSlot = target.closest(".character-slot");
@@ -31,16 +40,15 @@ export function bindEvents() {
         
         const epBtn = target.closest(".episode-btn");
         if (epBtn) {
-            Engine.setEpisode(Number(epBtn.dataset.ep));
-            saveState();
-            return renderAll();
+            const episodeId = Number(epBtn.dataset.ep);
+            if (episodeId === appState.currentEpisode) return;
+            return runScreenTransition(getEpisodeTransitionType(episodeId), () => Engine.setEpisode(episodeId));
         }
 
         const modeBtn = target.closest(".mode-btn");
         if (modeBtn) {
-            Engine.setSelectionMode(modeBtn.dataset.mode);
-            saveState();
-            return renderAll();
+            if (modeBtn.classList.contains("hidden") || modeBtn.dataset.mode === appState.selectionMode) return;
+            return runScreenTransition(getModeTransitionType(modeBtn.dataset.mode), () => Engine.setSelectionMode(modeBtn.dataset.mode));
         }
 
         if (target.closest("#btn-execute")) {
@@ -55,19 +63,22 @@ export function bindEvents() {
         }
 
         if (target.closest("#btn-tips")) {
-            Engine.toggleTipsView();
-            saveState();
-            return renderAll();
+            if (appState.view === "character" && !Engine.getAvailableTips().length) return;
+            if (appState.view === "character") {
+                Engine.toggleTipsView();
+                saveState();
+                return renderAll();
+            }
+            return runScreenTransition("break-black", () => Engine.toggleTipsView());
         }
-        if (target.closest("#btn-pc-sprites")) {
-            Engine.togglePcSpriteVariant();
+        if (target.closest("#btn-pc-transitions")) {
+            appState.transitionsEnabled = !appState.transitionsEnabled;
             saveState();
             return renderAll();
         }
         if (target.closest("#btn-pc-next-mode")) {
-            Engine.goToNextSpecialMode();
-            saveState();
-            return renderAll();
+            const nextMode = getNextSpecialMode();
+            return runScreenTransition(getModeTransitionType(nextMode), () => Engine.goToNextSpecialMode());
         }
         if (target.closest("#btn-pc-change")) {
             Engine.toggleCharacterVariant();
@@ -86,13 +97,14 @@ export function bindEvents() {
         }
 
         if (target.closest("#btn-fantasy-next")) {
-            Engine.goToNextSpecialMode();
-            saveState();
-            return renderAll();
+            const nextMode = getNextSpecialMode();
+            return runScreenTransition(getModeTransitionType(nextMode), () => Engine.goToNextSpecialMode());
         }
     });
 
-    document.addEventListener("keydown", e => {
+    document.addEventListener("keydown", async e => {
+        if (screenTransitionRunning) return;
+
         if (e.key === "ArrowRight") {
             Engine.changePage(1);
         } else if (e.key === "ArrowLeft") {
@@ -102,9 +114,20 @@ export function bindEvents() {
         } else if (e.key === "ArrowUp") {
             Engine.selectAdjacentItem(-1);
         } else if (e.key === "Enter") {
-            Engine.toggleTipsView();
+            if (appState.view === "character" && !Engine.getAvailableTips().length) return;
+            if (appState.view === "character") {
+                Engine.toggleTipsView();
+                saveState();
+                return renderAll();
+            }
+            return runScreenTransition("break-black", () => Engine.toggleTipsView());
         } else if (e.key === "Escape") {
-            appState.view = "character";
+            if (appState.view === "character") return;
+            return runScreenTransition("break-black", () => {
+                appState.view = "character";
+                appState.selectedTipIndex = null;
+                appState.tipTextOffset = 0;
+            });
         } else {
             return;
         }
@@ -112,6 +135,60 @@ export function bindEvents() {
         saveState();
         renderAll();
     });
+}
+
+async function runScreenTransition(type, updateState) {
+    const app = document.getElementById("app");
+    const timing = TRANSITION_TIMINGS[type] || TRANSITION_TIMINGS["break-black"];
+    screenTransitionRunning = true;
+
+    if (!app || !appState.transitionsEnabled) {
+        updateState();
+        saveState();
+        renderAll();
+        screenTransitionRunning = false;
+        return;
+    }
+
+    app.classList.add("screen-transition-active", `transition-${type}`, "screen-transition-covering");
+    await wait(timing.cover);
+
+    app.classList.add("screen-transition-covered");
+    app.classList.remove("screen-transition-covering");
+    updateState();
+    saveState();
+    renderAll();
+
+    await nextFrame();
+    await wait(timing.hold);
+    app.classList.remove("screen-transition-covered");
+    app.classList.add("screen-transition-revealing");
+    await wait(timing.reveal);
+    app.classList.remove("screen-transition-active", "screen-transition-revealing", `transition-${type}`);
+    screenTransitionRunning = false;
+}
+
+function getEpisodeTransitionType() {
+    return "break-black";
+}
+
+function getModeTransitionType(targetMode) {
+    return "break-black";
+}
+
+function getNextSpecialMode() {
+    const modes = Engine.getAvailableModes();
+    if (appState.selectionMode === "normal" && modes.includes("fantasy")) return "fantasy";
+    if (appState.selectionMode !== "future" && modes.includes("future")) return "future";
+    return "normal";
+}
+
+function wait(ms) {
+    return new Promise(resolve => window.setTimeout(resolve, ms));
+}
+
+function nextFrame() {
+    return new Promise(resolve => window.requestAnimationFrame(() => resolve()));
 }
 
 export function restoreState() {
@@ -127,6 +204,7 @@ export function restoreState() {
         appState.characterTextOffset = Number.isInteger(savedState.characterTextOffset) ? savedState.characterTextOffset : 0;
         appState.tipTextOffset = Number.isInteger(savedState.tipTextOffset) ? savedState.tipTextOffset : 0;
         appState.pcSpriteVariant = savedState.pcSpriteVariant || "original";
+        appState.transitionsEnabled = savedState.transitionsEnabled !== false;
 
         const phaseKey = getPhaseKey();
         const phases = savedState.characterPhases?.[phaseKey] || {};
@@ -159,6 +237,7 @@ function saveState() {
         characterTextOffset: appState.characterTextOffset,
         tipTextOffset: appState.tipTextOffset,
         pcSpriteVariant: appState.pcSpriteVariant,
+        transitionsEnabled: appState.transitionsEnabled,
         characterPhases
     }));
 }

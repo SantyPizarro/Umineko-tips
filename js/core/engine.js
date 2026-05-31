@@ -1,5 +1,5 @@
 import { appState } from "./state.js";
-import { episodesById } from "../data/episodes.js?v=pc-ep8-tip-visible7";
+import { episodesById } from "../data/episodes.js?v=pc-button-hover1";
 import { MODE_NAMES, getEpisodeMode } from "../data/normalize.js";
 
 export const getCurrentEpisode = () => episodesById[appState.currentEpisode] || null;

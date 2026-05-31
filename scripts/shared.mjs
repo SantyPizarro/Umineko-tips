@@ -25,12 +25,15 @@ export function collectAssetRecords() {
   addAsset(records, "assets/ui/umi_gf.png", "ui", "ornament", "gold-wing");
   addAsset(records, "assets/ui/umi-gf-black.png", "ui", "ornament", "black-wing");
   addAsset(records, "assets/ui/hana_back.png", "ui", "ornament", "menu-flower");
+  addAsset(records, "assets/ui/effects/ware.png", "ui", "transition", "screen-break");
   addAsset(records, "assets/ui/system/tips.png", "ui", "button", "tips");
   addAsset(records, "assets/ui/system/character.png", "ui", "button", "character");
   addAsset(records, "assets/ui/system/execute.png", "ui", "button", "execute");
   addAsset(records, "assets/ui/system/resurrect.png", "ui", "button", "resurrect");
   addAsset(records, "assets/ui/system/cha_next.png", "ui", "button", "character-next");
   addAsset(records, "assets/ui/system/change.png", "ui", "button", "change");
+  addAsset(records, "assets/ui/system/disable_transitions.png", "ui", "button", "disable-transitions");
+  addAsset(records, "assets/ui/system/enable_transitions.png", "ui", "button", "enable-transitions");
   for (let episodeNumber = 1; episodeNumber <= 8; episodeNumber += 1) {
     addAsset(records, `assets/ui/system/ep${episodeNumber}.png`, "ui", "button", `episode-${episodeNumber}`);
   }

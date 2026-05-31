@@ -26,6 +26,7 @@ BACKGROUND_MAP = {
     "assets/backgrounds/skyscraper_roof.png": r"bmp\background\city\bui_h1a.bmp",
     "assets/backgrounds/skyscraper_roof_night.png": r"bmp\background\city\bui_h1b.bmp",
     "assets/backgrounds/tea_party_hall.png": r"bmp\title\title_menu\tea.png",
+    "assets/ui/effects/ware.png": r"bmp\efe\ware.png",
 }
 
 

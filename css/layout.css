@@ -15,6 +15,157 @@
   height: min(100vh, calc(100vw * 3 / 4));
 }
 
+#screen-transition {
+  position: absolute;
+  inset: 0;
+  z-index: 999;
+  overflow: hidden;
+  background: transparent;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#screen-transition::before,
+#screen-transition::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#screen-transition::before {
+  z-index: 1;
+  background-image: url("../assets/ui/effects/ware.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#screen-transition::after {
+  z-index: 2;
+  background: #000;
+}
+
+#app.screen-transition-active #screen-transition {
+  opacity: 1;
+}
+
+#app.screen-transition-active {
+  pointer-events: none;
+}
+
+#app.screen-transition-covering #screen-transition::before {
+  animation: pcWareBreak 900ms linear forwards;
+}
+
+#app.transition-break-black.screen-transition-covering #screen-transition::after,
+#app.transition-break-left.screen-transition-covering #screen-transition::after,
+#app.transition-break-wave.screen-transition-covering #screen-transition::after,
+#app.transition-break-whirl.screen-transition-covering #screen-transition::after {
+  animation: pcBlackCover 900ms linear forwards;
+}
+
+#app.transition-break-black.screen-transition-covered #screen-transition::after,
+#app.transition-break-left.screen-transition-covered #screen-transition::after,
+#app.transition-break-wave.screen-transition-covered #screen-transition::after,
+#app.transition-break-whirl.screen-transition-covered #screen-transition::after {
+  opacity: 1;
+}
+
+#app.transition-break-black.screen-transition-revealing #screen-transition::after {
+  animation: pcBlackReveal 620ms linear forwards;
+}
+
+#app.transition-break-whirl.screen-transition-revealing #screen-transition::after {
+  background:
+    radial-gradient(circle at 50% 50%, transparent 0 8%, rgba(0, 0, 0, 0.88) 9% 16%, transparent 17% 24%, rgba(0, 0, 0, 0.82) 25% 34%, transparent 35% 44%, rgba(0, 0, 0, 0.72) 45% 56%, transparent 57% 100%),
+    conic-gradient(from 45deg at 50% 50%, transparent 0deg 30deg, rgba(0, 0, 0, 0.95) 42deg 66deg, transparent 82deg 122deg, rgba(0, 0, 0, 0.86) 138deg 166deg, transparent 180deg 226deg, rgba(0, 0, 0, 0.9) 244deg 282deg, transparent 300deg 360deg);
+  animation: pcWhirlReveal 860ms ease-out forwards;
+  filter: blur(0.5px);
+}
+
+#app.transition-break-left.screen-transition-revealing #screen-transition::after {
+  background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.12) 15%, rgba(0, 0, 0, 0.85) 34%, #000 100%);
+  animation: pcLeftReveal 760ms ease-out forwards;
+}
+
+#app.transition-break-wave.screen-transition-revealing #screen-transition::after {
+  background:
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0 3px, rgba(0, 0, 0, 0.58) 3px 6px, rgba(0, 0, 0, 0.95) 6px 9px),
+    radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0 12%, rgba(0, 0, 0, 0.92) 28% 100%);
+  animation: pcWaveReveal 820ms cubic-bezier(0.16, 0.8, 0.28, 1) forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes pcWareBreak {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@keyframes pcBlackCover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pcBlackReveal {
+  0%, 24% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pcWhirlReveal {
+  0% {
+    opacity: 1;
+    transform: scale(1.8) rotate(0deg);
+  }
+  42% {
+    opacity: 0.88;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.12) rotate(-520deg);
+  }
+}
+
+@keyframes pcLeftReveal {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-102%);
+  }
+}
+
+@keyframes pcWaveReveal {
+  0% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: scaleX(1.08) skewX(-2deg);
+  }
+  45% {
+    opacity: 0.85;
+    transform: scaleX(0.72) skewX(4deg);
+  }
+  100% {
+    opacity: 0;
+    clip-path: inset(0 50% 0 50%);
+    transform: scaleX(0.12) skewX(0deg);
+  }
+}
+
 #pc-utility-buttons {
   display: none;
 }
@@ -41,16 +192,17 @@
   color: transparent;
   text-shadow: none;
   pointer-events: auto;
+  transition: none;
 }
 
-#btn-pc-language {
+#btn-pc-transitions {
   left: 4.84375%;
-  background-image: url("../assets/ui/system/r_jp.png");
+  width: 18.75%;
+  background-image: url("../assets/ui/system/disable_transitions.png");
 }
 
-#btn-pc-sprites {
-  left: 17.1875%;
-  background-image: url("../assets/ui/system/r_new.png");
+#btn-pc-transitions.transitions-disabled {
+  background-image: url("../assets/ui/system/enable_transitions.png");
 }
 
 #btn-pc-next-mode {
@@ -181,6 +333,7 @@
   color: transparent;
   font-size: 0;
   text-shadow: none;
+  transition: none;
 }
 
 #app.pc-ui-active .episode-btn:hover,
@@ -244,7 +397,7 @@
 
 
 .menu-btn:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 
@@ -445,7 +598,7 @@
   background-position: center 20%;
   background-repeat: no-repeat;
 
-  transition: all 0.2s ease;
+  transition: none;
   z-index: 2;
 }
 
@@ -757,7 +910,7 @@
   font-size: 1.2rem;
   font-weight: bold;
 
-  transition: color 0.2s ease;
+  transition: none;
 }
 
 #text-next-btn:hover,

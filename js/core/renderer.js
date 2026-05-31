@@ -1,5 +1,5 @@
 import { appState } from "./state.js";
-import * as Engine from "./engine.js?v=pc-ep8-tip-visible7";
+import * as Engine from "./engine.js?v=pc-button-hover1";
 
 const dom = {
     app: document.getElementById("app"),
@@ -71,6 +71,11 @@ export function renderAll() {
         pcNextModeBtn.textContent = appState.selectionMode === "normal" && availableModes.includes("fantasy")
             ? "Next"
             : "Back";
+    }
+    const pcTransitionsBtn = document.getElementById("btn-pc-transitions");
+    if (pcTransitionsBtn) {
+        pcTransitionsBtn.classList.toggle("transitions-disabled", !appState.transitionsEnabled);
+        pcTransitionsBtn.textContent = appState.transitionsEnabled ? "Disable Transitions" : "Enable Transitions";
     }
 
     dom.btnTips.classList.toggle("active", appState.view === "tips");
